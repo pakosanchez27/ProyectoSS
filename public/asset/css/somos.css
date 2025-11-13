@@ -1,0 +1,2189 @@
+/* ----------------------------------------------------------- BASE ----------------------------------------------------------- */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+}
+
+/* ----------------------------------------------------------- PRINCIPAL ----------------------------------------------------------- */
+
+.slider {
+  position: relative;
+  margin-top: -7.3vh;
+  margin-left: 10%;
+  width: 80%;
+  height: 70vh;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 70vh;
+  display: block;
+  object-fit: cover;
+}
+
+.tit-1-CGSC,
+.tit-11-CGSC,
+.tit-12-CGSC {
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  z-index: 3;
+}
+
+.tit-1-CGSC {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-shadow: 4px 4px 3px rgba(7, 37, 88, 0.9);
+}
+
+.tit-11-CGSC {
+  top: 40%;
+  left: 55%;
+  text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+}
+
+.tit-12-CGSC {
+  top: 20%;
+  left: 25%;
+  text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.S-p-fondo-2 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 40%;
+  height: 48%;
+  background-color: #072558;
+  z-index: 2;
+}
+
+.S-p-1 {
+  margin-top: 7%;
+  margin-left: 9%;
+  width: 80%;
+  text-align: justify;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#S-img-policia {
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  width: 35%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.S-p-fondo-3 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
+  background-color: #072558;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.S-p-2 {
+  margin-top: 15%;
+  margin-left: 8%;
+  width: 50%;
+  text-align: justify;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* ----------------------------------------------------------- COMPROMISOS ----------------------------------------------------------- */
+.S-tit-2-CN {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-10%, -80%);
+  font-size: 2rem;
+  text-align: center;
+  color: #000;
+}
+
+/* --------------------------- CONTENEDOR PELOTAS --------------------------- */
+.S_contenedor_pelotas {
+  position: absolute;
+  left: 38%;
+  width: 75%;
+  height: 60%;
+  margin: -55vh;
+  overflow: hidden;
+}
+
+.pelota {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #f4c542;
+  font-size: 2rem;
+  transition: background 0.3s;
+}
+
+/* --------------------------- IMG PELOTAS --------------------------- */
+.S-img-2-sub2 {
+  width: 50%;
+  height: 50%;
+  margin: -15vh auto 0;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#S-img-sub2 {
+  width: 500px;
+  height: 500px;
+  margin: -80px 0 0 -40px;
+  display: block;
+  animation: palpitar 2s infinite ease-in-out;
+}
+
+@keyframes palpitar {
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+  30%,
+  70% {
+    transform: scale(1.08);
+  }
+}
+
+.S-par-1 {
+  margin-top: 7%;
+  margin-left: 8.5%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* ----------------------------------------------------------- MISION ----------------------------------------------------------- */
+.S-tit-3-Mision {
+  position: absolute;
+  top: 106%;
+  left: 8.7%;
+  transform: translate(-10%, -80%);
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-align: justify;
+  color: #000;
+}
+
+.S-par-2 {
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 8.4%;
+  font-size: 20px;
+}
+
+/* ----------------------------------------------------------- VISION ----------------------------------------------------------- */
+.S-tit-4-Vision {
+  position: absolute;
+  top: 142%;
+  left: 8.7%;
+  transform: translate(-10%, -80%);
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-align: justify;
+  color: #000;
+}
+
+.S-par-3 {
+  width: 20%;
+  margin-top: -5vh;
+  margin-left: 8.4%;
+  font-size: 20px;
+}
+
+/* ----------------------------------------------------------- VALORES ----------------------------------------------------------- */
+.S-tit-5-Valores {
+  position: absolute;
+  top: 106%;
+  left: 75%;
+  transform: translate(-10%, -80%);
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-align: justify;
+  color: #000;
+}
+
+.S-par-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 20%;
+  margin-top: -50vh;
+  margin-left: 74%;
+  font-size: 20px;
+}
+
+/* ----------------------------------------------------------- HISTORIA ----------------------------------------------------------- */
+.S-tit-6-HI {
+  position: absolute;
+  top: 185%;
+  left: 10%;
+  transform: translate(-10%, -80%);
+  font-size: 2.5rem;
+  text-align: center;
+  color: #000;
+}
+
+.S-par-5 {
+  margin-top: 30%;
+  margin-left: 8%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.S-par-5-1 {
+  margin-top: -5vh;
+  margin-left: 38%;
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+/* --------------------------- CIRCULOS --------------------------- */
+.S-circulos-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7%;
+  height: 10%;
+  margin: 5% 0 0 8%;
+  border-radius: 50%;
+  background: #072558;
+  gap: 8%;
+  animation: entradaRebote 8s ease-in-out infinite;
+}
+
+@keyframes entradaRebote {
+  0% {
+    transform: translateX(-150%) scale(1);
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(40px) scaleX(1.1) scaleY(0.6);
+  }
+  50% {
+    transform: translateY(-20px) scaleX(0.9) scaleY(1.1);
+  }
+  60%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* --------------------------- TITULOS CIRCULOS --------------------------- */
+.S-bloques-RCU {
+  position: absolute;
+  top: 209%;
+  left: 17.8%;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  width: 15%;
+}
+
+.S-tit-7-RCU {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #000;
+  transform: translate(-10%, -80%);
+}
+
+/* --------------------------- TEXTO CIRCULOS --------------------------- */
+.S-bloques-par-6 {
+  position: absolute;
+  top: 201%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 17%;
+}
+
+.S-par-6 {
+  margin-top: 31%;
+  margin-left: 8%;
+  text-align: justify;
+}
+
+/* --------------------------- FONDO --------------------------- */
+
+.S-fondo-1 {
+  position: absolute;
+  z-index: -2;
+  margin-left: 38%;
+  margin-top: -88vh;
+  margin-right: 4rem;
+  width: 58%;
+  height: 105%;
+  background-color: #072558;
+}
+
+.S-img-fondo-1,
+.S-img-fondo-2 {
+  position: absolute;
+  margin-top: -29vh;
+  height: 107%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.S-img-fondo-1 {
+  margin-left: -0.8vh;
+  width: 52%;
+}
+
+.S-img-fondo-2 {
+  margin-left: 50%;
+  width: 51%;
+}
+
+.S-img-3-sub3 {
+  margin-top: 24.5%;
+  margin-left: -0.2vh;
+  width: 400px;
+  height: 72.8%;
+}
+
+.S-img-sub-3 {
+  width: 125%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.S-tit-8-TSE {
+  position: absolute;
+  top: -30%;
+  left: 25%;
+  width: 150%;
+  transform: translate(-10%, -80%);
+  font-size: 2rem;
+  color: #fff;
+}
+
+.S-bloques-par-7 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 20%;
+  color: #fff;
+}
+
+.S-par-7 {
+  margin: 0;
+  width: 140%;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  text-align: justify;
+  animation: animTexto 18s linear infinite;
+}
+
+@keyframes animTexto {
+  0% {
+    margin-left: 100%;
+  }
+  50% {
+    margin-left: -10%;
+  }
+  100% {
+    margin-left: -1%;
+  }
+}
+
+/* ----------------------------------------------------------- LIDERES ----------------------------------------------------------- */
+.S-fondo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8%;
+  width: auto;
+  height: 850px;
+  max-height: 900px;
+  border: 2px solid #072558;
+  background-color: #404547;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.S-tit-9-NL {
+  position: absolute;
+  top: 290%;
+  left: 10%;
+  transform: translate(-10%, -80%);
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.S-par-8 {
+  margin-top: -80vh;
+  margin-left: 8.5%;
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
+}
+
+.S-columna-2 {
+  column-count: auto;
+  column-width: 220px;
+  column-gap: 2rem;
+  max-height: 1100px;
+  overflow-y: auto;
+  padding: 10rem;
+}
+
+.S-lider {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.S-circulos-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  background: #acacac;
+  object-fit: cover;
+}
+
+.S-par-9,
+.S-par-10 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-style: italic;
+  color: #fff;
+}
+
+.S-par-9 {
+  font-size: 20px;
+}
+.S-par-10 {
+  font-size: 15px;
+}
+
+.S-tit-10-O {
+  position: absolute;
+  top: 385%;
+  left: 10%;
+  transform: translate(-10%, -80%);
+  font-size: 2rem;
+  text-align: center;
+  color: #000;
+}
+
+.S-img-4-sub4 {
+  width: 80%;
+  margin: 41% auto 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+}
+
+#S-img-sub4 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.S-img-4-sub4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  animation: destello 2s infinite;
+  pointer-events: none; /* para que no bloquee interacciones */
+}
+
+@keyframes destello {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 125%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+/*-- ------------------------------------------------------------------------ RESPONSIVO ------------------------------------------------------------------------ --*/
+
+/*-- ------------------------------------------------- ESCRITORIO ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  .slider {
+    position: relative;
+    margin-top: -7.8vh;
+    margin-left: 10%;
+    width: 80%;
+    height: 70vh;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    object-fit: cover;
+  }
+
+  .tit-1-CGSC,
+  .tit-11-CGSC,
+  .tit-12-CGSC {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+  }
+
+  .tit-1-CGSC {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-shadow: 4px 4px 3px rgba(7, 37, 88, 0.9);
+  }
+
+  .tit-11-CGSC {
+    top: 40%;
+    left: 55%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+
+  .tit-12-CGSC {
+    top: 20%;
+    left: 25%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .S-p-fondo-2 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 40%;
+    height: 48%;
+    background-color: #072558;
+    z-index: 2;
+  }
+
+  .S-p-1 {
+    margin-top: 7%;
+    margin-left: 9%;
+    width: 80%;
+    text-align: justify;
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  #S-img-policia {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 35%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .S-p-fondo-3 {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: #072558;
+    border-radius: 50px;
+    z-index: 2;
+  }
+
+  .S-p-2 {
+    margin-top: 15%;
+    margin-left: 8%;
+    width: 50%;
+    text-align: justify;
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  /* ------------------ COMPROMISOS ------------------ */
+
+  .S-tit-2-CN {
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000;
+  }
+
+  /* ---------- CONTENEDOR PELOTAS ---------- */
+
+  .S_contenedor_pelotas {
+    position: absolute;
+    left: 38%;
+    width: 85%;
+    height: 55%;
+    margin: -55vh;
+    overflow: hidden;
+  }
+
+  .pelota {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #f4c542;
+    font-size: 2rem;
+    transition: background 0.3s;
+  }
+
+  /* ---------- IMG PELOTAS ---------- */
+
+  .S-img-2-sub2 {
+    width: 40%;
+    height: 60%;
+    margin: -18vh auto 0;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #S-img-sub2 {
+    width: 100%;
+    height: 100%;
+    margin: -80px 0 0 4px;
+    display: block;
+    animation: palpitar 2s infinite ease-in-out;
+  }
+
+  @keyframes palpitar {
+    0%,
+    50%,
+    100% {
+      transform: scale(1);
+    }
+    30%,
+    70% {
+      transform: scale(1.08);
+    }
+  }
+
+  .S-par-1 {
+    margin-top: 9%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  /* ---------- MISION ---------- */
+
+  .S-tit-3-Mision {
+    position: absolute;
+    margin-top: 4%;
+    left: 8%;
+    transform: translate(-10%, -80%);
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-2 {
+    width: 28%;
+    margin-top: 10%;
+    margin-left: 8.4%;
+    font-size: 17px;
+  }
+
+  /* ---------- VISION ---------- */
+
+  .S-tit-4-Vision {
+    position: absolute;
+    margin-top: 0%;
+    left: 8%;
+    transform: translate(-10%, -80%);
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-3 {
+    width: 30%;
+    margin-top: -15vh;
+    margin-left: 8.4%;
+    font-size: 17px;
+  }
+
+  /* ---------- VALORES ---------- */
+
+  .S-tit-5-Valores {
+    position: absolute;
+    margin-top: 4%;
+    left: 78%;
+    transform: translate(-10%, -80%);
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-4 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: -45vh;
+    margin-left: 74%;
+    font-size: 17px;
+  }
+
+  /* ------------------ HISTORIA ------------------ */
+
+  .S-tit-6-HI {
+    position: absolute;
+    top: 185%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+  }
+
+  .S-par-5 {
+    margin-top: 30%;
+    margin-left: 7%;
+    font-size: 13.6px;
+    font-style: italic;
+  }
+
+  .S-par-5-1 {
+    margin-top: -5.7vh;
+    margin-left: 45%;
+    font-size: 13.6px;
+    font-style: italic;
+    color: #fff;
+  }
+
+  /* ---------- CIRCULOS ---------- */
+
+  .S-circulos-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 10%;
+    margin: 5% 0 0 8%;
+    border-radius: 50%;
+    background: #072558;
+    gap: 8%;
+    animation: entradaRebote 8s ease-in-out infinite;
+  }
+
+  @keyframes entradaRebote {
+    0% {
+      transform: translateX(-150%) scale(1);
+      opacity: 0;
+    }
+    25% {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(40px) scaleX(1.1) scaleY(0.6);
+    }
+    50% {
+      transform: translateY(-20px) scaleX(0.9) scaleY(1.1);
+    }
+    60%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
+  /* ---------- TITULOS CIRCULOS ---------- */
+
+  .S-bloques-RCU {
+    position: absolute;
+    top: 203%;
+    left: 17.8%;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    width: 15%;
+  }
+
+  .S-tit-7-RCU {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #000;
+    transform: translate(-10%, -80%);
+  }
+
+  /* ---------- TEXTO CIRCULOS ---------- */
+
+  .S-bloques-par-6 {
+    position: absolute;
+    top: 197%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 19%;
+  }
+
+  .S-par-6 {
+    margin-top: 29%;
+    margin-left: 7.5%;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  /* ---------- FONDO 1 ---------- */
+
+  .S-fondo-1 {
+    position: absolute;
+    z-index: -2;
+    margin-left: 45%;
+    margin-top: -80vh;
+    margin-right: 4rem;
+    width: 50%;
+    height: 90%;
+    background-color: #072558;
+  }
+
+  .S-img-fondo-1,
+  .S-img-fondo-2 {
+    position: absolute;
+    margin-top: -27vh;
+    height: 102%;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .S-img-fondo-1 {
+    margin-left: 0.5%;
+    width: 50%;
+  }
+
+  .S-img-fondo-2 {
+    margin-left: 49%;
+    width: 51%;
+  }
+
+  .S-img-3-sub3 {
+    margin-top: 33.6%;
+    margin-left: -0.2vh;
+    width: 230px;
+    height: 100%;
+  }
+
+  .S-img-sub-3 {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .S-tit-8-TSE {
+    position: absolute;
+    top: -30%;
+    left: 10%;
+    width: 200%;
+    transform: translate(-10%, -80%);
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .S-bloques-par-7 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20%;
+    color: #fff;
+  }
+
+  .S-par-7 {
+    margin: 0;
+    width: 180%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: justify;
+    animation: animTexto 18s linear infinite;
+  }
+
+  @keyframes animTexto {
+    0% {
+      margin-left: 100%;
+    }
+    50% {
+      margin-left: -10%;
+    }
+    100% {
+      margin-left: -1%;
+    }
+  }
+
+  /* ------------------ LIDERES  ------------------ */
+
+  .S-fondo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 6.2%;
+    width: auto;
+    height: 647px;
+    max-height: 900px;
+    border: 2px solid #072558;
+    background-color: #404547;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  .S-tit-9-NL {
+    position: absolute;
+    top: 270%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .S-par-8 {
+    margin-top: -87vh;
+    margin-left: 8%;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .S-columna-2 {
+    column-count: auto;
+    column-width: 220px;
+    column-gap: 2rem;
+    max-height: 1100px;
+    overflow-y: auto;
+    padding: 10rem;
+  }
+
+  .S-lider {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .S-circulos-2 {
+    width: 170px;
+    height: 170px;
+    border-radius: 70%;
+    background: #acacac;
+    object-fit: cover;
+  }
+
+  .S-par-9,
+  .S-par-10 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .S-par-9 {
+    font-size: 20px;
+  }
+  .S-par-10 {
+    font-size: 15px;
+  }
+
+  /* ------------------ ORGANIGRAMA  ------------------ */
+
+  .S-tit-10-O {
+    position: absolute;
+    top: 370%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+  }
+
+  .S-img-4-sub4 {
+    width: 80%;
+    margin: 41% auto 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+  }
+
+  #S-img-sub4 {
+    margin-top: 18%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .S-img-4-sub4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none; /* para que no bloquee interacciones */
+  }
+
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+}
+
+/*-- ------------------------------------------------- TABLET ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 768px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  .slider {
+    position: relative;
+    margin-top: -8.9vh;
+    margin-left: 10%;
+    width: 80%;
+    height: 70vh;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 50vh;
+    display: block;
+    object-fit: cover;
+  }
+
+  .tit-1-CGSC,
+  .tit-11-CGSC,
+  .tit-12-CGSC {
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+  }
+
+  .tit-1-CGSC {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-shadow: 4px 4px 3px rgba(7, 37, 88, 0.9);
+  }
+
+  .tit-11-CGSC {
+    top: 30%;
+    left: 55%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+
+  .tit-12-CGSC {
+    top: 10%;
+    left: 25%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .S-p-fondo-2 {
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    width: 40%;
+    height: 52%;
+    background-color: #072558;
+    z-index: 2;
+  }
+
+  .S-p-1 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 9%;
+    width: 80%;
+    text-align: justify;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  #S-img-policia {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    width: 34%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .S-p-fondo-3 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: #072558;
+    border-radius: 50px;
+    z-index: 2;
+  }
+
+  .S-p-2 {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 8%;
+    width: 50%;
+    text-align: justify;
+    color: white;
+    font-size: 1rem;
+  }
+
+  /* ------------------ COMPROMISOS ------------------ */
+
+  .S-tit-2-CN {
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+  }
+
+  /* ---------- CONTENEDOR PELOTAS ---------- */
+  .S_contenedor_pelotas,
+  .pelota {
+    animation: none !important;
+    transition: none !important;
+    display: none;
+  }
+
+  /* ---------- IMG PELOTAS ---------- */
+
+  .S-img-2-sub2 {
+    width: 40%;
+    height: 60%;
+    margin: 10% auto 100px;
+    margin-left: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #S-img-sub2 {
+    width: 100%;
+    height: 100%;
+    margin: -100px 0 0 4px;
+    display: block;
+    animation: palpitar 2s infinite ease-in-out;
+  }
+
+  .S-par-1 {
+    position: absolute;
+    top: 65%;
+    margin-left: 6%;
+    font-size: 13px;
+    width: 90%;
+    font-style: italic;
+  }
+
+  /* ---------- MISION ---------- */
+
+  .S-tit-3-Mision,
+  .S-par-2,
+  .S-tit-4-Vision,
+  .S.par-3
+  .S-tit-5-Valores,
+  .S-par-4{
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .S-tit-3-Mision {
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-2 {
+    width: 28%;
+    margin-top: 3%;
+    margin-left: 8.4%;
+    font-size: 15px;
+  }
+
+  /* ---------- VISION ---------- */
+
+  .S-tit-4-Vision {
+    position: absolute;
+    top: 107%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-3 {
+    width: 28%;
+    margin-top: -48vh;
+    margin-left: 8.4%;
+    font-size: 15px;
+  }
+
+  /* ---------- VALORES ---------- */
+
+  .S-tit-5-Valores {
+    position: absolute;
+    top: 124%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+
+  .S-par-4 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 53px;
+    margin-left: 11%;
+    font-size: 15px;
+  }
+
+  /* ------------------ HISTORIA ------------------ */
+
+  .S-tit-6-HI {
+    position: absolute;
+    top: 165%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+  }
+
+  .S-par-5 {
+    margin-top: 15%;
+    margin-left: 6%;
+    width: 48%;
+    font-size: 13px;
+    font-style: italic;
+  }
+
+  .S-par-5-1 {
+    margin-top: -5.5vh;
+    margin-left: 12.3%;
+    font-size: 13px;
+    font-style: italic;
+    color: black;
+  }
+
+  /* ---------- CIRCULOS ---------- */
+
+  .S-circulos-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 10%;
+    margin: 3% 0 0 6%;
+    border-radius: 50%;
+    background: #072558;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* ---------- TITULOS CIRCULOS ---------- */
+
+  .S-bloques-RCU {
+    position: absolute;
+    top: 180%;
+    left: 19%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+  }
+
+  .S-tit-7-RCU {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #000;
+    transform: translate(-10%, -80%);
+  }
+
+  /* ---------- TEXTO CIRCULOS ---------- */
+
+  .S-bloques-par-6 {
+    position: absolute;
+    top: 183%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    width: 32%;
+  }
+
+  .S-par-6 {
+    margin-top: -2vh;
+    margin-left: 7.5%;
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+
+  /* ---------- FONDO 1 ---------- */
+
+  .S-fondo-1 {
+    position: absolute;
+    z-index: -2;
+    margin-left: 49%;
+    margin-top: -55vh;
+    margin-right: 4rem;
+    width: 46%;
+    height: 80%;
+    background-color: #072558;
+  }
+
+  .S-img-fondo-1,
+  .S-img-fondo-2 {
+    position: absolute;
+    margin-top: -18vh;
+    height: 102%;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .S-img-fondo-1 {
+    margin-left: 0.5%;
+    width: 50%;
+  }
+
+  .S-img-fondo-2 {
+    margin-left: 49%;
+    width: 51%;
+  }
+
+  .S-img-3-sub3 {
+    margin-top: 34%;
+    margin-left: -0.2vh;
+    width: 50%;
+    height: auto;
+  }
+
+  .S-img-sub-3 {
+    width: 100%;
+    height: 70%;
+    margin-top: 5px;
+    margin-left: 52%;
+    object-fit: cover;
+  }
+
+  .S-tit-8-TSE {
+    position: absolute;
+    margin-top: -37vh;
+    margin-left: -15vh;
+    width: 250px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .S-bloques-par-7 {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    color: #fff;
+  }
+
+  .S-par-7 {
+    margin: 0;
+    margin-left: -21.4vh;
+    width: 180%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: justify;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* ------------------ LIDERES  ------------------ */
+
+  .S-fondo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 21%;
+    margin-left: -1.5vh;
+    width: 103%;
+    height: 647px;
+    max-height: 900px;
+    background-color: #404547;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  .S-tit-9-NL {
+    position: absolute;
+    top: 243%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .S-par-8 {
+    margin-top: -87vh;
+    margin-left: 8%;
+    font-size: 13px;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .S-columna-2 {
+    column-count: auto;
+    column-width: 220px;
+    column-gap: 2rem;
+    max-height: 1100px;
+    overflow-y: auto;
+    padding: 10rem;
+  }
+
+  .S-lider {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .S-circulos-2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 70%;
+    background: #acacac;
+    object-fit: cover;
+  }
+
+  .S-par-9,
+  .S-par-10 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .S-par-9 {
+    font-size: 18px;
+  }
+  .S-par-10 {
+    font-size: 15px;
+  }
+
+  /* ------------------ ORGANIGRAMA  ------------------ */
+
+  .S-tit-10-O {
+    position: absolute;
+    top: 340%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+  }
+
+  .S-img-4-sub4 {
+    width: 80%;
+    margin: 65% auto 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+  }
+
+  #S-img-sub4 {
+    margin-top: 18%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .S-img-4-sub4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none; /* para que no bloquee interacciones */
+  }
+
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+}
+
+/*-- ------------------------------------------------- CELULAR ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 600px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+  
+  .somos-ocultar-celular {
+    display: none;
+  }
+
+  .slider {
+    position: relative;
+    margin-top: -7.5vh;
+    margin-left: 0%;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 50vh;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .tit-1-CGSC,
+  .tit-11-CGSC,
+  .tit-12-CGSC {
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+  }
+  
+  .tit-1-CGSC {
+    top: 35%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -30%);
+    text-shadow: 4px 4px 3px rgba(7, 37, 88, 0.9);
+  }
+  
+  .tit-11-CGSC {
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+  
+  .tit-12-CGSC {
+    top: 12%;
+    left: 18%;
+    text-shadow: 4px 4px 3px rgba(88, 7, 7, 0.9);
+  }
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .S-p-fondo-2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 45%;
+    background-color: #072558b6;
+    z-index: 2;
+  }
+  
+  .S-p-1 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+    width: 85%;
+    text-align: justify;
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  #S-img-policia {
+    display: none;
+  }
+  
+  .S-p-fondo-3 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: #072558;
+    border-radius: 50px;
+    z-index: 2;
+  }
+  
+  .S-p-2 {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 7%;
+    width: 86%;
+    text-align: justify;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* ------------------ COMPROMISOS ------------------ */
+  
+  .S-tit-2-CN {
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    text-align: center;
+    color: #000;
+  }
+  
+  /* ---------- CONTENEDOR PELOTAS ---------- */
+  
+  .S_contenedor_pelotas,
+  .pelota,
+  .S-img-2-sub2,
+  #S-img-sub2 {
+    display: none;
+  }
+  
+  .S-par-1 {
+    position: absolute;
+    top: 70%;
+    margin-left: 6%;
+    font-size: 0.9rem;
+    width: 90%;
+    font-style: italic;
+  }
+  
+  .S_contenedor_pelotas,
+  .pelota,
+  .S-img-2-sub2,
+  #S-img-sub2,
+  .S-tit-3-Mision,
+  .S-par-2,
+  .S-tit-4-Vision,
+  .S-par-3,
+  .S-tit-5-Valores,
+  .S-par-4 {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  /* ---------- MISION ---------- */
+  
+  .S-tit-3-Mision {
+    position: absolute;
+    top: 86%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+  
+  .S-par-2 {
+    margin-top: -2vh;
+    margin-left: 8.4%;
+    width: 85%;
+    font-size: 0.9rem;
+  }
+  
+  /* ---------- VISION ---------- */
+  
+  .S-tit-4-Vision {
+    position: absolute;
+    top: 98%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+  
+  .S-par-3 {
+    margin-top: 5vh;
+    margin-left: 8.4%;
+    width: 85%;
+    font-size: 0.9rem;
+  }
+  
+  /* ---------- VALORES ---------- */
+  
+  .S-tit-5-Valores {
+    position: absolute;
+    top: 113%;
+    left: 7%;
+    transform: translate(-10%, -80%);
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: justify;
+    color: #000;
+  }
+  
+  .S-par-4 {
+    margin-top: 5vh;
+    margin-left: 11%;
+    width: 20%;
+    font-size: 0.9rem;
+  }
+  
+  /* ------------------ HISTORIA ------------------ */
+  
+  .S-tit-6-HI {
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    text-align: center;
+    color: #000;
+  }
+  
+  .S-par-5 {
+    margin-top: 18%;
+    margin-left: 6%;
+    width: 90%;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  
+  .S-par-5-1 {
+    margin-top: -5.3vh;
+    margin-left: 27.8%;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: black;
+  }
+  
+  /* ---------- CIRCULOS ---------- */
+  
+  .S-circulos-1 {
+    display: none;
+  }
+  
+  /* ---------- TITULOS CIRCULOS ---------- */
+  
+  .S-bloques-RCU {
+    position: absolute;
+    top: 155%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    width: 85%;
+  }
+  
+  .S-tit-7-RCU {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #000;
+    transform: translate(-10%, -80%);
+  }
+  
+  /* ---------- TEXTO CIRCULOS ---------- */
+  
+  .S-bloques-par-6 {
+    position: absolute;
+    top: 160%;
+    left: 2%;
+    width: 85%;
+    gap: 2.5rem;
+  }
+  
+  .S-par-6 {
+    margin-left: 7.5%;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+  
+  /* ---------- FONDO 1 ---------- */
+  
+  .S-fondo-1 {
+    position: absolute;
+    z-index: -2;
+    margin-top: 75%;
+    margin-left: 4%;
+    margin-right: 4rem;
+    width: 90%;
+    height: 80%;
+    background-color: #072558;
+  }
+  
+  .S-img-fondo-1,
+  .S-img-fondo-2 {
+    position: absolute;
+    margin-top: -14vh;
+    height: 102%;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  .S-img-fondo-1 {
+    margin-left: 12%;
+    width: 50%;
+  }
+  
+  .S-img-fondo-2 {
+    margin-left: 61%;
+    width: 51%;
+  }
+  
+  .S-img-3-sub3 {
+    margin-top: 31%;
+    margin-left: -6vh;
+    width: 60%;
+    height: auto;
+  }
+  
+  .S-img-sub-3 {
+    margin-top: -3vh;
+    margin-left: 52%;
+    object-fit: cover;
+  }
+  
+  .S-tit-8-TSE {
+    position: absolute;
+    margin-top: -30vh;
+    margin-left: -23vh;
+    width: 250px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .S-bloques-par-7 {
+    position: absolute;
+    top: 60%;
+    left: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    color: #fff;
+  }
+  
+  .S-par-7 {
+    margin-top: 30%;
+    margin-left: -25.5vh;
+    width: 180%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: justify;
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  /* ------------------ LIDERES  ------------------ */
+  
+  .S-fondo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 231.3%;
+    width: 103%;
+    min-height: 647px;
+    max-height: 90vh; /* limita la altura visible */
+    background-color: #404547;
+    box-sizing: border-box;
+    padding: 2rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .S-columna-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .S-lider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .S-tit-9-NL {
+    position: absolute;
+    top: 280%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .S-par-8 {
+    margin-top: -80vh;
+    margin-left: 8%;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .S-circulos-2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 70%;
+    background: #acacac;
+    object-fit: cover;
+  }
+  
+  .S-par-9,
+  .S-par-10 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .S-par-9 {
+    font-size: 18px;
+  }
+  .S-par-10 {
+    font-size: 15px;
+  }
+  
+  /* ------------------ ORGANIGRAMA  ------------------ */
+  
+  .S-tit-10-O {
+    position: absolute;
+    margin-top: 63%;
+    left: 10%;
+    transform: translate(-10%, -80%);
+    font-size: 1.3rem;
+    text-align: center;
+    color: #000;
+  }
+  
+  .S-img-4-sub4 {
+    width: 80%;
+    margin: 85% auto 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+  }
+  
+  #S-img-sub4 {
+    margin-top: 105%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .S-img-4-sub4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none; /* para que no bloquee interacciones */
+  }
+  
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+}

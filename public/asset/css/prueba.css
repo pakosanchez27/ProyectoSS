@@ -1,0 +1,1893 @@
+/* body {
+    margin: 0;
+    background: #aee;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+} */
+
+/* body { margin: 0; overflow: hidden; }
+    canvas { display: block; } */
+
+/* body { margin: 0; overflow: hidden; }
+    canvas { display: block; } */
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD VIAL ------------------------------------------------------------------------ --*/
+
+/* body {
+  margin: 0;
+  height: 4000px; 
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+}
+ */
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD SISMO ------------------------------------------------------------------------ --*/
+/* 
+.PS-circle-img {
+  position: relative;
+  width: 500px;  
+  height: 500px;
+  margin: 50px auto;
+}
+
+.PS-circle-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 90%;
+  border: 50px solid purple;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.PS-img-7 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  border: 15px solid gold;
+  background: white;
+  object-fit: cover;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  animation: expand 0.8s forwards;
+  z-index: 1;
+}
+
+@keyframes expand {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(var(--x), var(--y)) scale(1);
+    opacity: 1;
+  }
+}
+
+.PS-img-7:nth-child(2) { 
+  --x: -140%; --y: -170%;
+  animation-delay: 0.2s;
+}
+
+.PS-img-7:nth-child(3) { 
+  --x: -200%; --y: -50%;
+  animation-delay: 0.4s;
+}
+
+.PS-img-7:nth-child(4) { 
+  --x: -140%; --y: 70%;
+  animation-delay: 0.6s;
+}
+
+.PS-img-7:nth-child(5) { 
+  --x: 40%; --y: -170%;
+  animation-delay: 0.8s;
+}
+
+.PS-img-7:nth-child(6) { 
+  --x: 100%; --y: -50%;
+  animation-delay: 1s;
+}
+
+.PS-img-7:nth-child(7) { 
+  --x: 40%; --y: 70%;
+  animation-delay: 1.2s;
+}
+ */
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD PC ------------------------------------------------------------------------ --*/
+
+/* .PS-img-8 {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 15%;
+  width: 35%;
+  height: 40%;
+  z-index: -2;
+}
+
+.PS-div-croquis{
+  position: absolute;
+  margin-left: 15%;
+}
+
+.person {
+  width: 20px;
+  height: 30px;
+  background: linear-gradient(145deg, #ffcc99, #cc9966); 
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  transform: rotateX(20deg);
+} 
+ */
+
+/*------------------------------------------------------------------------ FORMACION-INGRESO ------------------------------------------------------------------------*/
+
+/* .FP-tit-3 {
+  position: absolute;
+  margin-top: 94%;
+  margin-left: 10%;
+  width: 30%;
+}
+
+.FP-estad-1 {
+  position: absolute;
+  margin-top: 99%;
+  width: 100%;
+  height: 70%;
+  background-color: rgb(241, 236, 221);
+}
+
+.FP-estad-cir {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  padding-top: 5%;
+  flex-wrap: wrap;
+}
+
+.FP-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  min-width: 420px;
+}
+
+.FP-circulo-1 {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bold;
+  background-color: white; 
+}
+
+.FP-circulo-1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 25%; 
+  background: conic-gradient(#7a7272 var(--percent), #d0d0d0 0deg);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 25%), black calc(100% - 25%));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 25%), black calc(100% - 25%));
+}
+
+
+.FP-circulo-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.FP-circulo-inner span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.FP-p-7 {
+  text-align: center;
+  width: 60%;
+  font-size: 2rem;
+  margin: 0;
+}
+ */
+
+/*------------------------------------------------------------------------ ¿PORQUE POLICIA? ------------------------------------------------------------------------*/
+
+/* body {
+  margin: 0;
+}
+canvas {
+  display: block;
+}
+ */
+
+/*-- ------------------------------------------------------------------------ NEZA SEGURA ------------------------------------------------------------------------ --*/
+
+/* .NS-fondo-1 {
+  position: absolute;
+  margin-top: -5.3vh;
+  margin-left: 25%;
+  background-color: rgb(175, 175, 175);
+  width: 153.5vh;
+  height: 90.5vh;
+}
+
+.NS-img-1 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 85vh;
+  width: 25%;
+  height: 60%;
+}
+
+.NS-tit-1 {
+  margin-top: 5%;
+  margin-left: -20vh;
+  font-size: 70px;
+}
+
+.NS-sub-1 {
+  margin-top: 4%;
+  margin-left: -23vh;
+  font-size: 35px;
+}
+
+.NS-p-1 {
+  margin-top: 3%;
+  margin-left: -23vh;
+  width: 50%;
+  font-size: 30px;
+}
+
+.NS-sub-2 {
+  margin-top: 3%;
+  margin-left: 14vh;
+  font-size: 35px;
+}
+
+.NS-p-2 {
+  margin-top: 3%;
+  margin-left: 14vh;
+  width: 50%;
+  font-size: 30px;
+}
+
+.NS-btt-1 {
+  position: absolute;
+  margin-top: -18vh;
+  margin-left: -20vh;
+  width: 14%;
+  height: 6%;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+} */
+
+/*-- ------------------------------------------------------------------------ ¿QUE SE PUEDE? ------------------------------------------------------------------------ --*/
+
+/* .NS-img-2 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: -22vh;
+  width: 40%;
+  height: 50%;
+}
+
+.NS-sub-3 {
+  margin-top: -7.5vh;
+  margin-left: 55vh;
+  font-size: 35px;
+}
+
+.NS-circ-1 {
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 36%;
+  width: 5%;
+  height: 8%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.NS-circ-2 {
+  position: absolute;
+  margin-top: 23vh;
+  margin-left: 36%;
+  width: 5%;
+  height: 8%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.NS-circ-3 {
+  position: absolute;
+  margin-top: 33vh;
+  margin-left: 36%;
+  width: 5%;
+  height: 8%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.NS-circ-4 {
+  position: absolute;
+  margin-top: 43vh;
+  margin-left: 36%;
+  width: 5%;
+  height: 8%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.NS-circ-5 {
+  position: absolute;
+  margin-top: 53vh;
+  margin-left: 36%;
+  width: 5%;
+  height: 8%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.NS-nums-1 {
+  position: absolute;
+  margin-top: 14vh;
+  margin-left: 37.6%;
+}
+
+.NS-nums-2 {
+  position: absolute;
+  margin-top: 24vh;
+  margin-left: 37.6%;
+}
+
+.NS-nums-3 {
+  position: absolute;
+  margin-top: 34vh;
+  margin-left: 37.6%;
+}
+
+.NS-nums-4 {
+  position: absolute;
+  margin-top: 44vh;
+  margin-left: 37.6%;
+}
+
+.NS-nums-5 {
+  position: absolute;
+  margin-top: 54vh;
+  margin-left: 37.6%;
+}
+
+.NS-p-3 {
+  position: absolute;
+  margin-top: 12.5vh;
+  margin-left: 43%;
+  width: 36%;
+  font-size: 27px;
+}
+
+.NS-p-4 {
+  position: absolute;
+  margin-top: 22.5vh;
+  margin-left: 43%;
+  width: 38%;
+  font-size: 27px;
+}
+
+.NS-p-5 {
+  position: absolute;
+  margin-top: 32.5vh;
+  margin-left: 43%;
+  width: 38%;
+  font-size: 27px;
+}
+
+.NS-p-6 {
+  position: absolute;
+  margin-top: 44.5vh;
+  margin-left: 43%;
+  width: 38%;
+  font-size: 27px;
+}
+
+.NS-p-7 {
+  position: absolute;
+  margin-top: 52.5vh;
+  margin-left: 43%;
+  width: 38%;
+  font-size: 27px;
+}
+
+.NS-btt-2 {
+  position: absolute;
+  margin-top: 51.7vh;
+  margin-left: -20vh;
+  width: 14%;
+  height: 6%;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+} */
+
+/*-- ------------------------------------------------------------------------ ¿PORQUE? ------------------------------------------------------------------------ --*/
+
+/* .NS-sub-4 {
+  margin-top: 4%;
+  margin-left: -23vh;
+  font-size: 35px;
+}
+
+.NS-img-3 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 36vh;
+  width: 22%;
+  height: 60%;
+}
+
+.NS-cubo-1 {
+  position: absolute;
+  margin-top: 6vh;
+  margin-left: -10vh;
+  width: 3.5%;
+  height: 6.5%;
+  background-color: rgb(0, 57, 143);
+}
+
+.NS-cubo-2 {
+  position: absolute;
+  margin-top: 25vh;
+  margin-left: 8vh;
+  width: 5vh;
+  height: 6vh;
+  background-color: rgb(0, 57, 143);
+}
+
+.NS-cubo-3 {
+  position: absolute;
+  margin-top: -18vh;
+  margin-left: 85vh;
+  width: 5vh;
+  height: 6vh;
+  background-color: rgb(0, 57, 143);
+}
+
+.NS-cubo-4 {
+  position: absolute;
+  margin-top: 6vh;
+  margin-left: 115vh;
+  width: 5vh;
+  height: 6vh;
+  background-color: rgb(0, 57, 143);
+}
+
+.NS-cubo-5 {
+  position: absolute;
+  margin-top: 35vh;
+  margin-left: 90vh;
+  width: 5vh;
+  height: 6vh;
+  background-color: rgb(0, 57, 143);
+}
+
+.NS-btt-3 {
+  position: absolute;
+  margin-top: 39vh;
+  margin-left: -20vh;
+  width: 14%;
+  height: 6%;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.NS-nums-6 {
+  position: absolute;
+  margin-top: 6.5vh;
+  margin-left: -5.5%;
+  color: white;
+}
+
+.NS-nums-7 {
+  position: absolute;
+  margin-top: 25.5vh;
+  margin-left: 6.2%;
+    color: white;
+
+}
+
+.NS-nums-8 {
+  position: absolute;
+  margin-top: -17.4vh;
+  margin-left: 56.2%;
+    color: white;
+
+}
+
+.NS-nums-9 {
+  position: absolute;
+  margin-top: 6.6vh;
+  margin-left: 75.7%;
+    color: white;
+
+}
+
+.NS-nums-10 {
+  position: absolute;
+  margin-top: 35.5vh;
+  margin-left: 59.5%;
+    color: white;
+
+}
+
+.NS-p-8 {
+  position: absolute;
+  margin-top: 8.5vh;
+  margin-left: -1.5vh;
+  width: 14%;
+  font-size: 23px;
+  text-align: center;
+}
+
+.NS-p-9 {
+  position: absolute;
+  margin-top: 28vh;
+  margin-left: 9%;
+  width: 15%;
+  font-size: 23px;
+  text-align: center;
+}
+
+.NS-p-10 {
+  position: absolute;
+  margin-top: -14.5vh;
+  margin-left: 60%;
+  width: 13%;
+  font-size: 23px;
+  text-align: center;
+}
+
+.NS-p-11 {
+  position: absolute;
+  margin-top: 9.3vh;
+  margin-left: 79%;
+  width: 13%;
+  font-size: 23px;
+  text-align: center;
+}
+
+.NS-p-12 {
+  position: absolute;
+  margin-top: 38vh;
+  margin-left: 65%;
+  width: 13%;
+  font-size: 27px;
+  text-align: center;
+}
+
+.NS-div-video {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 60vh;
+  width: 50%; 
+  height: 55%;
+}
+
+.NS-btt-4 {
+  position: absolute;
+  margin-top: 9.8vh;
+  margin-left: -20vh;
+  width: 14%;
+  height: 6%;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+} */
+
+/* -------------------- EXTRA PARA SLIDER -------------------- */
+
+/* .oculta {
+  display: none !important;
+}
+
+.NS-bolitas {
+  position: fixed; 
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 999;
+}
+
+.NS-bolitas .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.NS-bolitas .dot.active {
+  background-color: #333;
+} */
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD CERCA ------------------------------------------------------------------------ --*/
+
+/* .SC-img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.SC-petalo {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.SC-petalo:hover {
+  transform: scale(1.1);
+}
+.SC-petalo.top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0d6efd;
+}
+.SC-petalo.right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: #198754;
+}
+.SC-petalo.bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffc107;
+}
+.SC-petalo.left {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #0dcaf0;
+}
+.SC-petalo img {
+  width: 90%;
+  height: 80%;
+} */
+
+/*-- ------------------------------------------------------------------------ TIPS ------------------------------------------------------------------------ --*/
+
+/* .SC-c-1,
+.SC-c-2,
+.SC-c-3,
+.SC-c-4,
+.SC-c-5 {
+  position: absolute;
+  top: 27%;
+  width: 17%;
+  height: 25%;
+  border-radius: 30px;
+}
+
+.SC-c-1 {
+  left: 4%;
+  background-color: #0077b6;
+}
+.SC-c-2 {
+  left: 23%;
+  background-color: #ffc300;
+}
+.SC-c-3 {
+  left: 42%;
+  background-color: #d62828;
+}
+.SC-c-4 {
+  left: 61%;
+  background-color: #6d4c41;
+}
+.SC-c-5 {
+  left: 80%;
+  background-color: #9d4edd;
+}
+
+.SC-img {
+  margin-top: 7%;
+  margin-left: 7%;
+  width: 42%;
+  height: 65%;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.SC-img:hover {
+  transform: scale(1.05);
+}
+
+.SC-p-5,
+.SC-p-6,
+.SC-p-7,
+.SC-p-8,
+.SC-p-9 {
+  margin-left: 53%;
+  width: 40%;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+.SC-p-5 {
+  margin-top: -11vh;
+}
+.SC-p-6,
+.SC-p-7,
+.SC-p-8 {
+  margin-top: -13vh;
+}
+.SC-p-9 {
+  margin-top: -9vh;
+}
+
+.SC-c-6,
+.SC-c-7,
+.SC-c-8,
+.SC-c-9,
+.SC-c-10 {
+  position: absolute;
+  top: 60%;
+  width: 17%;
+  height: 25%;
+  border-radius: 30px;
+}
+.SC-c-6 {
+  left: 4%;
+  background-color: #343a40;
+}
+.SC-c-7 {
+  left: 23%;
+  background-color: #2a9d8f;
+}
+.SC-c-8 {
+  left: 42%;
+  background-color: #e63946;
+}
+.SC-c-9 {
+  left: 61%;
+  background-color: #f77f00;
+}
+.SC-c-10 {
+  left: 80%;
+  background-color: #003566;
+}
+
+.SC-p-10,
+.SC-p-11,
+.SC-p-12,
+.SC-p-13,
+.SC-p-14 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 52%;
+  width: 45%;
+}
+.SC-p-10 {
+  margin-top: -15.5vh;
+}
+.SC-p-11 {
+  margin-top: -11.5vh;
+}
+.SC-p-12 {
+  margin-top: -13vh;
+}
+.SC-p-13 {
+  margin-top: -13vh;
+  margin-left: 54%;
+  width: 40%;
+}
+.SC-p-14 {
+  margin-top: -13.5vh;
+  margin-left: 54%;
+  width: 40%;
+}
+
+.SC-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+.SC-modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 40%;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.SC-modal-content p {
+  text-align: left;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+}
+
+.SC-modal-content ul {
+  text-align: left;
+  margin: 10px 0 20px 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.SC-modal-content li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.SC-close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+.SC-close:hover {
+  color: #d62828;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+ */
+
+/*---------------------------------------------------------------------------------------------------- MENU ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-fondo {
+  position: relative;
+  margin-top: -6vh;
+  width: 99vw;
+  height: 96vh;
+  overflow: hidden;
+}
+
+.TS-fondo-p-1 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(126, 0, 0);
+  border-radius: 20%;
+  z-index: -1;
+}
+
+.TS-img-fondo{
+  position: absolute;
+  left: 60%;
+  width: auto;
+  height: 90%;
+}
+
+.TS-tit-1, .TS-tit-1-1, .TS-tit-1-2, .TS-tit-1-3,
+.TS-p-1, .TS-p-1-1, .TS-p-1-2, .TS-p-1-3 {
+  position: absolute;
+  color: white;
+}
+
+.TS-tit-1, .TS-tit-1-1, .TS-tit-1-2, .TS-tit-1-3 {
+  margin-top: 10%;
+  margin-left: 35%;
+  font-size: 60px;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 40%;
+}
+
+.TS-p-1, .TS-p-1-1, .TS-p-1-2, .TS-p-1-3 {
+  margin-top: 20%;
+  margin-left: 18%;
+  width: 40%;
+  font-size: 30.5px;
+  text-align: justify;
+}
+
+.TS-slide {
+  display: none; 
+}
+
+.TS-slide.active {
+  display: block;
+}
+
+.TS-botones {
+  position: absolute;
+  bottom: 10%;
+  margin-top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+
+.TS-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.TS-btn.active {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.TS-sub-1 {
+  margin-top: 5%;
+  margin-left: 15%;
+} */
+/*---------------------------------------------------------------------------------------------------- CÉDULA DE BÚSQUEDA ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-tit-2 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 60px;
+}
+
+.TS-circulo-img {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 39.5%;
+  width: 22%;
+  height: 44%;
+  border-radius: 50%;
+}
+
+.TS-img-user{
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.TS-p-2 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-p-3 {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-btn-ext-1 {
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 6%;
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 35px;
+}
+
+.TS-btn-ext-2 {
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 18%;
+  width: 13%;
+  height: 5%;
+  color: white;
+  text-align: center;
+  background-color: #ff6f00;
+  border-radius: 35px;
+}
+
+.TS-btn-ext-3 {
+  position: absolute;
+  margin-top: 37%;
+  margin-left: 6%;
+  width: 10%;
+  height: 5%;
+  color: white;
+  text-align: center;
+  background-color: #e91e63;
+  border-radius: 35px;
+}
+
+.TS-btn-ext-4 {
+  position: absolute;
+  margin-top: 37%;
+  margin-left: 18%;
+  width: 10%;
+  height: 5%;
+  color: white;
+  text-align: center;
+  background-color: #2e7d32;
+  border-radius: 35px;
+}
+
+.TS-cuadro-encargado {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 48%;
+  width: 18%;
+  height: 18%;
+  background-color: rgb(214, 214, 214);
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-dir {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 8%;
+}
+
+.TS-dir-nombre {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 20%;
+}
+
+.TS-sub-1 {
+  margin-top: 6%;
+  margin-left: 70%;
+}
+
+.TS-card-1 {
+  position: absolute;
+  margin-top: 8.5%;
+  margin-left: 70%;
+  width: 28%;
+  height: 15%;
+  background-color: #0057b7;
+  text-align: justify;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-card-inf {
+  margin-top: 3.5%;
+  margin-left: 5%;
+  width: 90%;
+  color: white;
+}
+
+.TS-card-2 {
+  position: absolute;
+  margin-top: 16.5%;
+  margin-left: 70%;
+  width: 28%;
+  height: 12%;
+  background-color: #0057b7;
+  text-align: justify;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-card-3 {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 70%;
+  width: 28%;
+  height: 20%;
+  background-color: #0057b7;
+  text-align: justify;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-card-4 {
+  position: absolute;
+  margin-top: 33.5%;
+  margin-left: 70%;
+  width: 28%;
+  height: 19%;
+  background-color: #0057b7;
+  text-align: justify;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-p-5 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-img-2 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 73%;
+  width: 21%;
+  height: 45%;
+  display: block;
+}
+
+.TS-p-6 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 29%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-img-3 {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 73%;
+  width: 21%;
+  height: 43%;
+    display: block;
+}
+
+.TS-p-7 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 29%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-img-4 {
+  position: absolute;
+  margin-top: 29%;
+  margin-left: 68%;
+  width: 26%;
+  height: 22%;
+    display: block;
+} */
+
+/*---------------------------------------------------------------------------------------------------- ATENCIÓN-VÍCTIMAS ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-p-8 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-p-9 {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-img-5 {
+  position: absolute;
+  margin-top: 32.3%;
+  margin-left: 6%;
+  width: 25%;
+  height: 20%;
+    display: block;
+}
+
+.TS-sub-3 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-p-10 {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 25%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-sub-4 {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-1 {
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+  text-align: justify;
+  font-size: 20px;
+} */
+
+/*---------------------------------------------------------------------------------------------------- PROTECCIÓN CANINA ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-tit-3 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 60px;
+}
+
+.TS-p-11 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-img-6 {
+  position: absolute;
+  margin-top: 21.5%;
+  margin-left: 6%;
+  width: 27%;
+  height: 38%;
+    display: block;
+}
+
+.TS-sub-5 {
+  position: absolute;
+  margin-top: 11.2%;
+  margin-left: 65%;
+  font-size: 20px;
+}
+
+.TS-doc-list-2 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 67%;
+  width: 28%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-btn-img-7 {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 78%;
+  width: 10%;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.TS-btn-img-7 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 35px;
+}
+
+.TS-btn-palabra {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 83%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold; 
+  pointer-events: none; 
+}
+
+#seccionNezaLink {
+    display: block;         
+    width: 100%;           
+    min-height: 100vh;     
+    background-color: #fff; 
+    padding: 50px 20px;     
+    box-sizing: border-box;
+} */
+
+/*---------------------------------------------------------------------------------------------------- VICTIMAS ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-p-12 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-13 {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-14 {
+  position: absolute;
+  margin-top: 30.5%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-sub-6 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-3 {
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+  text-align: justify;
+  font-size: 20px;
+} */
+
+/*---------------------------------------------------------------------------------------------------- COMENTARIOS ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-p-15 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-img-8 {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 5%;
+  width: 5%;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+    display: block;
+}
+
+.TS-p-16 {
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 12%;
+  width: 25%;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.TS-img-9 {
+  position: absolute;
+  margin-top: 6.5%;
+  margin-left: 28%;
+  width: 40%;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+  opacity: 0.7;
+  z-index: -1;
+    display: block;
+}
+
+.TS-sub-7 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-form {
+  position: absolute;
+  width: 40%;
+  height: 42%;
+  top: 133%; 
+  margin-left: 45%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.TS-bloque-form {
+  position: absolute;
+  width: 110%;
+  top: 5%; 
+  margin-left: 5%;
+}
+
+.TS-btn-enviar {
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 43%;
+  font-size: 30px;
+} */
+
+/*---------------------------------------------------------------------------------------------------- LLAMADAS-EMERGENCIAS ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-p-17 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-18 {
+  position: absolute;
+  margin-top: 16.5%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-19 {
+  position: absolute;
+  margin-top: 23.7%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-sub-8 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-4 {
+  position: absolute;
+  margin-top: 25.4%;
+  margin-left: 5%;
+  width: 26%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-doc-list-5 {
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+  text-align: justify;
+  font-size: 20px;
+} */
+
+/*---------------------------------------------------------------------------------------------------- NEZA-LINK ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-p-20 {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-21 {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 6%;
+  width: 25%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-btn-registro-1 {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 13.6%;
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 5px;
+}
+
+.TS-sub-9 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-6 {
+  position: absolute;
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-btn-emergencia {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 80%;
+  width: 5%;
+  height: 10%;
+  background-color: rgb(231, 0, 0);
+  border-radius: 50%;
+} */
+
+/*---------------------------------------------------------------------------------------------------- MENÚ ----------------------------------------------------------------------------------------------------*/
+
+/* .TS-sub-menu {
+  position: absolute;
+  margin-top: 47%;
+  margin-left: 15%;
+  width: 70%;
+  height: 28%;
+  background-color: brown;
+  border-radius: 25px;
+}
+
+.TS-cir-1 {
+  position: absolute;
+  margin-top: -10vh;
+  margin-left: 40%;
+  width: 17%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+.TS-img-1 {
+  position: absolute;
+  margin-top: -1.2vh;
+  margin-left: 0.5%;
+  width: 110%;
+  height: 100%;
+  z-index: 1;
+}
+
+.TS-opc-1 {
+  position: absolute;
+  margin-top: 24.5vh;
+  margin-left: 3%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.TS-opc-1-2 {
+  position: absolute;
+  margin-top: 24.5vh;
+  margin-left: 3vh;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.TS-cir-2 {
+  position: absolute;
+  margin-top: -7vh;
+  margin-left: 12%;
+  width: 15%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.TS-opc-2 {
+  position: absolute;
+  margin-top: 21vh;
+  margin-left: 2%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.TS-cir-3 {
+  position: absolute;
+  margin-top: -7vh;
+  margin-left: 72%;
+  width: 15%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.TS-img-Izq {
+  position: absolute;
+  margin-top: 8vh;
+  margin-left: -20vh;
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+}
+
+.TS-img-Der {
+  position: absolute;
+  margin-top: 8vh;
+  margin-left: 105vh;
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+}
+
+.TS-section {
+  display: none;
+  position: relative; 
+}
+
+.TS-section.activa {
+  display: block;
+} */
+
+/*---------------------------------------------------------------------------------------------------- RESPONSIVO 1 ----------------------------------------------------------------------------------------------------*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(112, 15, 21);
+}
+
+main {
+}
+
+.NS-fondo-1 {
+  position: absolute;
+  margin-top: -10vh;
+  margin-left: 23.8%;
+  background-color: rgb(30, 90, 153);
+  width: 153.5vh;
+  height: 90.66vh;
+  perspective: 1000px;
+  z-index: -2;
+}
+
+.NS-img-1 {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 73%;
+  width: 18%;
+  height: 50%;
+  transform-origin: center;
+  animation: giroFlotacion 6s ease-in-out infinite;
+}
+
+@keyframes giroFlotacion {
+  0%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    transform: rotateY(1080deg) translateY(0);
+  }
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+  50%,
+  70%,
+  90% {
+    transform: rotateY(1080deg) translateY(-10px);
+  }
+}
+
+.NS-tit-1,
+.NS-sub-1,
+.NS-sub-2,
+.NS-p-1,
+.NS-p-2 {
+  color: white;
+}
+
+.NS-tit-1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 70px;
+}
+
+.NS-sub-1,
+.NS-sub-2 {
+  margin-top: 3%;
+  font-size: 35px;
+}
+
+.NS-sub-1 {
+  margin-left: 10%;
+}
+
+.NS-sub-2 {
+  margin-left: 30%;
+}
+
+.NS-p-1,
+.NS-p-2 {
+  margin-top: 3%;
+  width: 50%;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.NS-p-1 {
+  margin-left: 10%;
+}
+
+.NS-p-2 {
+  margin-left: 30%;
+}
+
+.NS-btt-1 {
+  position: absolute;
+  margin-top: -15vh;
+  margin-left: 10%;
+  width: 12%;
+  height: 6%;
+  font-size: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.NS-btt-1:hover {
+  background-color: #1e70ff;
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  color: white;
+}
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  .NS-fondo-1 {
+    margin-left: 23%;
+    width: 77%;
+    min-height: 88.4%;
+  }
+
+  .NS-img-1 {
+    margin-left: 73%;
+    width: 20%;
+    height: auto;
+  }
+
+  .NS-tit-1 {
+    font-size: 30px;
+    margin-left: 15%;
+  }
+
+  .NS-sub-1 {
+    font-size: 20px;
+    margin-left: 15%;
+  }
+
+  .NS-sub-2,
+  .NS-p-2 {
+    font-size: 20px;
+    margin-left: 30%;
+  }
+
+  .NS-p-1 {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 15%;
+  }
+
+  .NS-btt-1 {
+    width: 15%;
+    font-size: 15px;
+    margin-left: 10%;
+  }
+}
+
+/* Móviles */
+@media (max-width: 600px) {
+  .NS-fondo-1 {
+    margin-left: 23%;
+    width: 77%;
+    min-height: 135%;
+  }
+
+  .NS-tit-1 {
+    font-size: 30px;
+    margin: 10px 0 5px;
+    margin-top: -45vh;
+    margin-left: 65px;
+  }
+
+  .NS-img-1 {
+    position: relative; 
+    top: 100px;
+    margin-left: 400px;
+    width: 30%; 
+    height: auto;
+    display: block;
+  }
+
+  .NS-sub-1,
+  .NS-sub-2 {
+    font-size: 18px;
+    margin: 30px 0;
+    margin-left: 65px;
+  }
+
+  .NS-p-1,
+  .NS-p-2 {
+    font-size: 16px;
+    width: 50%;
+    margin: 10px auto;
+    text-align: justify;
+    margin-left: 65px;
+  }
+
+  .NS-btt-1 {
+    position: relative; 
+    display: block;
+    margin: 40px auto;
+    width: 20%;
+    font-size: 16px;
+  }
+}

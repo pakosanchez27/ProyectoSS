@@ -1,0 +1,2813 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+}
+
+.Formacion_Policial {
+  margin-left: -2vh;
+}
+/*------------------------------------------------------------------------ PRINCIPAL ------------------------------------------------------------------------*/
+.FP-tit-fondo,
+.FP-tit-1 {
+  position: absolute;
+  font-size: 70px;
+  z-index: 1;
+}
+
+.FP-tit-fondo {
+  top: 46.5%;
+  left: 10%;
+  width: 62%;
+  height: 10%;
+  background-color: white;
+}
+
+.FP-tit-1 {
+  top: 10%;
+  margin-left: 1%;
+  color: rgb(0, 0, 0);
+}
+
+/*-- ----------------------- IMAGENES ----------------------- --*/
+
+.FP-img-1 {
+  position: absolute;
+  margin-top: -7.3vh;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  opacity: 0;
+  animation: fade 16s infinite;
+}
+
+.FP-img-1:nth-child(1) {
+  animation-delay: 0s;
+}
+.FP-img-1:nth-child(2) {
+  animation-delay: 4s;
+}
+.FP-img-1:nth-child(3) {
+  animation-delay: 8s;
+}
+.FP-img-1:nth-child(4) {
+  animation-delay: 12s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*-- ---------------------------------------------- --*/
+
+.FP-inf-1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+  height: 58%;
+  background-color: rgb(0, 26, 255);
+  opacity: 0.8;
+}
+
+.FP-p-1,
+.FP-p-2 {
+  position: absolute;
+  left: 4.5%;
+  width: 90%;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.FP-p-1 {
+  top: 5%;
+}
+.FP-p-2 {
+  top: 69%;
+}
+
+/*------------------------------------------------------------------------ HISTORIAS ------------------------------------------------------------------------*/
+
+.FP-inf-2 {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  width: 80%;
+  height: 24.5%;
+  background-color: rgb(138, 0, 0);
+}
+
+.FP-img-2 {
+  position: absolute;
+  top: 3vh;
+  left: -3vh;
+  width: 27%;
+  height: 27%;
+}
+
+.FP-sub-1 {
+  margin-top: 3%;
+  margin-left: 15%;
+  color: white;
+}
+
+.FP-p-3 {
+  margin-top: 1%;
+  margin-left: 15%;
+  width: 16%;
+  text-align: justify;
+  color: white;
+}
+
+.FP-link-1 {
+  margin-top: 4%;
+  margin-left: 15%;
+  color: white;
+}
+
+.FP-img-3 {
+  position: absolute;
+  top: 3vh;
+  left: -2.5vh;
+  width: 85%;
+  height: 27%;
+}
+
+.FP-sub-2 {
+  margin-top: -16vh;
+  margin-left: 44%;
+  color: white;
+}
+
+.FP-p-4 {
+  margin-top: 1%;
+  margin-left: 44%;
+  width: 16%;
+  text-align: justify;
+  color: white;
+}
+
+.FP-link-2 {
+  margin-top: 4%;
+  margin-left: 44%;
+  color: white;
+}
+
+.FP-img-4 {
+  position: absolute;
+  top: 3vh;
+  left: 90vh;
+  width: 27%;
+  height: 27%;
+}
+
+.FP-sub-3 {
+  margin-top: -16vh;
+  margin-left: 73.5%;
+  color: white;
+}
+
+.FP-p-5 {
+  margin-top: 1%;
+  margin-left: 73.5%;
+  width: 16%;
+  text-align: justify;
+  color: white;
+}
+
+.FP-link-3 {
+  margin-top: 4%;
+  margin-left: 73.5%;
+  color: white;
+}
+
+/*------------------------------------------------------------------------ CONVOCATORIA ------------------------------------------------------------------------*/
+
+.FP-img-5 {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 18%;
+  width: 28%;
+  height: 70%;
+}
+
+.FP-tit-2 {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 50%;
+  width: 30%;
+}
+
+.FP-p-6 {
+  position: absolute;
+  margin-top: 61%;
+  margin-left: 50%;
+  width: 26%;
+  font-size: 22px;
+  word-spacing: 8px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.FP-btn-inscripcion {
+  position: absolute;
+  margin-top: 83%;
+  margin-left: 50%;
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.FP-btn-inscripcion:hover {
+  background-color: #1e70ff;
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+}
+
+/*------------------------------------------------------------------------ FORMACION-INGRESO ------------------------------------------------------------------------*/
+
+.FP-tit-3 {
+  position: absolute;
+  margin-top: 94%;
+  margin-left: 10%;
+  width: 30%;
+}
+
+.FP-estad-1 {
+  position: absolute;
+  margin-top: 99%;
+  width: 100%;
+  height: 70%;
+  background-color: rgb(112, 15, 21);
+  z-index: -2;
+
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.1) 0px,
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 10px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.1) 0px,
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 10px,
+      transparent 10px
+    );
+  background-blend-mode: overlay;
+}
+
+.FP-estad-cir {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3%;
+  flex-wrap: wrap;
+}
+
+.FP-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  min-width: 420px;
+}
+
+.FP-circulo-1 {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+.FP-circulo-1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 25%;
+  background: conic-gradient(#ff0000 var(--percent), #0059ff 0deg);
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 25%),
+    black calc(100% - 25%)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 25%),
+    black calc(100% - 25%)
+  );
+}
+
+.FP-circulo-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.FP-circulo-inner span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.FP-p-7 {
+  text-align: center;
+  width: 60%;
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+/*------------------------------------------------------------------------ CAPACITACIÓN ------------------------------------------------------------------------*/
+
+.FP-inf-5 {
+  position: absolute;
+  margin-top: 133.5%;
+  width: 100%;
+  height: 70%;
+}
+
+.FP-tit-4 {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  width: 50%;
+}
+
+.FP-cards-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.FP-card-1,
+.FP-card-2,
+.FP-card-3,
+.FP-card-4 {
+  position: relative;
+  width: 15%;
+  height: 70%;
+  overflow: hidden;
+}
+
+.FP-img-6,
+.FP-img-7,
+.FP-img-8,
+.FP-img-9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.FP-sub-4 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.FP-card-1::before,
+.FP-card-2::before,
+.FP-card-3::before,
+.FP-card-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/*------------------------------------------------------------------------ ¿PORQUE POLICIA? ------------------------------------------------------------------------*/
+
+.FP-inf-6 {
+  position: absolute;
+  margin-top: 160%;
+  width: 100%;
+  height: 100%;
+}
+
+.FP-img-10 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 32%;
+  height: 65%;
+}
+
+.FP-tit-5 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 12.5%;
+  width: 50%;
+}
+
+.FP-p-8 {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  width: 25%;
+  font-size: 28px;
+  word-spacing: 8px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+/*------------------------------------------------------------------------ FRASE ------------------------------------------------------------------------*/
+
+.FP-inf-7 {
+  position: absolute;
+  margin-top: 208%;
+  width: 100%;
+  height: 60%;
+  background-color: rgb(29, 25, 49);
+  overflow: hidden;
+}
+
+.FP-inf-7::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  animation: destello 2s infinite;
+  pointer-events: none;
+}
+
+@keyframes destello {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 125%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+.FP-div-2 {
+  width: 20%;
+  height: 60%;
+  margin-top: 7%;
+  margin-left: 20%;
+  border-radius: 50%;
+}
+
+.FP-img-11 {
+  margin-top: -4.5vh;
+  margin-left: -8vh;
+  width: 140%;
+  height: 125%;
+}
+
+.FP-p-9 {
+  position: absolute;
+  top: 37%;
+  left: 54%;
+  width: 32%;
+  font-size: 28px;
+  word-spacing: 8px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.FP-btn-inscripcion-2 {
+  position: absolute;
+  top: 85%;
+  left: 83%;
+  width: 9%;
+  height: 8%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.FP-btn-inscripcion-2:hover {
+  background-color: #1e70ff;
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+}
+
+/*------------------------------------------------------------------------ OPORTUNIDAD ------------------------------------------------------------------------*/
+
+.FP-inf-8 {
+  position: absolute;
+  margin-top: 237.5%;
+  width: 100%;
+  height: 70%;
+}
+
+.FP-tit-6 {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  width: 50%;
+}
+
+.FP-cards-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14%;
+  padding-top: 10%;
+  width: 100%;
+  height: 110%;
+}
+
+.FP-card-5,
+.FP-card-6,
+.FP-card-7,
+.FP-card-8,
+.FP-card-9 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: relative;
+  overflow: hidden;
+}
+
+.FP-img-12,
+.FP-img-13,
+.FP-img-14,
+.FP-img-15,
+.FP-img-16 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.FP-sub-5 {
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  width: 80%;
+  text-align: justify;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.FP-link-4 {
+  text-align: right;
+  margin-top: 4%;
+  color: rgb(0, 0, 0);
+}
+
+/*------------------------------------------------------------------------ COMUNIDAD ------------------------------------------------------------------------*/
+
+.FP-inf-9 {
+  position: absolute;
+  margin-top: 313%;
+  width: 100%;
+  height: 70%;
+}
+
+.FP-tit-7 {
+  position: absolute;
+  top: 6%;
+  left: 10%;
+  width: 50%;
+}
+
+.FP-p-10 {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  width: 80%;
+  font-size: 28px;
+  word-spacing: 8px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.FP-cards-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14%;
+  padding-top: 16%;
+  width: 100%;
+  height: 110%;
+}
+
+.FP-card-10,
+.FP-card-11 {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: relative;
+  overflow: hidden;
+}
+
+.FP-img-17,
+.FP-img-18 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.FP-sub-6 {
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  width: 80%;
+  text-align: justify;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.FP-link-5 {
+  text-align: right;
+  margin-top: 4%;
+  color: rgb(0, 0, 0);
+}
+
+.formacion-policial footer {
+  position: relative;
+  width: 100%;
+  background-color: #002b5c; /* color del footer */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 730vh; /* empuja el footer más abajo del contenido */
+  z-index: 10;
+}
+
+/*-- ------------------------------------------------------------------------ RESPONSIVO ------------------------------------------------------------------------ --*/
+
+/*-- ------------------------------------------------- ESCRITORIO ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .FP-tit-fondo,
+  .FP-tit-1 {
+    position: absolute;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+
+  .FP-tit-fondo {
+    top: 52%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    background-color: white;
+  }
+
+  .FP-tit-1 {
+    top: 10%;
+    margin-left: 1%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* -------- IMÁGENES -------- */
+  .FP-img-1 {
+    position: absolute;
+    margin-top: -9.3vh;
+    margin-left: 0.3%;
+    width: 100%;
+    height: 93%;
+    z-index: -1;
+    opacity: 0;
+    animation: fade 16s infinite;
+  }
+
+  .FP-img-1:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .FP-img-1:nth-child(2) {
+    animation-delay: 4s;
+  }
+  .FP-img-1:nth-child(3) {
+    animation-delay: 8s;
+  }
+  .FP-img-1:nth-child(4) {
+    animation-delay: 12s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /*-- ------------------------ --*/
+
+  .FP-inf-1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    height: 65%;
+    background-color: rgb(0, 26, 255);
+    opacity: 0.8;
+  }
+
+  .FP-p-1,
+  .FP-p-2 {
+    position: absolute;
+    left: 4.5%;
+    width: 90%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+    z-index: 1;
+  }
+
+  .FP-p-1 {
+    top: 5%;
+  }
+  .FP-p-2 {
+    top: 60%;
+  }
+
+  /* ------------------ HISTORIAS ------------------ */
+  .FP-inf-2 {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 80%;
+    height: 24.5%;
+    background-color: rgb(138, 0, 0);
+  }
+
+  .FP-img-2 {
+    position: absolute;
+    top: 3vh;
+    left: -9vh;
+    width: 23%;
+    height: 23%;
+  }
+
+  .FP-sub-1 {
+    margin-top: 3%;
+    margin-left: 8%;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .FP-p-3 {
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 23%;
+    font-size: 0.8rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .FP-link-1 {
+    margin-top: 4%;
+    margin-left: 8%;
+    color: white;
+  }
+
+  .FP-img-3 {
+    position: absolute;
+    top: 3vh;
+    left: 4%;
+    width: 65%;
+    height: 23%;
+  }
+
+  .FP-sub-2 {
+    margin-top: -20vh;
+    margin-left: 40%;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .FP-p-4 {
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 23%;
+    font-size: 0.8rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .FP-link-2 {
+    position: absolute;
+    margin-top: -2.5vh;
+    margin-left: 40%;
+    color: white;
+  }
+
+  .FP-img-4 {
+    position: absolute;
+    top: 3vh;
+    left: 74vh;
+    width: 23%;
+    height: 23%;
+  }
+
+  .FP-sub-3 {
+    margin-top: -19vh;
+    margin-left: 73.5%;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .FP-p-5 {
+    margin-top: 1%;
+    margin-left: 73.5%;
+    width: 23%;
+    font-size: 0.8rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .FP-link-3 {
+    margin-top: 4%;
+    margin-left: 73.5%;
+    color: white;
+  }
+
+  /* ------------------ CONVOCATORIA ------------------ */
+
+  .FP-img-5 {
+    position: absolute;
+    margin-top: 63%;
+    margin-left: 15%;
+    width: 30%;
+    height: 80%;
+  }
+
+  .FP-tit-2 {
+    position: absolute;
+    margin-top: 67%;
+    margin-left: 50%;
+    width: 40%;
+    font-size: 1.5rem;
+  }
+
+  .FP-p-6 {
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 50%;
+    width: 35%;
+    font-size: 1rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-btn-inscripcion {
+    position: absolute;
+    margin-top: 105%;
+    margin-left: 50%;
+    width: 13%;
+    height: 5%;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ FORMACION-INGRESO ------------------ */
+  .FP-tit-3 {
+    position: absolute;
+    margin-top: 117%;
+    margin-left: 10%;
+    width: 30%;
+    font-size: 1.5rem;
+  }
+
+  .FP-estad-1 {
+    position: absolute;
+    margin-top: 122%;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(112, 15, 21);
+    z-index: -2;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .FP-estad-cir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8%;
+    flex-wrap: wrap;
+  }
+
+  .FP-div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    min-width: 40px;
+  }
+
+  .FP-circulo-1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .FP-circulo-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 25%;
+    background: conic-gradient(#ff0000 var(--percent), #0059ff 0deg);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+  }
+
+  .FP-circulo-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .FP-circulo-inner span {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #222;
+  }
+
+  .FP-p-7 {
+    text-align: center;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+  }
+
+  /* ------------------ CAPACITACION ------------------ */
+  .FP-inf-5 {
+    position: absolute;
+    margin-top: 133.5%;
+    width: 100%;
+    height: 115%;
+  }
+
+  .FP-tit-4 {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    width: 50%;
+    font-size: 1.5rem;
+    z-index: 5;
+  }
+
+  .FP-cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 40%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-1,
+  .FP-card-2,
+  .FP-card-3,
+  .FP-card-4 {
+    position: relative;
+    width: 20%;
+    height: 70%;
+    overflow: hidden;
+  }
+
+  .FP-img-6,
+  .FP-img-7,
+  .FP-img-8,
+  .FP-img-9 {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    z-index: 0;
+  }
+
+  .FP-sub-4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .FP-card-1::before,
+  .FP-card-2::before,
+  .FP-card-3::before,
+  .FP-card-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  /* ------------------ ¿PORQUE POLICIA? ------------------ */
+  .FP-inf-6 {
+    position: absolute;
+    margin-top: 200%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+
+  .FP-inf-6 canvas {
+    margin-left: 100px;
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .FP-tit-5 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 12.5%;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .FP-p-8 {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 30%;
+    font-size: 1rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ FRASE ------------------ */
+  .FP-inf-7 {
+    position: absolute;
+    margin-top: 255%;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(29, 25, 49);
+    overflow: hidden;
+  }
+
+  .FP-inf-7::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none;
+  }
+
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+
+  .FP-div-2 {
+    width: 20%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 20%;
+    border-radius: 50%;
+  }
+
+  .FP-img-11 {
+    margin-top: -4.5vh;
+    margin-left: -8vh;
+    width: 140%;
+    height: 125%;
+  }
+
+  .FP-p-9 {
+    position: absolute;
+    top: 37%;
+    left: 54%;
+    width: 35%;
+    font-size: 1rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  }
+
+  .FP-btn-inscripcion-2 {
+    position: absolute;
+    top: 85%;
+    left: 83%;
+    width: 13%;
+    height: 7%;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion-2:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ OPORTUNIDAD ------------------ */
+  .FP-inf-8 {
+    position: absolute;
+    margin-top: 300%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-6 {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .FP-cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 10%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-5,
+  .FP-card-6,
+  .FP-card-7,
+  .FP-card-8,
+  .FP-card-9 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-12,
+  .FP-img-13,
+  .FP-img-14,
+  .FP-img-15,
+  .FP-img-16 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-5 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 80%;
+    text-align: justify;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .FP-link-4 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ COMUNIDAD ------------------ */
+  .FP-inf-9 {
+    position: absolute;
+    margin-top: 407%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-7 {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .FP-p-10 {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 80%;
+    font-size: 1rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-cards-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 20%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-10,
+  .FP-card-11 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-17,
+  .FP-img-18 {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-6 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 80%;
+    text-align: justify;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .FP-link-5 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  .formacion-policial footer {
+    position: relative;
+    width: 100%;
+    background-color: #002b5c; /* color del footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 765vh; /* empuja el footer más abajo del contenido */
+    z-index: 10;
+  }
+}
+
+/*-- ------------------------------------------------- TABLET ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+@media (max-width: 768px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+  .Formacion_Policial {
+    margin-left: -1vh;
+  }
+  .FP-tit-fondo,
+  .FP-tit-1 {
+    position: absolute;
+    font-size: 1.2rem;
+    z-index: 1;
+  }
+
+  .FP-tit-fondo {
+    top: 45%;
+    left: 10%;
+    width: 80%;
+    height: 4%;
+    background-color: white;
+  }
+
+  .FP-tit-1 {
+    top: 10%;
+    margin-left: 24%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* -------- IMÁGENES -------- */
+  .FP-img-1 {
+    position: absolute;
+    margin-top: -9vh;
+    margin-left: 0%;
+    width: 100%;
+    height: 65%;
+    z-index: -10;
+    opacity: 0;
+    animation: fade 16s infinite;
+  }
+
+  .FP-img-1:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .FP-img-1:nth-child(2) {
+    animation-delay: 4s;
+  }
+  .FP-img-1:nth-child(3) {
+    animation-delay: 8s;
+  }
+  .FP-img-1:nth-child(4) {
+    animation-delay: 12s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /*-- ------------------------ --*/
+
+  .FP-inf-1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(0, 26, 255);
+    opacity: 0.8;
+  }
+
+  .FP-p-1,
+  .FP-p-2 {
+    position: absolute;
+    left: 4.5%;
+    width: 90%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    z-index: 1;
+  }
+
+  .FP-p-1 {
+    top: 5%;
+  }
+  .FP-p-2 {
+    top: 62%;
+  }
+
+  /* ------------------ HISTORIAS ------------------ */
+  .FP-inf-2 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 90%;
+    height: 27%;
+    background-color: rgb(138, 0, 0);
+    
+  }
+
+  .FP-img-2 {
+    position: absolute;
+    top: 3vh;
+    left: -4vh;
+    width: 18%;
+    height: 18%;
+  }
+
+  .FP-sub-1 {
+    margin-top: 4%;
+    margin-left: 9%;
+    font-size: 0.8rem;
+    color: white;
+  }
+
+  .FP-p-3 {
+    margin-top: 1%;
+    margin-left: 9%;
+    width: 23%;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: rgb(238, 238, 238);
+  }
+
+  .FP-link-1 {
+    margin-top: 4%;
+    margin-left: 8%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .FP-img-3 {
+    position: absolute;
+    top: 3vh;
+    left: 6%;
+    width: 62%;
+    height: 18%;
+  }
+
+  .FP-sub-2 {
+    margin-top: -17.7vh;
+    margin-left: 40.5%;
+    font-size: 0.8rem;
+    color: white;
+  }
+
+  .FP-p-4 {
+    margin-top: 1%;
+    margin-left: 40.5%;
+    width: 23%;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .FP-link-2 {
+    position: absolute;
+    margin-top: -1.9vh;
+    margin-left: 40%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .FP-img-4 {
+    position: absolute;
+    top: 3vh;
+    left: 63.5vh;
+    width: 18%;
+    height: 18%;
+  }
+
+  .FP-sub-3 {
+    margin-top: -16.5vh;
+    margin-left: 73%;
+    font-size: 0.8rem;
+    color: white;
+    width: 23%;
+  }
+
+  .FP-p-5 {
+    margin-top: 1%;
+    margin-left: 73%;
+    width: 23%;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .FP-link-3 {
+    margin-top: 2%;
+    margin-left: 73.5%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  /* ------------------ CONVOCATORIA ------------------ */
+  .FP-img-5 {
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 12%;
+    width: 30%;
+    height: 50%;
+  }
+
+  .FP-tit-2 {
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 48%;
+    width: 40%;
+    font-size: 1.2rem;
+  }
+
+  .FP-p-6 {
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 48%;
+    width: 40%;
+    font-size: 0.7rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-btn-inscripcion {
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 60%;
+    width: 18%;
+    height: 4%;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ FORMACION-INGRESO ------------------ */
+  .FP-tit-3 {
+    position: absolute;
+    margin-top: 125%;
+    margin-left: 10%;
+    width: 30%;
+    font-size: 1.2rem;
+  }
+
+  .FP-estad-1 {
+    position: absolute;
+    margin-top: 130%;
+    left: 0%;
+    width: 100.2%;
+    height: 38%;
+    background-color: rgb(112, 15, 21);
+    z-index: -2;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .FP-estad-cir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4%;
+    flex-wrap: wrap;
+  }
+
+  .FP-div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 20px;
+  }
+
+  .FP-circulo-1 {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .FP-circulo-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 25%;
+    background: conic-gradient(#ff0000 var(--percent), #0059ff 0deg);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+  }
+
+  .FP-circulo-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .FP-circulo-inner span {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #222;
+  }
+
+  .FP-p-7 {
+    text-align: center;
+    width: 80%;
+    font-size: 0.9rem;
+    margin: 0;
+    color: white;
+  }
+
+  /* ------------------ CAPACITACION ------------------ */
+  .FP-inf-5 {
+    position: absolute;
+    margin-top: 155%;
+    width: 100%;
+    height: 115%;
+    z-index: 5;
+  }
+
+  .FP-tit-4 {
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    width: 60%;
+    font-size: 1.2rem;
+    z-index: 5;
+  }
+
+  .FP-cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    padding-top: 16%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .FP-card-1,
+  .FP-card-2,
+  .FP-card-3,
+  .FP-card-4 {
+    position: relative;
+    width: 20%;
+    height: 28%;
+    overflow: hidden;
+  }
+
+  .FP-img-6,
+  .FP-img-7,
+  .FP-img-8,
+  .FP-img-9 {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    z-index: 0;
+  }
+
+  .FP-sub-4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .FP-card-1::before,
+  .FP-card-2::before,
+  .FP-card-3::before,
+  .FP-card-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  /* ------------------ ¿PORQUE POLICIA? ------------------ */
+  .FP-inf-6 {
+    position: absolute;
+    margin-top: 155%;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+
+  .FP-inf-6 canvas {
+    margin-top: 18%;
+    margin-left: 5%;
+    width: 90% !important;
+    height: 100% !important;
+    z-index: 5;
+  }
+
+  .FP-tit-5 {
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 10%;
+    width: 70%;
+    font-size: 1.2rem;
+  }
+
+  .FP-p-8 {
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    width: 50%;
+    font-size: 0.9rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ FRASE ------------------ */
+  .FP-inf-7 {
+    position: absolute;
+    margin-top: 240%;
+    left: 0%;
+    width: 100.2%;
+    height: 40%;
+    background-color: rgb(29, 25, 49);
+    overflow: hidden;
+  }
+
+  .FP-inf-7::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none;
+  }
+
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+
+  .FP-div-2 {
+    width: 20%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 20%;
+    border-radius: 50%;
+  }
+
+  .FP-img-11 {
+    margin-top: -4.5vh;
+    margin-left: -8vh;
+    width: 140%;
+    height: 125%;
+  }
+
+  .FP-p-9 {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 45%;
+    font-size: 0.9rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  }
+
+  .FP-btn-inscripcion-2 {
+    position: absolute;
+    top: 85%;
+    left: 73%;
+    width: 18%;
+    height: 9%;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion-2:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ OPORTUNIDAD ------------------ */
+  .FP-inf-8 {
+    position: absolute;
+    margin-top: 275%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-6 {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .FP-cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 10%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-5,
+  .FP-card-6,
+  .FP-card-7,
+  .FP-card-8,
+  .FP-card-9 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-12,
+  .FP-img-13,
+  .FP-img-14,
+  .FP-img-15,
+  .FP-img-16 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-5 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    text-align: justify;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .FP-link-4 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ COMUNIDAD ------------------ */
+  .FP-inf-9 {
+    position: absolute;
+    margin-top: 413.5%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-7 {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    width: 55%;
+    font-size: 1.2rem;
+  }
+
+  .FP-p-10 {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    width: 80%;
+    font-size: 0.9rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-cards-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 25%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-10,
+  .FP-card-11 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-17,
+  .FP-img-18 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-6 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    text-align: justify;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .FP-link-5 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  .formacion-policial footer {
+    position: relative;
+    width: 100%;
+    background-color: #002b5c; /* color del footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 600vh; /* empuja el footer más abajo del contenido */
+    z-index: 10;
+  }
+}
+
+/*-- ------------------------------------------------- CELULAR ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+@media (max-width: 600px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+  
+  .Formacion_Policial {
+    margin-left: -0.5vh;
+  }
+
+  .FP-ocultar-celular {
+    display: none;
+  }
+
+  .FP-tit-fondo,
+  .FP-tit-1 {
+    position: absolute;
+    font-size: 0.9rem;
+    z-index: 1;
+  }
+
+  .FP-tit-fondo {
+    top: 33.5%;
+    left: 9.7%;
+    width: 80%;
+    height: 2.5%;
+    background-color: white;
+  }
+
+  .FP-tit-1 {
+    top: 4%;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* -------- IMÁGENES -------- */
+  .FP-img-1 {
+    position: absolute;
+    margin-top: -8vh;
+    margin-left: 0%;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    opacity: 0;
+    animation: fade 16s infinite;
+  }
+
+  .FP-img-1:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .FP-img-1:nth-child(2) {
+    animation-delay: 4s;
+  }
+  .FP-img-1:nth-child(3) {
+    animation-delay: 8s;
+  }
+  .FP-img-1:nth-child(4) {
+    animation-delay: 12s;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /*-- ------------------------ --*/
+
+  .FP-inf-1 {
+    position: absolute;
+    top: 14.5%;
+    left: 4%;
+    width: 92%;
+    height: 36.5%;
+    background-color: rgba(0, 26, 255, 0.575);
+    opacity: 0.8;
+  }
+
+  .FP-p-1,
+  .FP-p-2 {
+    position: absolute;
+    left: 2%;
+    width: 95.5%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+    z-index: 1;
+  }
+
+  .FP-p-1 {
+    top: 4%;
+  }
+  .FP-p-2 {
+    top: 60.5%;
+  }
+
+  /* ------------------ HISTORIAS ------------------ */
+  .FP-inf-2 {
+    position: absolute;
+    top: 51%;
+    left: 4%;
+    width: 92%;
+    height: 15%;
+    background-color: rgb(138, 0, 0);
+  }
+
+
+  .FP-img-2 {
+    position: absolute;
+    top: 3vh;
+    left: -2.5vh;
+    width: 18%;
+    height: 18%;
+  }
+
+  .FP-sub-1 {
+    margin-top: 6%;
+    margin-left: 8%;
+    font-size: 0.7rem;
+    color: white;
+    width: 20%;
+  }
+
+  .FP-link-1 {
+    margin-top: 4%;
+    margin-left: 8.9%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .FP-img-3 {
+    position: absolute;
+    top: 3vh;
+    left: 3%;
+    width: 62%;
+    height: 18%;
+  }
+
+  .FP-sub-2 {
+    margin-top: -8.3vh;
+    margin-left: 37%;
+    font-size: 0.7rem;
+    width: 20%;
+    color: rgb(255, 255, 255);
+  }
+
+  .FP-link-2 {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 37%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  .FP-img-4 {
+    position: absolute;
+    top: 19%;
+    left: 57%;
+    width: 18%;
+    height: 18%;
+  }
+
+  .FP-sub-3 {
+    margin-top: -5vh;
+    margin-left: 71%;
+    font-size: 0.8rem;
+    width: 30%;
+    color: white;
+  }
+
+  .FP-link-3 {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 71%;
+    font-size: 0.7rem;
+    color: white;
+  }
+
+  /* ------------------ CONVOCATORIA ------------------ */
+
+  .FP-tit-2 {
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 4%;
+    width: 92%;
+    font-size: 0.9rem;
+  }
+
+  .FP-p-6 {
+    position: absolute;
+    margin-top: 98%;
+    margin-left: 4%;
+    width: 92%;
+    font-size: 0.8rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-btn-inscripcion {
+    position: absolute;
+    margin-top: 153%;
+    margin-left: 35%;
+    width: 30%;
+    height: 4%;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ FORMACION-INGRESO ------------------ */
+  .FP-tit-3 {
+    position: absolute;
+    margin-top: 165%;
+    margin-left: 4%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .FP-estad-1 {
+    position: absolute;
+    margin-top: 175%;
+    width: 100%;
+    height: 34%;
+    background-color: rgb(112, 15, 21);
+    z-index: -2;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .FP-estad-cir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8%;
+    flex-wrap: wrap;
+  }
+
+  .FP-div-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 20px;
+  }
+
+  .FP-circulo-1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .FP-circulo-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    padding: 25%;
+    background: conic-gradient(#ff0000 var(--percent), #0059ff 0deg);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 25%),
+      black calc(100% - 25%)
+    );
+  }
+
+  .FP-circulo-inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .FP-circulo-inner span {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #222;
+  }
+
+  .FP-p-7 {
+    text-align: center;
+    width: 80%;
+    font-size: 0.6rem;
+    margin: 0;
+    color: white;
+  }
+
+  /* ------------------ CAPACITACION ------------------ */
+  .FP-inf-5 {
+    position: absolute;
+    margin-top: 230%;
+    width: 100%;
+    height: 115%;
+    z-index: 5;
+  }
+
+  .FP-tit-4 {
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    width: 92%;
+    font-size: 1rem;
+    z-index: 5;
+  }
+
+  .FP-cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 20%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .FP-card-1,
+  .FP-card-2,
+  .FP-card-3,
+  .FP-card-4 {
+    position: relative;
+    width: 20%;
+    height: 25%;
+    overflow: hidden;
+  }
+
+  .FP-img-6,
+  .FP-img-7,
+  .FP-img-8,
+  .FP-img-9 {
+    width: 170%;
+    height: 60%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    z-index: 0;
+  }
+
+  .FP-sub-4 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    z-index: 2;
+  }
+
+  .FP-card-1::before,
+  .FP-card-2::before,
+  .FP-card-3::before,
+  .FP-card-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  /* ------------------ ¿PORQUE POLICIA? ------------------ */
+  .FP-inf-6 {
+    position: absolute;
+    margin-top: 260%;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+  }
+
+  .FP-tit-5 {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 4%;
+    width: 93%;
+    font-size: 1rem;
+  }
+
+  .FP-p-8 {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 93%;
+    font-size: 0.8rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ FRASE ------------------ */
+  .FP-inf-7 {
+    position: absolute;
+    margin-top: 355%;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(29, 25, 49);
+    overflow: hidden;
+  }
+
+  .FP-inf-7::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    animation: destello 2s infinite;
+    pointer-events: none;
+  }
+
+  @keyframes destello {
+    0% {
+      left: -75%;
+    }
+    50% {
+      left: 125%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+
+  .FP-div-2 {
+    width: 20%;
+    height: 60%;
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 50%;
+  }
+
+  .FP-img-11 {
+    margin-top: -4.5vh;
+    margin-left: -8vh;
+    width: 140%;
+    height: 125%;
+  }
+
+  .FP-p-9 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 50%;
+    font-size: 0.9rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  }
+
+  .FP-btn-inscripcion-2 {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    width: 30%;
+    height: 9%;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .FP-btn-inscripcion-2:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ OPORTUNIDAD ------------------ */
+  .FP-inf-8 {
+    position: absolute;
+    margin-top: 420%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-6 {
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .FP-cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 20%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-5,
+  .FP-card-6,
+  .FP-card-7,
+  .FP-card-8,
+  .FP-card-9 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-12,
+  .FP-img-13,
+  .FP-img-14,
+  .FP-img-15,
+  .FP-img-16 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-5 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    text-align: justify;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .FP-link-4 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  /* ------------------ COMUNIDAD ------------------ */
+  .FP-inf-9 {
+    position: absolute;
+    margin-top: 638%;
+    width: 100%;
+    height: 70%;
+  }
+
+  .FP-tit-7 {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .FP-p-10 {
+    position: absolute;
+    top: 16%;
+    left: 4%;
+    width: 90%;
+    font-size: 0.8rem;
+    word-spacing: 8px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+  }
+
+  .FP-cards-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 55%;
+    width: 100%;
+    height: 110%;
+  }
+
+  .FP-card-10,
+  .FP-card-11 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .FP-img-17,
+  .FP-img-18 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .FP-sub-6 {
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    text-align: justify;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .FP-link-5 {
+    text-align: right;
+    margin-top: 4%;
+    color: rgb(0, 0, 0);
+  }
+
+  .formacion-policial footer {
+    position: relative;
+    width: 100%;
+    background-color: #002b5c; /* color del footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 400vh; /* empuja el footer más abajo del contenido */
+    z-index: 10;
+  }
+}
+

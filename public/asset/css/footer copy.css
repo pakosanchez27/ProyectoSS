@@ -1,0 +1,46 @@
+
+footer {
+  display: flex;
+  background: #c7c7c7;
+  font-weight: normal;
+  padding: 6%;
+  flex-direction: column;
+
+}
+
+.tit1{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    font-size: 20px;
+}
+
+#sub{
+    font-size: 20px;
+    margin-top: -1%;
+}
+
+#tex1{
+    font-size: 18px;
+    margin-top: -0.5%;
+}
+
+.tex2{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -120px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 1%; 
+}
+#iconos{
+    display: flex;
+    width: 4%;
+    height: 5%;
+    margin-top: -5%;
+}

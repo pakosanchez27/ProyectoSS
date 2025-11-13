@@ -1,0 +1,91 @@
+/* Header */
+.dgsc2025-01 {
+  position: fixed;
+  display: flex;
+  width: 5%;
+  height: 8%;
+  margin-top: 0.5%;
+  margin-left: -85%;
+  /* Añadir ajuste para pantallas pequeñas */
+}
+
+header {
+  background: #c7c7c7;
+  padding: 0rem;
+  text-align: center;
+  margin-bottom: 50px;
+  /* Podrías considerar padding para móviles */
+}
+
+nav {
+  background: #013c74;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.bg-primary {
+  background-color: #002b5c !important; /* Tu nuevo color */
+}
+
+#boton-menu {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+#boton-menu:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.H-img-logo{
+  position: absolute;
+  margin-top: -3.5vh;
+  margin-left: -25vh;
+  width: 5%;
+  height: 80%;
+}
+
+/* Media queries para hacer responsivo */
+@media (max-width: 768px) {
+  .dgsc2025-01 {
+    width: 15%;          /* Aumenta el ancho en móviles */
+    height: auto;        /* Ajusta altura automáticamente */
+    margin-left: 0;      /* Ajusta margen para que no quede tan a la izquierda */
+    top: 0.5rem;         /* Ajusta posición para que no tape contenido */
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;          /* Reduce el espacio entre botones */
+  }
+
+  #boton-menu {
+    margin-top: 1rem;
+    font-size: 1rem;     /* Ajusta tamaño para mejor lectura */
+  }
+}
+
+@media (max-width: 480px) {
+  .dgsc2025-01 {
+    width: 25%;
+    margin-left: 0;
+  }
+
+  #boton-menu {
+    font-size: 0.9rem;
+  }
+}

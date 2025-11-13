@@ -1,0 +1,74 @@
+footer {
+  display: flex;
+  background: #c7c7c7;
+  font-weight: normal;
+  padding: 6%;
+  flex-direction: column;
+}
+
+.tit1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  font-size: 20px;
+}
+
+#sub {
+  font-size: 20px;
+  margin-top: -1%;
+}
+
+#tex1 {
+  font-size: 18px;
+  margin-top: -0.5%;
+}
+
+.tex2 {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -120px;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+
+#iconos {
+  display: flex;
+  width: 4%;
+  height: 5%;
+  margin-top: -5%;
+}
+
+/* Responsividad sin cambiar nada de diseño */
+@media (max-width: 768px) {
+  .tex2 {
+    margin-top: 0;          /* Evitar margin negativo tan grande en pantallas pequeñas */
+    justify-content: center; /* Centrar el texto para que no quede raro */
+    flex-wrap: wrap;
+  }
+
+  #iconos {
+    width: 8%;              /* Aumentar tamaño de iconos en móviles */
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .tit1, #sub {
+    font-size: 18px;
+  }
+
+  #tex1, .tex2 {
+    font-size: 16px;
+  }
+
+  #iconos {
+    width: 12%;
+  }
+}

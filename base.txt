@@ -1,0 +1,74 @@
+-- ===============================================
+-- BASE DE DATOS: comisaria
+-- ===============================================
+
+CREATE DATABASE IF NOT EXISTS comisaria
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_general_ci;
+
+USE comisaria;
+
+-- ===============================================
+-- TABLA: roles (ahora con permisos)
+-- ===============================================
+CREATE TABLE IF NOT EXISTS roles (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        nombre VARCHAR(100) NOT NULL,
+        descripcion VARCHAR(255) NOT NULL,
+        puede_leer TINYINT(1) DEFAULT 0,
+        puede_escribir TINYINT(1) DEFAULT 0,
+        puede_editar TINYINT(1) DEFAULT 0,
+        puede_eliminar TINYINT(1) DEFAULT 0,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ===============================================
+-- TABLA: areas
+-- ===============================================
+CREATE TABLE IF NOT EXISTS areas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255) NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ===============================================
+-- TABLA: users
+-- ===============================================
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    id_rol INT NOT NULL,
+    id_area INT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_rol) REFERENCES roles(id) ON DELETE RESTRICT ON UPDATE CASCADE,
+    FOREIGN KEY (id_area) REFERENCES areas(id) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ===============================================
+-- DATOS DE EJEMPLO
+-- ===============================================
+
+-- Roles con permisos integrados
+INSERT INTO roles (nombre, descripcion, puede_leer, puede_escribir, puede_editar, puede_eliminar) VALUES
+('Administrador', 'Acceso total al sistema', 1, 1, 1, 1),
+('Editor', 'Puede leer, crear y editar registros, pero no eliminar', 1, 1, 1, 0),
+('Empleado', 'Solo puede leer información', 1, 0, 0, 0);
+
+-- Áreas
+INSERT INTO areas (nombre, descripcion) VALUES
+('RRHH', 'Recursos Humanos'),
+('Finanzas', 'Departamento de Finanzas'),
+('Operaciones', 'Área Operativa');
+
+-- Usuarios
+INSERT INTO users (nombre, apellidos, email, password, id_rol, id_area) VALUES
+('Juan', 'Pérez', 'juan@empresa.com', MD5('123456'), 1, 1),
+('María', 'López', 'maria@empresa.com', MD5('123456'), 2, 1),
+('Carlos', 'Ramírez', 'carlos@empresa.com', MD5('123456'), 3, 2);

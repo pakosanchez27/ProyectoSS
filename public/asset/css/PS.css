@@ -1,0 +1,3294 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+}
+
+/*-- ----------------------------- PRINCIPAL ----------------------------- --*/
+
+.PS-intro {
+  margin-top: 37%;
+  width: 100%;
+  height: 800px;
+}
+
+.PS-tit-1 {
+  margin-top: -55vh;
+  margin-left: 62%;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.PS-div-tex-1 {
+  margin-top: 2%;
+  margin-left: 53%;
+}
+
+.PS-div-tex-1 > * {
+  text-align: center;
+  font-size: 2.3vh;
+  line-height: 3rem;
+  opacity: 0;
+  transform: scale(0);
+  animation: honeycomb 5s ease-in-out infinite both;
+}
+
+.PS-div-tex-1 > *:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.PS-div-tex-1 > *:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.PS-div-tex-1 > *:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.PS-img-2,
+.PS-div-pentagonos > img {
+  opacity: 0;
+  transform: scale(0);
+  animation: honeycomb 5s ease-in-out infinite both;
+}
+
+.PS-img-2 {
+  margin-top: 2%;
+  margin-left: 67%;
+  width: 20%;
+  height: 20%;
+  z-index: -1;
+  animation-delay: 1s;
+}
+
+.PS-div-pentagonos {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 10%;
+}
+
+.PS-div-pentagonos > img {
+  position: absolute;
+  height: 24%;
+  object-fit: cover;
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.PS-div-pentagonos > img:hover {
+  transform: translateY(-15px) rotateY(12deg) rotateX(8deg) scale(1.05);
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.45)) brightness(2);
+}
+
+@keyframes honeycomb {
+  0%,
+  20% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  40%,
+  60% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+[class^="PS-pentagono-"] {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.PS-pentagono-1 {
+  margin-top: -76.4vh;
+  margin-left: 23.5%;
+  width: 13%;
+  animation-delay: 0s;
+}
+.PS-pentagono-2 {
+  margin-top: -60.4vh;
+  margin-left: 10.8%;
+  width: 14%;
+  animation-delay: 0.3s;
+}
+.PS-pentagono-3 {
+  margin-top: -50.6vh;
+  margin-left: 23%;
+  width: 14%;
+  animation-delay: 0.6s;
+  clip-path: polygon(50% 100%, 98% 60%, 80% 0%, 20% 0%, 0% 60%);
+}
+.PS-pentagono-4 {
+  margin-top: -60.3vh;
+  margin-left: 35%;
+  width: 14%;
+  animation-delay: 0.9s;
+}
+.PS-pentagono-5 {
+  margin-top: -34vh;
+  margin-left: 15.6%;
+  width: 14%;
+  animation-delay: 1.2s;
+}
+.PS-pentagono-6 {
+  margin-top: -34vh;
+  margin-left: 30.5%;
+  width: 14%;
+  animation-delay: 1.5s;
+}
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD HOGAR ------------------------------------------------------------------------ --*/
+
+.PS-sh {
+  margin-top: 45%;
+}
+
+.PS-tit-2 {
+  margin-top: -110vh;
+  margin-left: 10%;
+  font-size: 4vh;
+}
+
+.PS-div-H {
+  margin-top: 35%;
+}
+
+.PS-tex-2 {
+  margin-top: 2%;
+  margin-left: 10%;
+  font-style: italic;
+  font-size: 3vh;
+}
+
+.PS-img-3 {
+  margin-top: 4%;
+  margin-left: 10%;
+  width: 32%;
+  height: 70%;
+}
+
+/*-- ----------------------- CASA ----------------------- --*/
+
+#lienzo-casa {
+  position: absolute;
+  top: 85%;
+  left: -50vh;
+  width: 0%;
+  height: 0%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/*-- ----------------------- CÍRCULOS ----------------------- --*/
+
+.PS-circ-1,
+.PS-circ-2,
+.PS-circ-3,
+.PS-circ-4,
+.PS-circ-5 {
+  position: absolute;
+  margin-left: 52%;
+  width: 4%;
+  height: 7%;
+  background-color: #fff;
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.PS-circ-1 {
+  margin-top: -61vh;
+}
+.PS-circ-2 {
+  margin-top: -50vh;
+}
+.PS-circ-3 {
+  margin-top: -39vh;
+}
+.PS-circ-4 {
+  margin-top: -28vh;
+}
+.PS-circ-5 {
+  margin-top: -17vh;
+}
+
+/*-- ----------------------- NÚMEROS ----------------------- --*/
+
+.PS-nums-1,
+.PS-nums-2,
+.PS-nums-3,
+.PS-nums-4,
+.PS-nums-5 {
+  position: absolute;
+  margin-left: 53.5%;
+}
+
+.PS-nums-1 {
+  margin-top: -60vh;
+}
+.PS-nums-2 {
+  margin-top: -49vh;
+}
+.PS-nums-3 {
+  margin-top: -38vh;
+}
+.PS-nums-4 {
+  margin-top: -27vh;
+}
+.PS-nums-5 {
+  margin-top: -16vh;
+}
+
+/*-- ----------------------- TEXTOS ----------------------- --*/
+
+.PS-tex-3,
+.PS-tex-4,
+.PS-tex-5,
+.PS-tex-6,
+.PS-tex-7 {
+  position: absolute;
+  margin-left: 57%;
+  font-size: 30px;
+}
+
+.PS-tex-3 {
+  margin-top: -61vh;
+}
+.PS-tex-4 {
+  margin-top: -50vh;
+}
+.PS-tex-5 {
+  margin-top: -40vh;
+}
+.PS-tex-6 {
+  margin-top: -29vh;
+}
+.PS-tex-7 {
+  margin-top: -18vh;
+}
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD ESCUELA ------------------------------------------------------------------------ --*/
+
+.PS-tit-3 {
+  margin-top: 40%;
+  margin-left: 10%;
+  font-size: 4vh; /* Tamaño de la letra */
+}
+
+.PS-div-E {
+  margin-top: 33%;
+}
+
+.PS-tex-8 {
+  margin-top: 2%;
+  margin-left: 10%;
+  font-style: italic;
+  font-size: 3vh; /* Tamaño de la letra */
+}
+
+.PS-img-4 {
+  margin-top: 2.5%;
+  margin-left: 60%;
+  width: 32%;
+  height: 70%;
+}
+
+/*-- ----------------------- PIRÁMIDE ----------------------- --*/
+
+#lienzo-piramide {
+  position: absolute;
+  top: 183%;
+  left: 50%;
+  width: 0%;
+  height: 0%;
+  z-index: 0; /* o el que necesites */
+}
+
+.PS-div-img-5 {
+  position: relative;
+  width: 100%;
+  height: auto; /* mantiene proporción */
+  margin: 0 auto; /* centra el SVG */
+}
+/*-- ----------------------- CÍRCULOS ----------------------- --*/
+
+.PS-circ-6,
+.PS-circ-7,
+.PS-circ-8,
+.PS-circ-9,
+.PS-circ-10 {
+  position: absolute;
+  margin-left: 10%;
+  width: 4%;
+  height: 7%;
+  background-color: #fff;
+  border: 4px solid #b0b6bc;
+  border-radius: 50%;
+}
+
+.PS-circ-6 {
+  margin-top: -55vh;
+}
+.PS-circ-7 {
+  margin-top: -44vh;
+}
+.PS-circ-8 {
+  margin-top: -33vh;
+}
+.PS-circ-9 {
+  margin-top: -22vh;
+}
+.PS-circ-10 {
+  margin-top: -11vh;
+}
+
+/*-- ----------------------- NÚMEROS ----------------------- --*/
+
+.PS-nums-6,
+.PS-nums-7,
+.PS-nums-8,
+.PS-nums-9,
+.PS-nums-10 {
+  position: absolute;
+  margin-left: -85vh;
+}
+
+.PS-nums-6 {
+  margin-top: -5vh;
+}
+.PS-nums-7 {
+  margin-top: 6vh;
+}
+.PS-nums-8 {
+  margin-top: 17vh;
+}
+.PS-nums-9 {
+  margin-top: 28vh;
+}
+.PS-nums-10 {
+  margin-top: 39vh;
+}
+
+/*-- ----------------------- TEXTOS ----------------------- --*/
+
+.PS-tex-9,
+.PS-tex-10,
+.PS-tex-11,
+.PS-tex-12,
+.PS-tex-13 {
+  position: absolute;
+  margin-left: -77vh;
+  font-size: 30px;
+}
+
+.PS-tex-9 {
+  margin-top: -6vh;
+}
+.PS-tex-10 {
+  margin-top: 5vh;
+}
+.PS-tex-11 {
+  margin-top: 145px;
+}
+.PS-tex-12 {
+  margin-top: 250px;
+}
+.PS-tex-13 {
+  margin-top: 350px;
+}
+
+/* .PS-tex-13-1 {
+  margin-top: 180%;
+  margin-left: -77vh;
+  font-size: 30px;
+} 
+ */
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD VIAL ------------------------------------------------------------------------ --*/
+.PS-tit-4 {
+  margin-top: 40%;
+  margin-left: 10%;
+  font-size: 4vh; /* Tamaño de la letra */
+}
+
+.PS-div-img-5 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.PS-img-5 {
+  margin-top: 2.5%;
+  width: 50%;
+  height: 120%;
+  z-index: -1;
+}
+
+.PS-div-nums-3,
+.PS-div-img-5-1 {
+  position: absolute;
+  top: 320%;
+  height: 280%;
+}
+
+.PS-div-nums-3 {
+  left: 20%;
+  width: 60%;
+}
+
+.PS-div-img-5-1 {
+  left: 25%;
+  width: 55%;
+}
+
+.PS-tex-15,
+.PS-tex-16,
+.PS-tex-17,
+.PS-tex-18,
+.PS-tex-19 {
+  position: absolute;
+  font-size: 30px;
+}
+
+.PS-tex-15 {
+  top: 6%;
+  left: 20%;
+}
+.PS-tex-16 {
+  top: 26%;
+  left: 54%;
+}
+.PS-tex-17 {
+  top: 48%;
+  left: 20%;
+}
+.PS-tex-18 {
+  top: 67%;
+  left: 54%;
+}
+.PS-tex-19 {
+  top: 90%;
+  left: 20%;
+}
+
+.PS-img-5-1,
+.PS-img-5-2,
+.PS-img-5-3,
+.PS-img-5-4,
+.PS-img-5-5 {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+}
+
+.PS-img-5-1 {
+  top: 2%;
+  left: 60%;
+}
+.PS-img-5-2 {
+  top: 23%;
+  left: 10%;
+}
+.PS-img-5-3 {
+  top: 43%;
+  left: 60%;
+}
+.PS-img-5-4 {
+  top: 64%;
+  left: 10%;
+}
+.PS-img-5-5 {
+  top: 87%;
+  left: 60%;
+}
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD INCENDIO ------------------------------------------------------------------------ --*/
+
+.PS-tit-5 {
+  margin-top: 2%;
+  margin-left: 10%;
+  font-size: 4vh; /* Tamaño de la letra */
+}
+
+.PS-div-img-6,
+.PS-div-img-6-1 {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.PS-img-container {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.PS-img-6 {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  z-index: 3;
+}
+
+.PS-img-container:hover .PS-img-6 {
+  transform: scale(1.2);
+}
+
+.PS-ring {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.PS-img-container:hover .PS-ring {
+  opacity: 1;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.PS-div-nums-4,
+.PS-div-nums-4-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 150px;
+  margin: 10px auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.PS-div-nums-4-1 {
+  gap: 130px;
+  margin: -40vh auto;
+  padding-top: 23%;
+}
+
+.PS-div-nums-4 p,
+.PS-div-nums-4-1 p {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  position: static;
+  flex: 0 1 auto;
+  width: 12%;
+}
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD SISMO ------------------------------------------------------------------------ --*/
+
+.PS-tit-6 {
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 4vh;
+}
+
+/*-- ----------------------- IMAGENES ----------------------- --*/
+
+.PS-div-img-7 {
+  margin-top: 8%;
+}
+
+.PS-circle-img {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+}
+
+.PS-circle-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 90%;
+  border: 50px solid purple;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.PS-img-7 {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  border: 15px solid gold;
+  background: white;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  animation: expand 8s forwards;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+.PS-img-7:nth-child(2) {
+  --x: -140%;
+  --y: -170%;
+  animation-delay: 0.2s;
+}
+.PS-img-7:nth-child(3) {
+  --x: -200%;
+  --y: -50%;
+  animation-delay: 0.4s;
+}
+.PS-img-7:nth-child(4) {
+  --x: -140%;
+  --y: 70%;
+  animation-delay: 0.6s;
+}
+.PS-img-7:nth-child(5) {
+  --x: 40%;
+  --y: -170%;
+  animation-delay: 0.8s;
+}
+.PS-img-7:nth-child(6) {
+  --x: 100%;
+  --y: -50%;
+  animation-delay: 1s;
+}
+.PS-img-7:nth-child(7) {
+  --x: 40%;
+  --y: 70%;
+  animation-delay: 1.2s;
+}
+
+@keyframes expand {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(var(--x), var(--y)) scale(1);
+    opacity: 1;
+  }
+}
+
+/*-- ----------------------- TEXTOS ----------------------- --*/
+
+/* Textos lado izquierdo */
+.PS-tex-29,
+.PS-tex-30,
+.PS-tex-31 {
+  position: absolute;
+  width: 34vh;
+  font-size: 22px;
+}
+
+.PS-tex-29 {
+  margin-top: -36vh;
+  margin-left: -70vh;
+}
+.PS-tex-30 {
+  margin-top: -10vh;
+  margin-left: -85vh;
+}
+.PS-tex-31 {
+  margin-top: 28vh;
+  margin-left: -70vh;
+}
+
+/* Textos lado derecho */
+.PS-tex-32,
+.PS-tex-33,
+.PS-tex-34 {
+  position: absolute;
+  width: 33vh;
+  font-size: 22px;
+  text-align: right;
+}
+
+.PS-tex-32 {
+  margin-top: -36vh;
+  margin-left: 22vh;
+}
+.PS-tex-33 {
+  margin-top: -10vh;
+  margin-left: 40vh;
+}
+.PS-tex-34 {
+  margin-top: 28vh;
+  margin-left: 22vh;
+}
+
+/*-- ------------------------------------------------------------------------ SEGURIDAD PC ------------------------------------------------------------------------ --*/
+
+.PS-tit-7 {
+  margin-top: -60vh;
+  margin-left: 10%;
+  font-size: 4vh;
+}
+
+/*-- ----------------------- CROQUIS ----------------------- --*/
+
+.PS-spc {
+  margin-top: 45%;
+}
+
+.PS-img-8 {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 35%;
+  height: 40%;
+  z-index: -2;
+}
+
+.PS-div-croquis {
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+.svg-camino {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* tamaño original */
+  display: block;
+  margin: 0 auto;
+}
+
+.person {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: linear-gradient(145deg, #ffcc99, #cc9966);
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transform: rotateX(20deg);
+}
+
+.person-1 {
+  left: 50px;
+  top: 350px;
+}
+.person-2 {
+  left: 150px;
+  top: 300px;
+}
+.person-3 {
+  left: 200px;
+  top: 250px;
+}
+.person-4 {
+  left: 300px;
+  top: 300px;
+}
+.person-5 {
+  left: 400px;
+  top: 350px;
+}
+.person-6 {
+  left: 450px;
+  top: 200px;
+}
+.person-7 {
+  left: 550px;
+  top: 250px;
+}
+.person-8 {
+  left: 500px;
+  top: 300px;
+}
+.person-9 {
+  left: 400px;
+  top: 100px;
+}
+.person-10 {
+  left: 300px;
+  top: 150px;
+}
+.person-11 {
+  left: 200px;
+  top: 200px;
+}
+.person-12 {
+  left: 150px;
+  top: 100px;
+}
+.person-13 {
+  left: 50px;
+  top: 150px;
+}
+
+/*-- ---------------------------------------------- --*/
+
+.PS-nums-S {
+  position: relative;
+  margin-top: 35%;
+}
+
+.PS-tex-div-36,
+.PS-tex-div-37,
+.PS-tex-div-38,
+.PS-tex-div-39,
+.PS-tex-div-40 {
+  position: absolute;
+  margin-left: 113vh;
+  width: 55vh;
+  height: 10vh;
+  font-size: 26px;
+}
+
+.PS-tex-36,
+.PS-tex-37,
+.PS-tex-38,
+.PS-tex-39,
+.PS-tex-40 {
+  position: absolute;
+  margin-left: 115vh;
+  font-size: 26px;
+  color: white;
+}
+
+/* Específicos */
+.PS-tex-div-36 {
+  margin-top: -66vh;
+  background-color: rgb(0, 56, 161);
+}
+.PS-tex-36 {
+  margin-top: -65vh;
+  width: 60vh;
+}
+
+.PS-tex-div-37 {
+  margin-top: -54vh;
+  background-color: rgba(0, 56, 161, 0.582);
+}
+.PS-tex-37 {
+  margin-top: -53vh;
+  width: 60vh;
+}
+
+.PS-tex-div-38 {
+  margin-top: -42vh;
+  background-color: rgb(0, 56, 161);
+}
+.PS-tex-38 {
+  margin-top: -41vh;
+  width: 50vh;
+}
+
+.PS-tex-div-39 {
+  margin-top: -30vh;
+  background-color: rgba(0, 56, 161, 0.582);
+}
+.PS-tex-39 {
+  margin-top: -29vh;
+  width: 60vh;
+}
+
+.PS-tex-div-40 {
+  margin-top: -18vh;
+  background-color: rgb(0, 56, 161);
+}
+.PS-tex-40 {
+  margin-top: -17vh;
+  width: 54vh;
+}
+
+/*-- ------------------------------------------------------------------------ RESPONSIVO ------------------------------------------------------------------------ --*/
+
+/*-- ------------------------------------------------- ESCRITORIO ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  canvas {
+    max-width: 100vw;
+    width: 100vw !important;
+  }
+
+  .Prevencion_Seguridad {
+    margin-left: -2vh;
+  }
+
+  .PS-intro {
+    margin-top: 37%;
+    width: 100%;
+    height: 800px;
+  }
+
+  .PS-tit-1 {
+    position: relative;
+    margin-top: -50vh;
+    margin-left: 47%;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .PS-div-tex-1 {
+    margin-top: 5%;
+    margin-left: 48%;
+  }
+
+  .PS-div-tex-1 > * {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-div-tex-1 > *:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .PS-div-tex-1 > *:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .PS-div-tex-1 > *:nth-child(3) {
+    animation-delay: 0.8s;
+  }
+
+  .PS-img-2,
+  .PS-div-pentagonos > img {
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-img-2 {
+    margin-top: 1%;
+    margin-left: 63%;
+    width: 22%;
+    height: 10%;
+    z-index: -1;
+    animation-delay: 1s;
+  }
+
+  .PS-div-pentagonos {
+    position: relative;
+    width: 80%;
+    min-height: 80vh;
+    margin-top: 170px;
+  }
+
+  .PS-div-pentagonos > img {
+    position: absolute;
+    height: 22%;
+    object-fit: cover;
+    transition: transform 0.6s ease, filter 0.6s ease;
+  }
+
+  .PS-div-pentagonos > img:hover {
+    transform: translateY(-15px) rotateY(12deg) rotateX(8deg) scale(1.05);
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.45)) brightness(2);
+  }
+
+  @keyframes honeycomb {
+    0%,
+    20% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    40%,
+    60% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    80%,
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+
+  [class^="PS-pentagono-"] {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  .PS-pentagono-1 {
+    margin-top: -67vh;
+    margin-left: 32%;
+    width: 11%;
+    animation-delay: 0s;
+  }
+  .PS-pentagono-2 {
+    margin-top: -54vh;
+    margin-left: 17%;
+    width: 13%;
+    animation-delay: 0.3s;
+  }
+  .PS-pentagono-3 {
+    margin-top: -48.7vh;
+    margin-left: 31%;
+    width: 13%;
+    animation-delay: 0.6s;
+    clip-path: polygon(50% 100%, 98% 60%, 80% 0%, 20% 0%, 0% 60%);
+  }
+  .PS-pentagono-4 {
+    margin-top: -54vh;
+    margin-left: 45%;
+    width: 13%;
+    animation-delay: 0.9s;
+  }
+  .PS-pentagono-5 {
+    margin-top: -35vh;
+    margin-left: 22%;
+    width: 13%;
+    animation-delay: 1.2s;
+  }
+  .PS-pentagono-6 {
+    margin-top: -34vh;
+    margin-left: 40%;
+    width: 13%;
+    animation-delay: 1.5s;
+  }
+
+  /* ------------------ HOGAR ------------------ */
+
+  .PS-sh {
+    margin-top: 26%;
+  }
+
+  .PS-tit-2 {
+    margin-top: -110vh;
+    margin-left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .PS-div-H {
+    margin-top: 38%;
+  }
+
+  .PS-tex-2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  .PS-img-3 {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 32%;
+    height: 70%;
+  }
+
+  /* ---------- CASA ---------- */
+  #lienzo-casa {
+    position: absolute;
+    top: 64%;
+    left: -35vh;
+    width: 0%;
+    height: 0%;
+    z-index: 0;
+    pointer-events: none;
+  }
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-1,
+  .PS-circ-2,
+  .PS-circ-3,
+  .PS-circ-4,
+  .PS-circ-5 {
+    position: absolute;
+    margin-left: 53%;
+    width: 4%;
+    height: 7%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-1 {
+    margin-top: -51vh;
+  }
+  .PS-circ-2 {
+    margin-top: -40vh;
+  }
+  .PS-circ-3 {
+    margin-top: -29vh;
+  }
+  .PS-circ-4 {
+    margin-top: -18vh;
+  }
+  .PS-circ-5 {
+    margin-top: -8vh;
+  }
+  /* ---------- NUMEROS ---------- */
+  .PS-nums-1,
+  .PS-nums-2,
+  .PS-nums-3,
+  .PS-nums-4,
+  .PS-nums-5 {
+    position: absolute;
+    margin-left: 54.5%;
+    font-size: 1.2rem;
+  }
+
+  .PS-nums-1 {
+    margin-top: -49vh;
+  }
+  .PS-nums-2 {
+    margin-top: -38vh;
+  }
+  .PS-nums-3 {
+    margin-top: -27vh;
+  }
+  .PS-nums-4 {
+    margin-top: -16vh;
+  }
+  .PS-nums-5 {
+    margin-top: -6vh;
+  }
+
+  /* ---------- TEXTOS ---------- */
+  .PS-tex-3,
+  .PS-tex-4,
+  .PS-tex-5,
+  .PS-tex-6,
+  .PS-tex-7 {
+    position: absolute;
+    margin-left: 59%;
+    font-size: 1rem;
+  }
+
+  .PS-tex-3 {
+    margin-top: -51vh;
+  }
+  .PS-tex-4 {
+    margin-top: -40vh;
+  }
+  .PS-tex-5 {
+    margin-top: -29vh;
+  }
+  .PS-tex-6 {
+    margin-top: -18vh;
+  }
+  .PS-tex-7 {
+    margin-top: -8vh;
+  }
+
+  /* ------------------ ESCUELA ------------------ */
+
+  .PS-tit-3 {
+    margin-top: 45%;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-E {
+    margin-top: 30%;
+  }
+
+  .PS-tex-8 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-style: italic;
+    font-size: 1rem; /* Tamaño de la letra */
+  }
+
+  .PS-img-4 {
+    margin-top: 2.5%;
+    margin-left: 60%;
+    width: 32%;
+    height: 70%;
+  }
+  /* ---------- PIRAMIDE ---------- */
+  #lienzo-piramide {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    max-width: 50vw;
+    width: 50vw !important;
+    transform: translateX(0);
+    z-index: 0; /* o el que necesites */
+  }
+
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-6,
+  .PS-circ-7,
+  .PS-circ-8,
+  .PS-circ-9,
+  .PS-circ-10 {
+    position: absolute;
+    margin-left: 5%;
+    width: 4%;
+    height: 7%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-6 {
+    margin-top: -39vh;
+  }
+  .PS-circ-7 {
+    margin-top: -28vh;
+  }
+  .PS-circ-8 {
+    margin-top: -17vh;
+  }
+  .PS-circ-9 {
+    margin-top: -6vh;
+  }
+  .PS-circ-10 {
+    margin-top: 5vh;
+  }
+
+  /* ---------- NÚMEROS ---------- */
+
+  .PS-nums-6,
+  .PS-nums-7,
+  .PS-nums-8,
+  .PS-nums-9,
+  .PS-nums-10 {
+    position: absolute;
+    margin-left: -75.5vh;
+    font-size: 1.2rem;
+  }
+
+  .PS-nums-6 {
+    margin-top: 1vh;
+  }
+  .PS-nums-7 {
+    margin-top: 12vh;
+  }
+  .PS-nums-8 {
+    margin-top: 23vh;
+  }
+  .PS-nums-9 {
+    margin-top: 34vh;
+  }
+  .PS-nums-10 {
+    margin-top: 45vh;
+  }
+  /* ---------- TEXTOS ---------- */
+
+  .PS-tex-9,
+  .PS-tex-10,
+  .PS-tex-11,
+  .PS-tex-12,
+  .PS-tex-13 {
+    position: absolute;
+    margin-left: -68vh;
+    font-size: 1rem;
+  }
+
+  .PS-tex-9 {
+    margin-top: -1vh;
+  }
+  .PS-tex-10 {
+    margin-top: 10vh;
+  }
+  .PS-tex-11 {
+    margin-top: 21vh;
+  }
+  .PS-tex-12 {
+    margin-top: 32vh;
+  }
+  .PS-tex-13 {
+    margin-top: 44vh;
+  }
+
+  /* ------------------ VIAL ------------------ */
+
+  .PS-tit-4 {
+    margin-top: 45%;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -85vh;
+  }
+
+  .PS-img-5 {
+    margin-top: -20vh;
+    width: 40%;
+    height: 120%;
+    z-index: -1;
+  }
+
+  .PS-div-nums-3,
+  .PS-div-img-5-1 {
+    position: absolute;
+    margin-top: -38vh;
+    height: 250%;
+  }
+
+  .PS-div-nums-3 {
+    left: 20%;
+    width: 60%;
+  }
+
+  .PS-div-img-5-1 {
+    left: 25%;
+    width: 55%;
+  }
+
+  .PS-tex-15,
+  .PS-tex-16,
+  .PS-tex-17,
+  .PS-tex-18,
+  .PS-tex-19 {
+    position: absolute;
+    font-size: 1rem;
+  }
+
+  .PS-tex-15 {
+    top: 6%;
+    left: 20%;
+  }
+  .PS-tex-16 {
+    top: 26%;
+    left: 54%;
+  }
+  .PS-tex-17 {
+    top: 48%;
+    left: 20%;
+  }
+  .PS-tex-18 {
+    top: 67%;
+    left: 54%;
+  }
+  .PS-tex-19 {
+    top: 90%;
+    left: 20%;
+  }
+
+  .PS-img-5-1,
+  .PS-img-5-2,
+  .PS-img-5-3,
+  .PS-img-5-4,
+  .PS-img-5-5 {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+  }
+
+  .PS-img-5-1 {
+    top: 2%;
+    left: 60%;
+  }
+  .PS-img-5-2 {
+    top: 23%;
+    left: 10%;
+  }
+  .PS-img-5-3 {
+    top: 43%;
+    left: 60%;
+  }
+  .PS-img-5-4 {
+    top: 64%;
+    left: 10%;
+  }
+  .PS-img-5-5 {
+    top: 87%;
+    left: 60%;
+  }
+  /* ------------------ INCENDIO ------------------ */
+  .PS-tit-5 {
+    margin-top: -80vh;
+    margin-left: 5%;
+    font-size: 3vh; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-6,
+  .PS-div-img-6-1 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 50px;
+    margin-top: 5%;
+  }
+
+  .PS-img-container {
+    flex-basis: 10%; /* dos por fila aproximadamente */
+    display: flex;
+    justify-content: center;
+  }
+
+  .PS-img-6 {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    z-index: 3;
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .PS-img-container:hover .PS-img-6 {
+    transform: scale(1.2);
+  }
+
+  .PS-ring {
+    position: absolute;
+    width: 135% !important;
+    height: 140% !important;
+    top: -4.7vh;
+    left: -4vh;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .PS-img-container:hover .PS-ring {
+    opacity: 1;
+    animation: spin 1.5s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .PS-div-nums-4 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 70px;
+    margin-top: 5%;
+    margin-left: -23vh;
+    width: 130%;
+  }
+
+  .PS-div-nums-4-1 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 90px;
+    margin-top: -30vh;
+    margin-left: 1vh;
+    width: 100%;
+  }
+
+  .PS-div-nums-4 p,
+  .PS-div-nums-4-1 p {
+    flex-basis: 10%; /* dos por fila aproximadamente */
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  /* ------------------ SISMO ------------------ */
+  .PS-tit-6 {
+    margin-top: 30%;
+    margin-left: 5%;
+    font-size: 3vh;
+  }
+  /* ---------- IMAGENES ---------- */
+
+  .PS-div-img-7 {
+    margin-top: 5%;
+  }
+
+  .PS-circle-img {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+  }
+
+  .PS-circle-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 90%;
+    border: 50px solid purple;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .PS-img-7 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 15px solid gold;
+    background: white;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    animation: expand 8s forwards;
+    animation-iteration-count: infinite;
+    z-index: 1;
+  }
+
+  .PS-img-7:nth-child(2) {
+    --x: -140%;
+    --y: -170%;
+    animation-delay: 0.2s;
+  }
+  .PS-img-7:nth-child(3) {
+    --x: -200%;
+    --y: -50%;
+    animation-delay: 0.4s;
+  }
+  .PS-img-7:nth-child(4) {
+    --x: -140%;
+    --y: 70%;
+    animation-delay: 0.6s;
+  }
+  .PS-img-7:nth-child(5) {
+    --x: 40%;
+    --y: -170%;
+    animation-delay: 0.8s;
+  }
+  .PS-img-7:nth-child(6) {
+    --x: 100%;
+    --y: -50%;
+    animation-delay: 1s;
+  }
+  .PS-img-7:nth-child(7) {
+    --x: 40%;
+    --y: 70%;
+    animation-delay: 1.2s;
+  }
+
+  @keyframes expand {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(var(--x), var(--y)) scale(1);
+      opacity: 1;
+    }
+  }
+  /* ---------- TEXTOS ---------- */
+
+  /* Textos lado izquierdo */
+  .PS-tex-29,
+  .PS-tex-30,
+  .PS-tex-31 {
+    position: absolute;
+    width: 34vh;
+    font-size: 1rem;
+  }
+
+  .PS-tex-29 {
+    margin-top: -50vh;
+    margin-left: -80vh;
+  }
+  .PS-tex-30 {
+    margin-top: -30vh;
+    margin-left: -80vh;
+  }
+  .PS-tex-31 {
+    margin-top: -10vh;
+    margin-left: -80vh;
+  }
+
+  /* Textos lado derecho */
+  .PS-tex-32,
+  .PS-tex-33,
+  .PS-tex-34 {
+    position: absolute;
+    width: 33vh;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  .PS-tex-32 {
+    margin-top: -50vh;
+    margin-left: 30vh;
+  }
+  .PS-tex-33 {
+    margin-top: -30vh;
+    margin-left: 30vh;
+  }
+  .PS-tex-34 {
+    margin-top: -10vh;
+    margin-left: 30vh;
+  }
+
+  /* ------------------ PC ------------------ */
+  .PS-tit-7 {
+    margin-top: -30vh;
+    margin-left: 5%;
+    font-size: 3vh;
+  }
+
+  /* ---------- CROQUIS ---------- */
+
+  .PS-spc {
+    margin-top: 25%;
+  }
+
+  .PS-img-8 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 55%;
+    height: 50%;
+    z-index: -2;
+  }
+
+  .svg-camino {
+    transform: scaleX(0.9); /* 80% del ancho */
+    transform-origin: center; /* centra la escala */
+    margin-top: 2%;
+    margin-left: -3vh;
+  }
+
+  .PS-div-croquis {
+    position: absolute;
+    margin-top: -5vh;
+    margin-left: 4%;
+  }
+
+  .person {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: linear-gradient(145deg, #ffcc99, #cc9966);
+    border-radius: 50% 50% 20% 20%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .person-1 {
+    left: 40px;
+  }
+  .person-2 {
+    left: 135px;
+  }
+  .person-3 {
+    left: 182px;
+  }
+  .person-4 {
+    left: 240px;
+  }
+  .person-5 {
+    left: 345px;
+  }
+  .person-6 {
+    left: 400px;
+  }
+  .person-7 {
+    left: 480px;
+  }
+  .person-8 {
+    left: 430px;
+  }
+  .person-9 {
+    left: 380px;
+  }
+  .person-10 {
+    left: 270px;
+  }
+  .person-11 {
+    left: 180px;
+  }
+  .person-12 {
+    left: 150px;
+  }
+  .person-13 {
+    left: 60px;
+  }
+
+  /* ----------------------------- */
+  .PS-nums-S {
+    position: relative;
+    margin-top: 45%;
+  }
+
+  .PS-tex-div-36,
+  .PS-tex-div-37,
+  .PS-tex-div-38,
+  .PS-tex-div-39,
+  .PS-tex-div-40 {
+    position: absolute;
+    margin-left: 65%;
+    width: 30%;
+    height: 10vh;
+  }
+
+  .PS-tex-36,
+  .PS-tex-37,
+  .PS-tex-38,
+  .PS-tex-39,
+  .PS-tex-40 {
+    position: absolute;
+    margin-left: 66%;
+    font-size: 1rem;
+    color: white;
+  }
+
+  /* Específicos */
+  .PS-tex-div-36 {
+    margin-top: -66vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-36 {
+    margin-top: -65vh;
+    width: 45vh;
+  }
+
+  .PS-tex-div-37 {
+    margin-top: -54vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-37 {
+    margin-top: -53vh;
+    width: 45vh;
+  }
+
+  .PS-tex-div-38 {
+    margin-top: -42vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-38 {
+    margin-top: -41vh;
+    width: 45vh;
+  }
+
+  .PS-tex-div-39 {
+    margin-top: -30vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-39 {
+    margin-top: -29vh;
+    width: 45vh;
+  }
+
+  .PS-tex-div-40 {
+    margin-top: -18vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-40 {
+    margin-top: -17vh;
+    width: 45vh;
+  }
+}
+
+/*-- ------------------------------------------------- TABLET ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 768px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  canvas {
+    max-width: 100vw;
+    width: 100vw !important;
+  }
+
+  .Prevencion_Seguridad {
+    margin-left: 0%;
+  }
+  .PS-intro {
+    margin-top: 27%;
+    width: 100%;
+    height: 800px;
+  }
+
+  .PS-tit-1 {
+    position: relative;
+    margin-top: -20vh;
+    margin-left: 47%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .PS-div-tex-1 {
+    margin-top: 5%;
+    margin-left: 48%;
+  }
+
+  .PS-div-tex-1 > * {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-div-tex-1 > *:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .PS-div-tex-1 > *:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .PS-div-tex-1 > *:nth-child(3) {
+    animation-delay: 0.8s;
+  }
+
+  .PS-img-2,
+  .PS-div-pentagonos > img {
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-img-2 {
+    margin-top: 1%;
+    margin-left: 63%;
+    width: 22%;
+    height: 10%;
+    z-index: -1;
+    animation-delay: 1s;
+  }
+
+  .PS-div-pentagonos {
+    position: relative;
+    width: 120%;
+    min-height: 80vh;
+    margin-top: 180px;
+    margin-left: -15vh;
+  }
+
+  .PS-div-pentagonos > img {
+    position: absolute;
+    height: 22%;
+    object-fit: cover;
+    transition: transform 0.6s ease, filter 0.6s ease;
+  }
+
+  .PS-div-pentagonos > img:hover {
+    transform: translateY(-15px) rotateY(12deg) rotateX(8deg) scale(1.05);
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.45)) brightness(2);
+  }
+
+  @keyframes honeycomb {
+    0%,
+    20% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    40%,
+    60% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    80%,
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+
+  [class^="PS-pentagono-"] {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  .PS-pentagono-1 {
+    margin-top: -67vh;
+    margin-left: 32%;
+    width: 11%;
+    animation-delay: 0s;
+  }
+  .PS-pentagono-2 {
+    margin-top: -54vh;
+    margin-left: 17%;
+    width: 13%;
+    animation-delay: 0.3s;
+  }
+  .PS-pentagono-3 {
+    margin-top: -48.7vh;
+    margin-left: 31%;
+    width: 13%;
+    animation-delay: 0.6s;
+    clip-path: polygon(50% 100%, 98% 60%, 80% 0%, 20% 0%, 0% 60%);
+  }
+  .PS-pentagono-4 {
+    margin-top: -54vh;
+    margin-left: 45%;
+    width: 13%;
+    animation-delay: 0.9s;
+  }
+  .PS-pentagono-5 {
+    margin-top: -35vh;
+    margin-left: 22%;
+    width: 13%;
+    animation-delay: 1.2s;
+  }
+  .PS-pentagono-6 {
+    margin-top: -34vh;
+    margin-left: 40%;
+    width: 13%;
+    animation-delay: 1.5s;
+  }
+
+  /* ------------------ HOGAR ------------------ */
+
+  .PS-sh {
+    margin-top: 33%;
+  }
+
+  .PS-tit-2 {
+    margin-top: -110vh;
+    margin-left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .PS-div-H {
+    margin-top: 50%;
+  }
+
+  .PS-tex-2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+
+  .PS-img-3 {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 32%;
+    height: 70%;
+  }
+
+  /* ---------- CASA ---------- */
+  #lienzo-casa {
+    position: absolute;
+    top: 53%;
+    left: -23vh;
+    width: 0%;
+    height: 0%;
+    z-index: 0;
+    pointer-events: none;
+  }
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-1,
+  .PS-circ-2,
+  .PS-circ-3,
+  .PS-circ-4,
+  .PS-circ-5 {
+    position: absolute;
+    margin-left: 52%;
+    width: 5%;
+    height: 5%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-1 {
+    margin-top: -51vh;
+  }
+  .PS-circ-2 {
+    margin-top: -43vh;
+  }
+  .PS-circ-3 {
+    margin-top: -35vh;
+  }
+  .PS-circ-4 {
+    margin-top: -26vh;
+  }
+  .PS-circ-5 {
+    margin-top: -18vh;
+  }
+  /* ---------- NUMEROS ---------- */
+  .PS-nums-1,
+  .PS-nums-2,
+  .PS-nums-3,
+  .PS-nums-4,
+  .PS-nums-5 {
+    position: absolute;
+    margin-left: 54%;
+    font-size: 0.8rem;
+  }
+
+  .PS-nums-1 {
+    margin-top: -49.5vh;
+  }
+  .PS-nums-2 {
+    margin-top: -41.5vh;
+  }
+  .PS-nums-3 {
+    margin-top: -33.5vh;
+  }
+  .PS-nums-4 {
+    margin-top: -24.5vh;
+  }
+  .PS-nums-5 {
+    margin-top: -16.5vh;
+  }
+
+  /* ---------- TEXTOS ---------- */
+  .PS-tex-3,
+  .PS-tex-4,
+  .PS-tex-5,
+  .PS-tex-6,
+  .PS-tex-7 {
+    position: absolute;
+    margin-left: 59%;
+    font-size: 0.8rem;
+    width: 40%;
+  }
+
+  .PS-tex-3 {
+    margin-top: -51vh;
+  }
+  .PS-tex-4 {
+    margin-top: -43vh;
+  }
+  .PS-tex-5 {
+    margin-top: -35vh;
+  }
+  .PS-tex-6 {
+    margin-top: -26.5vh;
+  }
+  .PS-tex-7 {
+    margin-top: -18vh;
+  }
+
+  /* ------------------ ESCUELA ------------------ */
+
+  .PS-tit-3 {
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-E {
+    margin-top: 25%;
+  }
+
+  .PS-tex-8 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-style: italic;
+    font-size: 0.8rem; /* Tamaño de la letra */
+  }
+
+  .PS-img-4 {
+    margin-top: 2.5%;
+    margin-left: 60%;
+    width: 32%;
+    height: 70%;
+  }
+  /* ---------- PIRAMIDE ---------- */
+  #lienzo-piramide {
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    max-width: 40vw;
+    width: 40vw !important;
+    transform: translateX(0);
+    z-index: 0; /* o el que necesites */
+  }
+
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-6,
+  .PS-circ-7,
+  .PS-circ-8,
+  .PS-circ-9,
+  .PS-circ-10 {
+    position: absolute;
+    margin-left: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-6 {
+    margin-top: -23vh;
+  }
+  .PS-circ-7 {
+    margin-top: -14.5vh;
+  }
+  .PS-circ-8 {
+    margin-top: -5.5vh;
+  }
+  .PS-circ-9 {
+    margin-top: 3.7%;
+  }
+  .PS-circ-10 {
+    margin-top: 12%;
+  }
+
+  /* ---------- NÚMEROS ---------- */
+
+  .PS-nums-6,
+  .PS-nums-7,
+  .PS-nums-8,
+  .PS-nums-9,
+  .PS-nums-10 {
+    position: absolute;
+    margin-left: -55.6vh;
+    font-size: 0.8rem;
+  }
+
+  .PS-nums-6 {
+    margin-top: 20vh;
+  }
+  .PS-nums-7 {
+    margin-top: 28.5vh;
+  }
+  .PS-nums-8 {
+    margin-top: 37.5vh;
+  }
+  .PS-nums-9 {
+    margin-top: 47.2vh;
+  }
+  .PS-nums-10 {
+    margin-top: 57vh;
+  }
+  /* ---------- TEXTOS ---------- */
+
+  .PS-tex-9,
+  .PS-tex-10,
+  .PS-tex-11,
+  .PS-tex-12,
+  .PS-tex-13 {
+    position: absolute;
+    margin-left: -50vh;
+    font-size: 0.8rem;
+  }
+
+  .PS-tex-9 {
+    margin-top: 18.5vh;
+  }
+  .PS-tex-10 {
+    margin-top: 27vh;
+  }
+  .PS-tex-11 {
+    margin-top: 36vh;
+  }
+  .PS-tex-12 {
+    margin-top: 45.5vh;
+  }
+  .PS-tex-13 {
+    margin-top: 55.5vh;
+  }
+
+  /* ------------------ VIAL ------------------ */
+
+  .PS-tit-4 {
+    margin-top: 50%;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -127vh;
+  }
+
+  .PS-img-5 {
+    margin-top: -20vh;
+    width: 40%;
+    height: 120%;
+    z-index: -1;
+  }
+
+  .PS-div-nums-3,
+  .PS-div-img-5-1 {
+    position: absolute;
+    margin-top: -75vh;
+    height: 150%;
+  }
+
+  .PS-div-nums-3 {
+    left: 20%;
+    width: 60%;
+  }
+
+  .PS-div-img-5-1 {
+    left: 25%;
+    width: 55%;
+  }
+
+  .PS-tex-15,
+  .PS-tex-16,
+  .PS-tex-17,
+  .PS-tex-18,
+  .PS-tex-19 {
+    position: absolute;
+    font-size: 0.8rem;
+  }
+
+  .PS-tex-15 {
+    top: 6%;
+    left: 13%;
+  }
+  .PS-tex-16 {
+    top: 32%;
+    left: 54%;
+  }
+  .PS-tex-17 {
+    top: 58%;
+    left: 13%;
+  }
+  .PS-tex-18 {
+    top: 83%;
+    left: 54%;
+  }
+  .PS-tex-19 {
+    top: 113%;
+    left: 13%;
+  }
+
+  .PS-img-5-1,
+  .PS-img-5-2,
+  .PS-img-5-3,
+  .PS-img-5-4,
+  .PS-img-5-5 {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+  }
+
+  .PS-img-5-1 {
+    top: 2%;
+    left: 60%;
+  }
+  .PS-img-5-2 {
+    top: 29%;
+    left: 10%;
+  }
+  .PS-img-5-3 {
+    top: 55%;
+    left: 60%;
+  }
+  .PS-img-5-4 {
+    top: 80%;
+    left: 10%;
+  }
+  .PS-img-5-5 {
+    top: 110%;
+    left: 60%;
+  }
+
+  /* ------------------ INCENDIO ------------------ */
+  .PS-sci{
+    margin-top: 15%;
+  }
+  .PS-tit-5 {
+    margin-top: -140vh;
+    margin-left: 5%;
+    font-size: 3vh; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-6,
+  .PS-div-img-6-1 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 80px;
+    margin-top: 5%;
+  }
+
+  .PS-img-container {
+    flex-basis: 10%; /* dos por fila aproximadamente */
+    display: flex;
+    justify-content: center;
+  }
+
+  .PS-img-6 {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    z-index: 3;
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .PS-img-container:hover .PS-img-6 {
+    transform: scale(1.2);
+  }
+
+  .PS-ring {
+    position: absolute;
+    width: 135% !important;
+    height: 140% !important;
+    top: -4vh;
+    left: -3.5vh;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .PS-img-container:hover .PS-ring {
+    opacity: 1;
+    animation: spin 1.5s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .PS-div-nums-4 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 150px 80px;
+    margin-top: -27vh;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .PS-div-nums-4-1 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 80px;
+    margin-top: -17vh;
+    margin-left: 1%;
+    width: 100%;
+  }
+
+  .PS-div-nums-4 p,
+  .PS-div-nums-4-1 p {
+    flex-basis: 20%; /* dos por fila aproximadamente */
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  /* ------------------ SISMO ------------------ */
+  .PS-scs{
+    margin-top: -50vh;
+  }
+  .PS-tit-6 {
+    margin-top: 50%;
+    margin-left: 5%;
+    font-size: 3vh;
+  }
+  /* ---------- IMAGENES ---------- */
+
+  .PS-div-img-7 {
+    margin-top: 5%;
+  }
+
+  .PS-circle-img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+  }
+
+  .PS-circle-ring {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    height: 90%;
+    border: 30px solid purple;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .PS-img-7 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 15px solid gold;
+    background: white;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    animation: expand 8s forwards;
+    animation-iteration-count: infinite;
+    z-index: 1;
+  }
+
+  .PS-img-7:nth-child(2) {
+    --x: -140%;
+    --y: -170%;
+    animation-delay: 0.2s;
+  }
+  .PS-img-7:nth-child(3) {
+    --x: -200%;
+    --y: -50%;
+    animation-delay: 0.4s;
+  }
+  .PS-img-7:nth-child(4) {
+    --x: -140%;
+    --y: 70%;
+    animation-delay: 0.6s;
+  }
+  .PS-img-7:nth-child(5) {
+    --x: 40%;
+    --y: -170%;
+    animation-delay: 0.8s;
+  }
+  .PS-img-7:nth-child(6) {
+    --x: 100%;
+    --y: -50%;
+    animation-delay: 1s;
+  }
+  .PS-img-7:nth-child(7) {
+    --x: 40%;
+    --y: 70%;
+    animation-delay: 1.2s;
+  }
+
+  @keyframes expand {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(var(--x), var(--y)) scale(1);
+      opacity: 1;
+    }
+  }
+  /* ---------- TEXTOS ---------- */
+
+  /* Textos lado izquierdo */
+  .PS-tex-29,
+  .PS-tex-30,
+  .PS-tex-31 {
+    position: absolute;
+    width: 20vh;
+    font-size: 0.7rem;
+  }
+
+  .PS-tex-29 {
+    margin-top: -25vh;
+    margin-left: -52vh;
+  }
+  .PS-tex-30 {
+    margin-top: -10vh;
+    margin-left: -57vh;
+  }
+  .PS-tex-31 {
+    margin-top: 5vh;
+    margin-left: -52vh;
+  }
+
+  /* Textos lado derecho */
+  .PS-tex-32,
+  .PS-tex-33,
+  .PS-tex-34 {
+    position: absolute;
+    width: 20vh;
+    font-size: 0.7rem;
+    text-align: right;
+  }
+
+  .PS-tex-32 {
+    margin-top: -25vh;
+    margin-left: 20vh;
+  }
+  .PS-tex-33 {
+    margin-top: -10vh;
+    margin-left: 25vh;
+  }
+  .PS-tex-34 {
+    margin-top: 5vh;
+    margin-left: 20vh;
+  }
+
+  /* ------------------ PC ------------------ */
+  .PS-spc{
+    margin-top: 37%;
+  }
+
+  .PS-tit-7 {
+    margin-top: -35vh;
+    margin-left: 5%;
+    font-size: 3vh;
+  }
+
+  /* ---------- CROQUIS ---------- */
+
+  .PS-img-8 {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 91%;
+    height: 52%;
+    z-index: -2;
+  }
+
+  .svg-camino {
+    transform: scaleX(0.9); /* 80% del ancho */
+    transform-origin: center; /* centra la escala */
+    margin-top: 2%;
+    margin-left: -3vh;
+  }
+
+  .PS-div-croquis {
+    position: absolute;
+    margin-top: -8vh;
+    margin-left: 4%;
+  }
+
+  .person {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: linear-gradient(145deg, #ffcc99, #cc9966);
+    border-radius: 50% 50% 20% 20%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .person-1 {
+    left: 40px;
+  }
+  .person-2 {
+    left: 135px;
+  }
+  .person-3 {
+    left: 182px;
+  }
+  .person-4 {
+    left: 240px;
+  }
+  .person-5 {
+    left: 345px;
+  }
+  .person-6 {
+    left: 400px;
+  }
+  .person-7 {
+    left: 480px;
+  }
+  .person-8 {
+    left: 430px;
+  }
+  .person-9 {
+    left: 380px;
+  }
+  .person-10 {
+    left: 270px;
+  }
+  .person-11 {
+    left: 180px;
+  }
+  .person-12 {
+    left: 150px;
+  }
+  .person-13 {
+    left: 60px;
+  }
+
+  /* ----------------------------- */
+  .PS-nums-S {
+    position: relative;
+    margin-top: 110%;
+  }
+
+  .PS-tex-div-36,
+  .PS-tex-div-37,
+  .PS-tex-div-38,
+  .PS-tex-div-39,
+  .PS-tex-div-40 {
+    position: absolute;
+    margin-left: 5%;
+    width: 91%;
+    height: 7vh;
+  }
+
+  .PS-tex-36,
+  .PS-tex-37,
+  .PS-tex-38,
+  .PS-tex-39,
+  .PS-tex-40 {
+    position: absolute;
+    margin-left: 7%;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  /* Específicos */
+  .PS-tex-div-36 {
+    margin-top: -66vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-36 {
+    margin-top: -65vh;
+    width: 90%;
+  }
+
+  .PS-tex-div-37 {
+    margin-top: -56vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-37 {
+    margin-top: -55vh;
+    width: 90%;
+  }
+
+  .PS-tex-div-38 {
+    margin-top: -46vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-38 {
+    margin-top: -45vh;
+    width: 90%;
+  }
+
+  .PS-tex-div-39 {
+    margin-top: -37vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-39 {
+    margin-top: -36vh;
+    width: 90%;
+  }
+
+  .PS-tex-div-40 {
+    margin-top: -28vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-40 {
+    margin-top: -27vh;
+    width: 90%;
+  }
+}
+
+/*-- ------------------------------------------------- CELULAR ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 600px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  canvas {
+    max-width: 100vw;
+    width: 100vw !important;
+  }
+  .PS-intro {
+    margin-top: 37%;
+    width: 100%;
+    height: 800px;
+  }
+
+  .PS-tit-1 {
+    position: relative;
+    margin-top: -20vh;
+    margin-left: 1%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .PS-div-tex-1 {
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+
+  .PS-div-tex-1 > * {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-div-tex-1 > *:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .PS-div-tex-1 > *:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .PS-div-tex-1 > *:nth-child(3) {
+    animation-delay: 0.8s;
+  }
+
+  .PS-img-2 {
+    opacity: 0;
+    transform: scale(0);
+    animation: honeycomb 5s ease-in-out infinite both;
+  }
+
+  .PS-img-2 {
+    margin-top: 1%;
+    margin-left: 27%;
+    width: 45%;
+    height: 10%;
+    z-index: -1;
+    animation-delay: 1s;
+  }
+
+  .PS-div-pentagonos > img {
+    display: none;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* ------------------ HOGAR ------------------ */
+
+  .PS-sh {
+    margin-top: 45%;
+  }
+
+  .PS-tit-2 {
+    margin-top: -95vh;
+    margin-left: 5%;
+    font-size: 1.1rem;
+  }
+
+  .PS-div-H {
+    margin-top: 108%;
+  }
+
+  .PS-tex-2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 83%;
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- CASA ---------- */
+  #lienzo-casa {
+    display: none;
+  }
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-1,
+  .PS-circ-2,
+  .PS-circ-3,
+  .PS-circ-4,
+  .PS-circ-5 {
+    position: absolute;
+    margin-left: 8%;
+    width: 10%;
+    height: 5%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-1 {
+    margin-top: -51vh;
+  }
+  .PS-circ-2 {
+    margin-top: -43vh;
+  }
+  .PS-circ-3 {
+    margin-top: -35vh;
+  }
+  .PS-circ-4 {
+    margin-top: -26vh;
+  }
+  .PS-circ-5 {
+    margin-top: -18vh;
+  }
+  /* ---------- NUMEROS ---------- */
+  .PS-nums-1,
+  .PS-nums-2,
+  .PS-nums-3,
+  .PS-nums-4,
+  .PS-nums-5 {
+    position: absolute;
+    margin-left: 12%;
+    font-size: 1rem;
+  }
+
+  .PS-nums-1 {
+    margin-top: -49.7vh;
+  }
+  .PS-nums-2 {
+    margin-top: -41.7vh;
+  }
+  .PS-nums-3 {
+    margin-top: -33.7vh;
+  }
+  .PS-nums-4 {
+    margin-top: -24.7vh;
+  }
+  .PS-nums-5 {
+    margin-top: -16.7vh;
+  }
+
+  /* ---------- TEXTOS ---------- */
+  .PS-tex-3,
+  .PS-tex-4,
+  .PS-tex-5,
+  .PS-tex-6,
+  .PS-tex-7 {
+    position: absolute;
+    margin-left: 20%;
+    font-size: 0.8rem;
+    width: 72%;
+  }
+
+  .PS-tex-3 {
+    margin-top: -51vh;
+  }
+  .PS-tex-4 {
+    margin-top: -43vh;
+  }
+  .PS-tex-5 {
+    margin-top: -35vh;
+  }
+  .PS-tex-6 {
+    margin-top: -26.5vh;
+  }
+  .PS-tex-7 {
+    margin-top: -18vh;
+  }
+
+  /* ------------------ ESCUELA ------------------ */
+
+  .PS-tit-3 {
+    margin-top: -10vh;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-E {
+    margin-top: 50%;
+  }
+
+  .PS-tex-8 {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 83%;
+    font-style: italic;
+    font-size: 0.8rem; /* Tamaño de la letra */
+  }
+
+  /* ---------- PIRAMIDE ---------- */
+  #lienzo-piramide {
+    display: none;
+  }
+
+  /* ---------- CIRCULOS ---------- */
+  .PS-circ-6,
+  .PS-circ-7,
+  .PS-circ-8,
+  .PS-circ-9,
+  .PS-circ-10 {
+    position: absolute;
+    margin-left: 8%;
+    width: 10%;
+    height: 5%;
+    background-color: #fff;
+    border: 4px solid #b0b6bc;
+    border-radius: 50%;
+  }
+
+  .PS-circ-6 {
+    margin-top: -23vh;
+  }
+  .PS-circ-7 {
+    margin-top: -14.5vh;
+  }
+  .PS-circ-8 {
+    margin-top: -5.5vh;
+  }
+  .PS-circ-9 {
+    margin-top: 6.5%;
+  }
+  .PS-circ-10 {
+    margin-top: 23.5%;
+  }
+
+  /* ---------- NÚMEROS ---------- */
+
+  .PS-nums-6,
+  .PS-nums-7,
+  .PS-nums-8,
+  .PS-nums-9,
+  .PS-nums-10 {
+    position: absolute;
+    margin-left: 12%;
+    font-size: 1rem;
+  }
+
+  .PS-nums-6 {
+    margin-top: 20vh;
+  }
+  .PS-nums-7 {
+    margin-top: 28.3vh;
+  }
+  .PS-nums-8 {
+    margin-top: 37.5vh;
+  }
+  .PS-nums-9 {
+    margin-top: 46vh;
+  }
+  .PS-nums-10 {
+    margin-top: 54.5vh;
+  }
+  /* ---------- TEXTOS ---------- */
+
+  .PS-tex-9,
+  .PS-tex-10,
+  .PS-tex-11,
+  .PS-tex-12,
+  .PS-tex-13 {
+    position: absolute;
+    margin-left: 29px;
+    font-size: 0.8rem;
+    width: 280px;
+  }
+
+  .PS-tex-9 {
+    margin-top: 18.5vh;
+  }
+  .PS-tex-10 {
+    margin-top: 27vh;
+  }
+  .PS-tex-11 {
+    margin-top: 36vh;
+  }
+  .PS-tex-12 {
+    margin-top: 45vh;
+  }
+  .PS-tex-13 {
+    margin-top: 53.5vh;
+  }
+
+  /* ------------------ VIAL ------------------ */
+
+  .PS-tit-4 {
+    margin-top: 90%;
+    margin-left: 5%;
+    font-size: 1.2rem; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-5 {
+    display: none;
+  }
+
+  /* .PS-div-img-5-1 {
+    position: absolute;
+    margin-top: -91vh;
+    border: 4px solid rgb(43, 255, 0);
+  } */
+
+  .PS-div-nums-3 {
+    left: 20%;
+    width: 60%;
+  }
+
+  .PS-tex-15,
+  .PS-tex-16,
+  .PS-tex-17,
+  .PS-tex-18,
+  .PS-tex-19 {
+    position: absolute;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .PS-tex-15 {
+    margin-top: -50vh;
+    left: 35%;
+  }
+  .PS-tex-16 {
+    margin-top: -67vh;
+    left: 35%;
+  }
+  .PS-tex-17 {
+    margin-top: -83vh;
+    left: 35%;
+  }
+  .PS-tex-18 {
+    margin-top: -102vh;
+    left: 35%;
+  }
+  .PS-tex-19 {
+    margin-top: -125vh;
+    left: 35%;
+  }
+
+  .PS-img-5-1,
+  .PS-img-5-2,
+  .PS-img-5-3,
+  .PS-img-5-4,
+  .PS-img-5-5 {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+  }
+
+  .PS-img-5-1 {
+    margin-top: -48vh;
+    margin-left: -25vh;
+  }
+  .PS-img-5-2 {
+    margin-top: -67vh;
+    margin-left: -12vh;
+  }
+  .PS-img-5-3 {
+    margin-top: -85vh;
+    margin-left: -25vh;
+  }
+  .PS-img-5-4 {
+    margin-top: -102vh;
+    margin-left: -12vh;
+  }
+  .PS-img-5-5 {
+    margin-top: -125vh;
+    margin-left: -25vh;
+  }
+
+  /* ------------------ INCENDIO ------------------ */
+  .PS-tit-5 {
+    margin-top: 94vh;
+    margin-left: 5%;
+    font-size: 3vh; /* Tamaño de la letra */
+  }
+
+  .PS-div-img-6,
+  .PS-div-img-6-1 {
+    flex-wrap: wrap; /* Permite que bajen en varias filas */
+    gap: 70px;
+    margin-top: 7%;
+  }
+
+  .PS-img-container {
+    flex-basis: 10%; /* dos por fila aproximadamente */
+    display: flex;
+    justify-content: center;
+  }
+
+  .PS-img-6 {
+    border-radius: 50%;
+    z-index: 3;
+    width: 130px !important;
+    height: 130px !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .PS-img-container:hover .PS-img-6 {
+    animation: none !important;
+  }
+
+  .PS-ring {
+    display: none;
+  }
+
+  .PS-img-container:hover .PS-ring {
+    opacity: 1;
+    animation: spin 1.5s linear infinite;
+  }
+
+  .PS-div-nums-4 {
+    display: flex;
+    flex-wrap: wrap; /* permite que salten a otra fila */
+    justify-content: center;
+    gap: 9rem 2.5rem;
+    margin-top: -56vh; /* espacio vertical y horizontal */
+    width: 100%;
+  }
+
+  .PS-div-nums-4-1 {
+    display: flex;
+    flex-wrap: wrap; /* permite que salten a otra fila */
+    justify-content: center;
+    gap: 9rem 2.5rem;
+    margin-top: -10vh; /* espacio vertical y horizontal */
+    width: 100%;
+  }
+
+  .PS-div-nums-4 p,
+  .PS-div-nums-4-1 p {
+    flex: 0 1 calc(50% - 2rem); /* 🔹 dos por fila (ajusta el -2rem según el gap) */
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  /* .PS-div-nums-4 {
+    flex-wrap: wrap; 
+    gap: 130px 80px;
+    margin-top: -59vh;
+    margin-left: 0;
+  }
+
+  .PS-div-nums-4-1 {
+    flex-wrap: wrap; 
+    gap: 80px;
+    margin-top: -17vh;
+    margin-left: 1%;
+    width: 100%;
+  }
+
+  .PS-div-nums-4 p,
+  .PS-div-nums-4-1 p {
+    flex-basis: 20%; 
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+  } */
+
+  /* ------------------ SISMO ------------------ */
+  .PS-scs{
+    margin-top: 50%;
+  }
+
+  .PS-tit-6 {
+    margin-top: 88%;
+    margin-left: 5%;
+    font-size: 3vh;
+  }
+
+  /* ---------- IMAGENES ---------- */
+
+  .PS-div-img-7,
+  .PS-circle-img,
+  .PS-circle-ring {
+    display: none;
+  }
+
+  /* ---------- TEXTOS ---------- */
+
+  /* Textos lado izquierdo */
+  .PS-tex-29,
+  .PS-tex-30,
+  .PS-tex-31,
+  .PS-tex-32,
+  .PS-tex-33,
+  .PS-tex-34 {
+    position: absolute;
+    margin-left: -4vh;
+    width: 45vh;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .PS-tex-29 {
+    margin-top: 24vh;
+  }
+  .PS-tex-30 {
+    margin-top: 30.5vh;
+  }
+  .PS-tex-31 {
+    margin-top: 38vh;
+  }
+  .PS-tex-32 {
+    margin-top: 45.5vh;
+  }
+  .PS-tex-33 {
+    margin-top: 53vh;
+  }
+  .PS-tex-34 {
+    margin-top: 60vh;
+  }
+
+  /* ---------- CROQUIS ---------- */
+
+  .PS-spc {
+    margin-top: 160%;
+  }
+  .PS-img-8,
+  .svg-camino,
+  .PS-div-croquis,
+  .person {
+    display: none;
+  }
+
+  /* ----------------------------- */
+  .PS-nums-S {
+    position: relative;
+    margin-top: 130%;
+  }
+
+  .PS-tex-div-36,
+  .PS-tex-div-37,
+  .PS-tex-div-38,
+  .PS-tex-div-39,
+  .PS-tex-div-40 {
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+    height: 8vh;
+  }
+
+  .PS-tex-36,
+  .PS-tex-37,
+  .PS-tex-38,
+  .PS-tex-39,
+  .PS-tex-40 {
+    position: absolute;
+    margin-left: 7%;
+    width: 87%;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  /* Específicos */
+  .PS-tex-div-36 {
+    margin-top: -66vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-36 {
+    margin-top: -65vh;
+  }
+
+  .PS-tex-div-37 {
+    margin-top: -56vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-37 {
+    margin-top: -55vh;
+  }
+
+  .PS-tex-div-38 {
+    margin-top: -46vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-38 {
+    margin-top: -45vh;
+  }
+
+  .PS-tex-div-39 {
+    margin-top: -37vh;
+    background-color: rgba(0, 56, 161, 0.582);
+  }
+  .PS-tex-39 {
+    margin-top: -36vh;
+  }
+
+  .PS-tex-div-40 {
+    margin-top: -28vh;
+    background-color: rgb(0, 56, 161);
+  }
+  .PS-tex-40 {
+    margin-top: -27vh;
+  }
+}
+body {
+  overflow-x: hidden !important;
+}

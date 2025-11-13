@@ -1,0 +1,396 @@
+/* styles.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 0%;
+}
+
+.Adm-C-container-bloques-edit {
+  position: absolute;
+  width: 99.7%;
+  height: 855px;
+}
+
+.Adm-C-tit-principal {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.Adm-C-contenedor-Menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* espacio entre cada par imagen/título */
+  width: 300px;
+  height: 853px;
+  background-color: #072558c9;
+}
+
+.Adm-C-Menu-fila {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 0px;
+  column-gap: 1vh;
+  align-items: center;
+}
+
+.Adm-C-img-1 {
+  filter: invert(1);
+  margin-top: 1vh;
+  margin-left: 4%;
+  width: 50px;
+  height: auto;
+}
+
+.Adm-C-sub-1 {
+  margin-top: 1vh;
+  margin-left: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.Adm-C-contenedor-Menu-img {
+  position: absolute;
+  width: 60px;
+  height: 852px;
+  background-color: #072558;
+}
+
+.Adm-C-Menu-Seccion-tit {
+  position: absolute;
+  width: 397px;
+  height: 30px;
+  top: 168px; /* ajusta según necesites */
+  margin-left: 19%;
+  background-color: #072558;
+}
+
+.Adm-C-img-ico-Estructura {
+  margin-top: 0.5%;
+  margin-left: 1.5%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-C-M-tit-Est {
+  margin-top: -5.5%;
+  margin-left: 10%;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.form-control-Adm-C-Buscar {
+  width: 285px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+.Buscar {
+  width: 73px;
+  height: 27px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.Adm-C-bloque-Menu-lista {
+  position: absolute;
+  width: 397px;
+  top: 197px; /* ajusta según necesites */
+  margin-left: 19%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-C-bloque-1-Memu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.Adm-C-Menus-opc {
+  margin-left: -25px;
+}
+
+.Adm-C-opc-1 {
+  margin-left: 5%;
+  font-size: 14px;
+  color: #333;
+}
+
+.Adm-C-opc-1 li::before {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.Adm-C-opc-1::before {
+  content: "➤";
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.open > .Adm-C-opc-1::before {
+  content: "▼";
+}
+
+.Adm-C-Lista-Menu {
+  display: none;
+}
+
+.Adm-C-Lista-Menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.open > .Adm-C-Lista-Menu {
+  display: block;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.Adm-C-img-edit {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.Adm-C-Menu-Seccion-tit-Edit {
+  position: absolute;
+  width: 890px;
+  height: 30px;
+  top: 168px; /* ajusta según necesites */
+  margin-left: 45%;
+  background-color: #072558;
+}
+
+.Adm-C-img-ico-edit {
+  margin-top: 0%;
+  margin-left: 1%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-C-M-tit-Edit-M {
+  margin-top: -2.3vh;
+  margin-left: 5%;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.Adm-C-contorno-Edit-1 {
+  position: absolute;
+  width: 890px;
+  height: 50%;
+  top: 198px; /* ajusta según necesites */
+  margin-left: 45%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-C-bloque-Edit {
+  position: absolute;
+  width: 870px;
+  top: 3px; /* ajusta según necesites */
+  margin-left: 1%;
+}
+
+.Adm-C-img-iconos-B-1 {
+  margin-top: -0.5%;
+  margin-left: 0%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-C-subirArchivo{
+    width: 50px;
+}
+
+.Adm-C-contorno-Edit-2 {
+  position: absolute;
+  width: 890px;
+  height: 38%;
+  top: 198px; /* ajusta según necesites */
+  margin-left: 45%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-C-contorno-Edit-3 {
+  position: absolute;
+  width: 890px;
+  height: 27%;
+  top: 198px; /* ajusta según necesites */
+  margin-left: 45%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-C-contorno-Edit-4 {
+  position: absolute;
+  width: 890px;
+  height: 45%;
+  top: 198px; /* ajusta según necesites */
+  margin-left: 45%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Adm-M-tit-principal {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+
+.Adm-M-Menu-Seccion-tit {
+  position: absolute;
+  width: 397px;
+  height: 30px;
+  top: 168px; /* ajusta según necesites */
+  margin-left: 19%;
+      background-color: #072558;
+
+}
+
+.Adm-M-img-ico-Estructura {
+  margin-top: 0.5%;
+  margin-left: 1.5%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-M-M-tit-Est {
+  margin-top: -5.5%;
+  margin-left: 10%;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.Adm-M-bloque-Menu-lista {
+  position: absolute;
+  width: 397px;
+  top: 197px; /* ajusta según necesites */
+  margin-left: 19%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-M-bloque-1-Memu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.Adm-M-opc-1 {
+  margin-left: 5%;
+  font-size: 14px;
+  color: #333;
+}
+
+.Adm-M-opc-1 li::before {
+  content: "➤";
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.Adm-M-img-edit {
+  padding: 1%;
+  margin-top: -7%;
+  margin-left: 90%;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-M-Menu-Seccion-tit-Edit {
+  position: absolute;
+  width: 890px;
+  height: 30px;
+  top: 168px; /* ajusta según necesites */
+  margin-left: 45%;
+        background-color: #072558;
+
+}
+
+.Adm-M-img-ico-edit{
+  margin-top: -0.5%;
+  margin-left: 1%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.Adm-M-M-tit-Edit-M {
+  margin-top: -2.3%;
+  margin-left: 5%;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.Adm-M-contorno-Edit {
+  position: absolute;
+  width: 890px;
+  height: 42%;
+  top: 198px; /* ajusta según necesites */
+  margin-left: 45%;
+  border: 2px solid rgb(182, 182, 182);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Aquí se ponen en columna */
+  gap: 8px; /* espacio entre opciones */
+}
+
+.Adm-M-bloque-Edit {
+  position: absolute;
+  width: 870px;
+  top: 3px; /* ajusta según necesites */
+  margin-left: 1%;  
+}
+
+.Adm-M-img-iconos-B-1{
+    margin-top: -0.5%;
+  margin-left: 0%;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}

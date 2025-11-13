@@ -1,0 +1,56 @@
+/* Header */
+.dgsc2025-01 {
+  position: fixed;
+  display: flex;
+  width: 5%;
+  height: 8%;
+  margin-top: 0.5%;
+  margin-left: -85%;
+}
+
+header {
+  background: #c7c7c7;
+  padding: 0rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+nav {
+  background: #013c74;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  
+}
+
+#boton-menu {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+#boton-menu:hover{
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* Footer */
+

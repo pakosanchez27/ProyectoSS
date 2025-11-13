@@ -1,0 +1,4017 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+}
+
+.TS-fondo {
+  position: relative;
+  margin-top: -6vh;
+  width: 99vw;
+  height: 96vh;
+  overflow: hidden;
+}
+
+.TS-fondo-p-1 {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 11%;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(126, 0, 0);
+  border-radius: 20%;
+  z-index: -1;
+}
+
+.TS-img-fondo {
+  position: absolute;
+  margin-top: 1.7%;
+  left: 60%;
+  width: auto;
+  height: 93%;
+}
+
+.TS-tit-1,
+.TS-tit-1-1,
+.TS-tit-1-2,
+.TS-tit-1-3,
+.TS-p-1,
+.TS-p-1-1,
+.TS-p-1-2,
+.TS-p-1-3 {
+  position: absolute;
+  color: white;
+}
+
+.TS-tit-1,
+.TS-tit-1-1,
+.TS-tit-1-2,
+.TS-tit-1-3 {
+  margin-top: 14%;
+  margin-left: 35%;
+  font-size: 60px;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 40%;
+}
+
+.TS-p-1,
+.TS-p-1-1,
+.TS-p-1-2,
+.TS-p-1-3 {
+  margin-top: 24%;
+  margin-left: 18%;
+  width: 40%;
+  font-size: 30.5px;
+  text-align: justify;
+}
+
+.TS-slide {
+  display: none;
+}
+
+.TS-slide.active {
+  display: block;
+}
+
+.TS-botones {
+  position: absolute;
+  bottom: 10%;
+  margin-top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+
+.TS-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.TS-btn.active {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.TS-sub-1 {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+/*---------------------------------------------------------------------------------------------------- CÉDULA DE BÚSQUEDA ----------------------------------------------------------------------------------------------------*/
+
+.TS-tit-2,
+.TS-circulo-img,
+.TS-img-user,
+.TS-p-2,
+.TS-p-3,
+.TS-btn-ext-1,
+.TS-btn-ext-2,
+.TS-btn-ext-3,
+.TS-btn-ext-4,
+.TS-cuadro-encargado,
+.TS-dir,
+.TS-dir-nombre,
+.TS-card-1,
+.TS-card-2,
+.TS-card-3,
+.TS-card-4,
+.TS-p-5,
+.TS-img-2,
+.TS-p-6,
+.TS-img-3,
+.TS-p-7,
+.TS-img-4 {
+  position: absolute;
+}
+
+.TS-p-2,
+.TS-p-3,
+.TS-p-5,
+.TS-p-6,
+.TS-p-7 {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.TS-btn-ext-1,
+.TS-btn-ext-2,
+.TS-btn-ext-3,
+.TS-btn-ext-4 {
+  height: 5%;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.TS-btn-ext-1:hover,
+.TS-btn-ext-2:hover,
+.TS-btn-ext-3:hover,
+.TS-btn-ext-4:hover {
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+}
+
+.TS-btn-ext-2,
+.TS-btn-ext-3,
+.TS-btn-ext-4 {
+  text-align: center;
+}
+
+.TS-card-1,
+.TS-card-2,
+.TS-card-3,
+.TS-card-4 {
+  width: 28%;
+  background-color: #0057b7;
+  text-align: justify;
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-img-2,
+.TS-img-3,
+.TS-img-4 {
+  display: block;
+}
+
+.TS-tit-2 {
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 60px;
+}
+
+.TS-circulo-img {
+  margin-top: 13%;
+  margin-left: 39.5%;
+  width: 22%;
+  height: 44%;
+  border-radius: 50%;
+}
+
+.TS-img-user {
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.TS-p-2 {
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+}
+
+.TS-p-3 {
+  margin-top: 20%;
+  margin-left: 6%;
+  width: 25%;
+}
+
+/* ------------------ BOTONES ------------------ */
+
+.TS-btn-ext-1 {
+  margin-top: 32%;
+  margin-left: 6%;
+  width: 9%;
+  background-color: #0057b7;
+}
+
+.TS-btn-ext-2 {
+  margin-top: 32%;
+  margin-left: 18%;
+  width: 13%;
+  background-color: #ff6f00;
+}
+
+.TS-btn-ext-3 {
+  margin-top: 37%;
+  margin-left: 6%;
+  width: 10%;
+  background-color: #e91e63;
+}
+
+.TS-btn-ext-4 {
+  margin-top: 37%;
+  margin-left: 18%;
+  width: 10%;
+  background-color: #2e7d32;
+}
+
+/* ---------------------------------------------- */
+
+.TS-cuadro-encargado {
+  margin-top: 30%;
+  margin-left: 48%;
+  width: 18%;
+  height: 18%;
+  background-color: rgb(214, 214, 214);
+  opacity: 0.8;
+  border-radius: 30px;
+}
+
+.TS-dir {
+  margin-top: 18%;
+  margin-left: 8%;
+}
+
+.TS-dir-nombre {
+  margin-top: 35%;
+  margin-left: 20%;
+}
+
+.TS-sub-1 {
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 70%;
+}
+
+/* ------------------ DESAPARICION ------------------ */
+
+.TS-card-1 {
+  margin-top: 8.5%;
+  margin-left: 70%;
+  height: 15%;
+}
+
+.TS-card-inf {
+  margin-top: 3.5%;
+  margin-left: 5%;
+  width: 90%;
+  color: white;
+}
+
+.TS-card-2 {
+  margin-top: 16.5%;
+  margin-left: 70%;
+  height: 12%;
+}
+
+.TS-card-3 {
+  margin-top: 23%;
+  margin-left: 70%;
+  height: 20%;
+}
+
+.TS-card-4 {
+  margin-top: 33.5%;
+  margin-left: 70%;
+  height: 19%;
+}
+
+/* ------------------ (EDOMEX) ------------------ */
+
+.TS-sub-3 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-p-5 {
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 25%;
+}
+
+.TS-img-2 {
+  margin-top: 20.6%;
+  margin-left: 73%;
+  width: 21%;
+  height: 45%;
+}
+
+/* ------------------ (CDMX) ------------------ */
+
+.TS-p-6 {
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 29%;
+}
+
+.TS-img-3 {
+  margin-top: 23%;
+  margin-left: 73%;
+  width: 21%;
+  height: 43%;
+}
+
+/* ------------------ LNEZA ------------------ */
+
+.TS-p-7 {
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 29%;
+}
+
+.TS-img-4 {
+  margin-top: 29%;
+  margin-left: 68%;
+  width: 26%;
+  height: 22%;
+}
+
+/*---------------------------------------------------------------------------------------------------- ATENCIÓN-VIOLENCIA ----------------------------------------------------------------------------------------------------*/
+
+.TS-p-8,
+.TS-p-9,
+.TS-p-10-1,
+.TS-doc-list-1 {
+  position: absolute;
+  text-align: justify;
+}
+
+.TS-p-8,
+.TS-p-9,
+.TS-p-10-1 {
+  width: 25%;
+  font-size: 18px;
+}
+
+.TS-p-8 {
+  margin-top: 11%;
+  margin-left: 6%;
+}
+
+.TS-p-9 {
+  margin-top: 20%;
+  margin-left: 6%;
+}
+
+.TS-img-5 {
+  position: absolute;
+  margin-top: 32.3%;
+  margin-left: 6%;
+  width: 25%;
+  height: 20%;
+  display: block;
+}
+
+.TS-sub-3-2 {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-p-10-1 {
+  margin-top: 13%;
+  margin-left: 65%;
+}
+
+.TS-sub-4-1 {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-1 {
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+  font-size: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------- PROTECCIÓN CANINA ----------------------------------------------------------------------------------------------------*/
+
+.TS-tit-3,
+.TS-p-11,
+.TS-img-6,
+.TS-sub-5,
+.TS-doc-list-2,
+.TS-btn-img-7,
+.TS-btn-palabra {
+  position: absolute;
+}
+
+.TS-p-11,
+.TS-doc-list-2 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-tit-3 {
+  margin-top: 5%;
+  margin-left: 8%;
+  font-size: 60px;
+}
+
+.TS-p-11 {
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 25%;
+}
+
+.TS-img-6 {
+  margin-top: 21.5%;
+  margin-left: 6%;
+  width: 27%;
+  height: 38%;
+  display: block;
+}
+
+.TS-sub-5 {
+  margin-top: 11.2%;
+  margin-left: 65%;
+  font-size: 20px;
+}
+
+.TS-doc-list-2 {
+  margin-top: 15%;
+  margin-left: 67%;
+  width: 28%;
+}
+
+.TS-btn-img-7 {
+  margin-top: 28%;
+  margin-left: 78%;
+  width: 10%;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.TS-btn-img-7 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 35px;
+}
+
+.TS-btn-palabra {
+  margin-top: 35%;
+  margin-left: 83%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+#seccionNezaLink {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------------------------------------------------------------- VICTIMAS ----------------------------------------------------------------------------------------------------*/
+
+.TS-p-10-3 {
+  position: absolute;
+  text-align: justify;
+  width: 33%;
+  margin-top: 13.5%;
+  margin-left: 65%;
+  font-size: 18px;
+}
+
+.TS-p-12,
+.TS-p-13,
+.TS-p-14,
+.TS-doc-list-3,
+.TS-sub-6 {
+  position: absolute;
+}
+
+.TS-p-12,
+.TS-p-13,
+.TS-p-14,
+.TS-doc-list-3 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-12,
+.TS-p-13,
+.TS-p-14 {
+  width: 25%;
+  margin-left: 6%;
+}
+
+.TS-p-12 {
+  margin-top: 11%;
+}
+
+.TS-p-13 {
+  margin-top: 20%;
+}
+
+.TS-p-14 {
+  margin-top: 30.5%;
+}
+
+.TS-sub-4-3 {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 65%;
+}
+
+.TS-sub-6 {
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-3 {
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+}
+
+/*---------------------------------------------------------------------------------------------------- COMENTARIOS ----------------------------------------------------------------------------------------------------*/
+
+.TS-p-15,
+.TS-p-16,
+.TS-sub-7,
+.TS-img-8,
+.TS-img-9,
+.TS-form,
+.TS-bloque-form {
+  position: absolute;
+}
+
+.TS-p-15,
+.TS-p-16 {
+  width: 25%;
+  text-align: justify;
+}
+
+.TS-img-8,
+.TS-img-9 {
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 35px;
+  display: block;
+}
+
+.TS-p-15 {
+  margin-top: 11%;
+  margin-left: 6%;
+  font-size: 20px;
+}
+
+.TS-img-8 {
+  margin-top: 28%;
+  margin-left: 5%;
+  width: 5%;
+}
+
+.TS-p-16 {
+  margin-top: 24%;
+  margin-left: 12%;
+  font-size: 30px;
+}
+
+.TS-img-9 {
+  margin-top: 6.5%;
+  margin-left: 28%;
+  width: 40%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.TS-sub-7 {
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-form {
+  width: 40%;
+  height: 42%;
+  top: 133%;
+  margin-left: 45%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.TS-bloque-form {
+  width: 110%;
+  top: 5%;
+  margin-left: 5%;
+}
+
+.TS-btn-enviar {
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 43%;
+  font-size: 30px;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.TS-btn-enviar:hover {
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+}
+
+/*---------------------------------------------------------------------------------------------------- LLAMADAS-EMERGENCIAS ----------------------------------------------------------------------------------------------------*/
+.TS-p-10-4 {
+  position: absolute;
+  text-align: justify;
+  width: 33%;
+  margin-top: 13.5%;
+  margin-left: 65%;
+  font-size: 18px;
+}
+
+.TS-p-17,
+.TS-p-18,
+.TS-p-19,
+.TS-sub-8,
+.TS-doc-list-4,
+.TS-doc-list-5 {
+  position: absolute;
+}
+
+.TS-p-17,
+.TS-p-18,
+.TS-p-19,
+.TS-doc-list-4,
+.TS-doc-list-5 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-17,
+.TS-p-18,
+.TS-p-19 {
+  width: 25%;
+  margin-left: 6%;
+}
+
+.TS-p-17 {
+  margin-top: 11%;
+}
+
+.TS-p-18 {
+  margin-top: 16.5%;
+}
+
+.TS-p-19 {
+  margin-top: 23.7%;
+}
+
+.TS-sub-4-4,
+.TS-sub-4-5 {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 65%;
+}
+
+.TS-sub-8 {
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-4 {
+  margin-top: 25.4%;
+  margin-left: 5%;
+  width: 26%;
+}
+
+.TS-doc-list-5 {
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+}
+
+/*---------------------------------------------------------------------------------------------------- NEZA-LINK ----------------------------------------------------------------------------------------------------*/
+
+.TS-linkNeza {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7a0c0c;
+  z-index: 9999;
+  overflow-y: auto;
+  padding: 40px;
+
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.603) 0px,
+      rgba(255, 255, 255, 0.603) 2px,
+      transparent 10px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.603) 0px,
+      rgba(255, 255, 255, 0.603) 2px,
+      transparent 10px,
+      transparent 10px
+    );
+  background-blend-mode: overlay;
+}
+
+.TS-btn-CerrarNezaLink {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.TS-btn-CerrarNezaLink img {
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.TS-btn-CerrarNezaLink:hover {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.TS-p-10-2 {
+  position: absolute;
+  text-align: justify;
+  width: 25%;
+  margin-top: 12%;
+  margin-left: 65%;
+  font-size: 18px;
+}
+
+.TS-sub-4-2 {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 65%;
+}
+
+.TS-p-20,
+.TS-p-21,
+.TS-btn-registro-1,
+.TS-sub-9,
+.TS-doc-list-6,
+.TS-btn-emergencia {
+  position: absolute;
+}
+
+.TS-p-20,
+.TS-p-21,
+.TS-doc-list-6 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.TS-p-20,
+.TS-p-21 {
+  width: 25%;
+  margin-left: 6%;
+}
+
+.TS-p-20 {
+  margin-top: 11%;
+}
+
+.TS-p-21 {
+  margin-top: 23%;
+}
+
+.TS-btn-registro-1 {
+  margin-top: 35%;
+  margin-left: 13.6%;
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.TS-btn-registro-1:hover {
+  background-color: #1e70ff;
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+}
+
+.TS-sub-9 {
+  margin-top: 10.5%;
+  margin-left: 65%;
+}
+
+.TS-doc-list-6 {
+  margin-top: 23.5%;
+  margin-left: 67%;
+  width: 28%;
+}
+
+.TS-btn-emergencia {
+  margin-top: 35%;
+  margin-left: 80%;
+  width: 5%;
+  height: 10%;
+  background-color: rgb(231, 0, 0);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.TS-btn-emergencia:hover {
+  box-shadow: 0 0 15px rgb(231, 0, 0);
+}
+
+/*---------------------------------------------------------------------------------------------------- MENÚ ----------------------------------------------------------------------------------------------------*/
+
+.TS-sub-menu {
+  position: absolute;
+  margin-top: 47%;
+  margin-left: 15%;
+  width: 70%;
+  height: 28%;
+  background-color: brown;
+  border-radius: 25px;
+}
+
+/* ------------------ CIRCULOS ------------------ */
+
+.TS-cir-1,
+.TS-cir-2,
+.TS-cir-3 {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.TS-cir-1 {
+  margin-top: -10vh;
+  margin-left: 40%;
+  width: 17%;
+  height: 90%;
+}
+
+.TS-cir-2 {
+  margin-top: -7vh;
+  margin-left: 12%;
+  width: 15%;
+  height: 80%;
+}
+
+.TS-cir-3 {
+  margin-top: -7vh;
+  margin-left: 72%;
+  width: 15%;
+  height: 80%;
+}
+
+/* ------------------ IMAGENES DEL CIRCULO ------------------ */
+
+.TS-img-1 {
+  position: absolute;
+  margin-top: -1.2vh;
+  margin-left: 0.5%;
+  width: 110%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* ------------------ TEXTOS ------------------ */
+
+.TS-opc-1,
+.TS-opc-1-2,
+.TS-opc-2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.TS-opc-1 {
+  margin-top: 24.5vh;
+  margin-left: 3%;
+}
+
+.TS-opc-1-2 {
+  margin-top: 24.5vh;
+  margin-left: 3vh;
+}
+
+.TS-opc-2 {
+  margin-top: 21vh;
+  margin-left: 2%;
+}
+
+/* ------------------ FL ECHAS ------------------ */
+
+.TS-img-Izq,
+.TS-img-Der {
+  position: absolute;
+  margin-top: 8vh;
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+}
+
+.TS-img-Izq {
+  margin-left: -20vh;
+}
+
+.TS-img-Der {
+  margin-left: 105vh;
+}
+
+/* ---------------- VISIBILIDAD DE SECCIONES ---------------- */
+
+.TS-section {
+  display: none;
+  position: relative;
+}
+
+.TS-section.activa {
+  display: block;
+}
+
+/*-- ------------------------------------------------------------------------ RESPONSIVO ------------------------------------------------------------------------ --*/
+
+/*-- ------------------------------------------------- ESCRITORIO ------------------------------------------------- --*/
+
+/* ------------------ ENCABEZADO ------------------ */
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  .Tramites_Servicios {
+    margin-left: -5vh;
+  }
+
+  .TS-fondo {
+    position: relative;
+    margin-top: -6vh;
+    width: 99vw;
+    height: 96vh;
+    overflow: hidden;
+  }
+
+  .TS-fondo-p-1 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 11%;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(126, 0, 0);
+    border-radius: 20%;
+    z-index: -1;
+  }
+
+  .TS-img-fondo {
+    position: absolute;
+    margin-top: 1.7%;
+    left: 55%;
+    width: auto;
+    height: 90%;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3,
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    position: absolute;
+    color: white;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3 {
+    margin-top: 14%;
+    margin-left: 35%;
+    font-size: 2rem;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 40%;
+  }
+
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    margin-top: 24%;
+    margin-left: 18%;
+    width: 37%;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+
+  .TS-slide {
+    display: none;
+  }
+
+  .TS-slide.active {
+    display: block;
+  }
+
+  .TS-botones {
+    position: absolute;
+    bottom: 10%;
+    margin-top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+  }
+
+  .TS-btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .TS-btn.active {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+
+  .TS-sub-1 {
+    margin-top: 5%;
+    left: -5vh;
+    font-size: 1rem;
+  }
+
+  /* ------------------ CÉDULA DE BÚSQUEDA ------------------ */
+
+  .TS-tit-2,
+  .TS-circulo-img,
+  .TS-img-user,
+  .TS-p-2,
+  .TS-p-3,
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4,
+  .TS-cuadro-encargado,
+  .TS-dir,
+  .TS-dir-nombre,
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4,
+  .TS-p-5,
+  .TS-img-2,
+  .TS-p-6,
+  .TS-img-3,
+  .TS-p-7,
+  .TS-img-4 {
+    position: absolute;
+  }
+
+  .TS-p-2,
+  .TS-p-3,
+  .TS-p-5,
+  .TS-p-6,
+  .TS-p-7 {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    height: 5%;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-ext-1:hover,
+  .TS-btn-ext-2:hover,
+  .TS-btn-ext-3:hover,
+  .TS-btn-ext-4:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    text-align: center;
+  }
+
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4 {
+    width: 32%;
+    background-color: #0057b7;
+    text-align: justify;
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-img-2,
+  .TS-img-3,
+  .TS-img-4 {
+    display: block;
+  }
+
+  .TS-tit-2 {
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 2rem;
+  }
+
+  .TS-circulo-img {
+    margin-top: 13%;
+    margin-left: 39.5%;
+    width: 22%;
+    height: 38%;
+    border-radius: 50%;
+  }
+
+  .TS-img-user {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .TS-p-2 {
+    margin-top: 11%;
+    margin-left: 6%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-3 {
+    margin-top: 22.5%;
+    margin-left: 6%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+  /* -------- BOTONES -------- */
+  .TS-btn-ext-1 {
+    margin-top: 38%;
+    margin-left: 6%;
+    width: 10%;
+    background-color: #0057b7;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-2 {
+    margin-top: 38%;
+    margin-left: 18%;
+    width: 20%;
+    background-color: #ff6f00;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-3 {
+    margin-top: 42%;
+    margin-left: 6%;
+    width: 15%;
+    background-color: #e91e63;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-4 {
+    margin-top: 42%;
+    margin-left: 23%;
+    width: 15%;
+    background-color: #2e7d32;
+    font-size: 0.8rem;
+  }
+  /* --------------------------- */
+  .TS-cuadro-encargado {
+    margin-top: 30%;
+    margin-left: 48%;
+    width: 18%;
+    height: 16%;
+    background-color: rgb(214, 214, 214);
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-dir {
+    margin-top: 18%;
+    margin-left: 8%;
+    font-size: 1.2rem;
+  }
+
+  .TS-dir-nombre {
+    margin-top: 35%;
+    margin-left: 20%;
+    font-size: 1rem;
+  }
+
+  .TS-sub-1 {
+    margin-top: 6%;
+    margin-left: 70%;
+  }
+  /* -------- DESAPARICION -------- */
+  .TS-card-1 {
+    margin-top: 8.3%;
+    margin-left: 67%;
+    height: 13.5%;
+  }
+
+  .TS-card-inf {
+    margin-top: 3.5%;
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .TS-card-2 {
+    margin-top: 17.5%;
+    margin-left: 67%;
+    height: 13%;
+  }
+
+  .TS-card-3 {
+    margin-top: 26.5%;
+    margin-left: 67%;
+    height: 17%;
+  }
+
+  .TS-card-4 {
+    margin-top: 38%;
+    margin-left: 67%;
+    height: 17%;
+  }
+  .TS-sub-2 {
+    font-size: 0.6rem;
+  }
+  /* -------- (EDOMEX) -------- */
+  .TS-sub-3 {
+    margin-top: 10%;
+    font-size: 1rem;
+  }
+
+  .TS-p-5 {
+    margin-top: 13%;
+    margin-left: 65%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-2 {
+    margin-top: 25%;
+    margin-left: 73%;
+    width: 18%;
+    height: 30%;
+  }
+  /* -------- (CDMX) -------- */
+  .TS-p-6 {
+    margin-top: 13%;
+    margin-left: 65%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-3 {
+    margin-top: 31%;
+    margin-left: 73%;
+    width: 18%;
+    height: 23%;
+  }
+  /* -------- LNEZA -------- */
+
+  .TS-p-7 {
+    margin-top: 13%;
+    margin-left: 65%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-4 {
+    margin-top: 36%;
+    margin-left: 73%;
+    width: 22%;
+    height: 13%;
+  }
+  /* ------------------ ATENCIÓN-VIOLENCIA ------------------ */
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1,
+  .TS-doc-list-1 {
+    position: absolute;
+    text-align: justify;
+  }
+
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1 {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-8 {
+    margin-top: 11%;
+    margin-left: 6%;
+  }
+
+  .TS-p-9 {
+    margin-top: 23%;
+    margin-left: 6%;
+  }
+
+  .TS-img-5 {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 6%;
+    width: 25%;
+    height: 15%;
+    display: block;
+  }
+
+  .TS-sub-3-2 {
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 65%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-1 {
+    margin-top: 12.5%;
+    margin-left: 65%;
+  }
+
+  .TS-sub-4-1 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 65%;
+    font-size: 0.8rem;
+  }
+
+  .TS-doc-list-1 {
+    margin-top: 26%;
+    margin-left: 65%;
+    width: 33%;
+    font-size: 0.8rem;
+  }
+  /* ------------------ PROTECCIÓN CANINA ------------------ */
+  .TS-tit-3,
+  .TS-p-11,
+  .TS-img-6,
+  .TS-sub-5,
+  .TS-doc-list-2,
+  .TS-btn-img-7,
+  .TS-btn-palabra {
+    position: absolute;
+  }
+
+  .TS-p-11,
+  .TS-doc-list-2 {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .TS-tit-3 {
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 60px;
+  }
+
+  .TS-p-11 {
+    margin-top: 11%;
+    margin-left: 6%;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-6 {
+    margin-top: 21.5%;
+    margin-left: 6%;
+    width: 20%;
+    height: 31%;
+    display: block;
+  }
+
+  .TS-sub-5 {
+    margin-top: 11.2%;
+    margin-left: 65%;
+    font-size: 0.8rem;
+  }
+
+  .TS-doc-list-2 {
+    margin-top: 15%;
+    margin-left: 67%;
+    width: 28%;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-img-7 {
+    margin-top: 28%;
+    margin-left: 78%;
+    width: 12%;
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+  }
+
+  .TS-btn-img-7 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 35px;
+  }
+
+  .TS-btn-palabra {
+    margin-top: 36%;
+    margin-left: 84%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    pointer-events: none;
+  }
+
+  #seccionNezaLink {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 50px 20px;
+    box-sizing: border-box;
+  }
+  /* ------------------ VICTIMAS ------------------ */
+
+  .TS-p-10-3 {
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 65%;
+    text-align: justify;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3,
+  .TS-sub-6 {
+    position: absolute;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14 {
+    width: 30%;
+    margin-left: 6%;
+  }
+
+  .TS-p-12 {
+    margin-top: 11%;
+  }
+
+  .TS-p-13 {
+    margin-top: 20.5%;
+  }
+
+  .TS-p-14 {
+    margin-top: 31.5%;
+  }
+
+  .TS-sub-4-3 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 65%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-6 {
+    margin-top: 10.5%;
+    margin-left: 65%;
+    width: 35%;
+    font-size: 0.9rem;
+  }
+
+  .TS-doc-list-3 {
+    margin-top: 25.5%;
+    margin-left: 65%;
+    width: 33%;
+    font-size: 0.8rem;
+  }
+  /* ------------------ COMENTARIOS ------------------ */
+
+  .TS-p-15,
+  .TS-p-16,
+  .TS-sub-7,
+  .TS-img-8,
+  .TS-img-9,
+  .TS-form,
+  .TS-bloque-form {
+    position: absolute;
+  }
+
+  .TS-p-15,
+  .TS-p-16 {
+    width: 25%;
+    text-align: justify;
+  }
+
+  .TS-img-8,
+  .TS-img-9 {
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+    display: block;
+  }
+
+  .TS-p-15 {
+    margin-top: 11%;
+    margin-left: 6%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-8 {
+    margin-top: 28%;
+    margin-left: 5%;
+    width: 5%;
+  }
+
+  .TS-p-16 {
+    margin-top: 24%;
+    margin-left: 12%;
+    font-size: 1.2rem;
+  }
+
+  .TS-img-9 {
+    margin-top: 6.5%;
+    margin-left: 28%;
+    width: 40%;
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+  .TS-sub-7 {
+    margin-top: 10.5%;
+    margin-left: 65%;
+    font-size: 1.2rem;
+  }
+
+  .TS-form {
+    width: 40%;
+    height: 42%;
+    top: 133%;
+    margin-left: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  .TS-bloque-form {
+    width: 110%;
+    top: 5%;
+    margin-left: 5%;
+  }
+
+  .TS-btn-enviar {
+    position: absolute;
+    width: 20%;
+    margin-top: 60%;
+    margin-left: -60vh;
+    font-size: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-enviar:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ LLAMADAS-EMERGENCIAS ------------------ */
+
+  .TS-p-10-4 {
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 65%;
+    text-align: justify;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-sub-8,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    position: absolute;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19 {
+    width: 30%;
+    margin-left: 6%;
+  }
+
+  .TS-p-17 {
+    margin-top: 11%;
+  }
+
+  .TS-p-18 {
+    margin-top: 16.5%;
+  }
+
+  .TS-p-19 {
+    margin-top: 23.7%;
+  }
+
+  .TS-sub-4-4,
+  .TS-sub-4-5 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 65%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-8 {
+    margin-top: 10.5%;
+    margin-left: 65%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-4 {
+    margin-top: 25.4%;
+    margin-left: 5%;
+    width: 32%;
+  }
+
+  .TS-doc-list-5 {
+    margin-top: 26%;
+    margin-left: 67%;
+    width: 28%;
+  }
+
+  /* ------------------ NEZA-LINK ------------------ */
+
+  .TS-linkNeza {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7a0c0c;
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 40px;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .TS-btn-CerrarNezaLink {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .TS-btn-CerrarNezaLink img {
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+
+  .TS-btn-CerrarNezaLink:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .TS-p-10-2 {
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 65%;
+    text-align: justify;
+    width: 30%;
+    font-size: 0.8rem;
+  }
+  .TS-p-20,
+  .TS-p-21,
+  .TS-btn-registro-1,
+  .TS-sub-9,
+  .TS-doc-list-6,
+  .TS-btn-emergencia {
+    position: absolute;
+  }
+
+  .TS-tit-3 {
+    font-size: 2rem;
+  }
+
+  .TS-p-20,
+  .TS-p-21,
+  .TS-doc-list-6 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-20,
+  .TS-p-21 {
+    width: 25%;
+    margin-left: 6%;
+  }
+
+  .TS-p-20 {
+    margin-top: 11%;
+  }
+
+  .TS-p-21 {
+    margin-top: 26%;
+  }
+
+  .TS-btn-registro-1 {
+    margin-top: 45%;
+    margin-left: 13.6%;
+    width: 13%;
+    height: 5%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+
+  .TS-btn-registro-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+  .TS-sub-4-2 {
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 65%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-9 {
+    margin-top: 10.5%;
+    margin-left: 65%;
+    font-size: 1.2rem;
+  }
+
+  .TS-doc-list-6 {
+    margin-top: 26%;
+    margin-left: 67%;
+    width: 28%;
+  }
+
+  .TS-btn-emergencia {
+    margin-top: 45%;
+    margin-left: 80%;
+    width: 7%;
+    height: 10%;
+    background-color: rgb(231, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-emergencia:hover {
+    box-shadow: 0 0 15px rgb(231, 0, 0);
+  }
+
+  /* ------------------ MENU ------------------ */
+
+  .TS-sub-menu {
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 15%;
+    width: 70%;
+    height: 25%;
+    background-color: brown;
+    border-radius: 25px;
+  }
+  /* -------- CIRCULOS -------- */
+  .TS-cir-1,
+  .TS-cir-2,
+  .TS-cir-3 {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .TS-cir-1 {
+    margin-top: -10vh;
+    margin-left: 40%;
+    width: 17%;
+    height: 90%;
+  }
+
+  .TS-cir-2 {
+    margin-top: -7vh;
+    margin-left: 12%;
+    width: 15%;
+    height: 80%;
+  }
+
+  .TS-cir-3 {
+    margin-top: -7vh;
+    margin-left: 72%;
+    width: 15%;
+    height: 80%;
+  }
+
+  /* -------- IMAGENES DEL CIRCULO -------- */
+
+  .TS-img-1 {
+    position: absolute;
+    margin-top: -1.2vh;
+    margin-left: 0.5%;
+    width: 110%;
+    height: 90%;
+    z-index: 1;
+  }
+
+  /* ----- TEXTOS ----- */
+
+  .TS-opc-1,
+  .TS-opc-1-2,
+  .TS-opc-2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    z-index: 1;
+  }
+
+  .TS-opc-1 {
+    margin-top: 24.5vh;
+    margin-left: 3%;
+    width: 120%;
+  }
+
+  .TS-opc-1-2 {
+    margin-top: 24.5vh;
+    margin-left: 3vh;
+  }
+
+  .TS-opc-2 {
+    margin-top: 21vh;
+    margin-left: -3vh;
+    width: 150%;
+  }
+
+  /* ----- FLECHAS ----- */
+
+  .TS-img-Izq,
+  .TS-img-Der {
+    position: absolute;
+    margin-top: 8vh;
+    width: 40%;
+    height: 40%;
+    z-index: 1;
+  }
+
+  .TS-img-Izq {
+    margin-left: -20vh;
+  }
+
+  .TS-img-Der {
+    margin-left: 86vh;
+  }
+
+  /* -------- VISIBILIDAD DE SECCIONES -------- */
+
+  .TS-section {
+    display: none;
+    position: relative;
+  }
+
+  .TS-section.activa {
+    display: block;
+  }
+}
+
+/*-- ------------------------------------------------- TABLET ------------------------------------------------- --*/
+
+/* ------------------ ENCABEZADO ------------------ */
+
+@media (max-width: 768px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  .Tramites_Servicios {
+    margin-left: -1vh;
+  }
+
+  .TS-fondo {
+    position: relative;
+    margin-top: -6vh;
+    width: 99vw;
+    height: 96vh;
+    overflow: hidden;
+  }
+
+  .TS-fondo-p-1 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10.5%;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(126, 0, 0);
+    border-radius: 20%;
+    z-index: -1;
+  }
+
+  .TS-img-fondo {
+    position: absolute;
+    margin-top: 2%;
+    left: 55%;
+    width: auto;
+    height: 57%;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3,
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    position: absolute;
+    color: white;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3 {
+    margin-top: 14%;
+    margin-left: 35%;
+    font-size: 1.2rem;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 40%;
+  }
+
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    margin-top: 24%;
+    margin-left: 18%;
+    width: 37%;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .TS-slide {
+    display: none;
+  }
+
+  .TS-slide.active {
+    display: block;
+  }
+
+  .TS-botones {
+    position: absolute;
+    bottom: 10%;
+    margin-top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+  }
+
+  .TS-btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .TS-btn.active {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+
+  /* ------------------ MENU ------------------ */
+
+  .TS-sub-menu {
+    position: absolute;
+    margin-top: -25vh;
+    margin-left: 10%;
+    width: 80%;
+    height: 15%;
+    background-color: brown;
+    border-radius: 25px;
+  }
+  /* -------- CIRCULOS -------- */
+  .TS-cir-1,
+  .TS-cir-2,
+  .TS-cir-3 {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .TS-cir-1 {
+    margin-top: -5vh;
+    margin-left: 40%;
+    width: 17%;
+    height: 90%;
+  }
+
+  .TS-cir-2 {
+    margin-top: -3vh;
+    margin-left: 12%;
+    width: 15%;
+    height: 80%;
+  }
+
+  .TS-cir-3 {
+    margin-top: -3vh;
+    margin-left: 72%;
+    width: 15%;
+    height: 80%;
+  }
+
+  /* -------- IMAGENES DEL CIRCULO -------- */
+
+  .TS-img-1 {
+    position: absolute;
+    margin-top: -1.2vh;
+    margin-left: 7%;
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+  }
+
+  /* ----- TEXTOS ----- */
+
+  .TS-opc-1,
+  .TS-opc-1-2,
+  .TS-opc-2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+    z-index: 1;
+  }
+
+  .TS-opc-1 {
+    position: absolute;
+    margin-top: 80%;
+    margin-left: 0;
+    width: 118%;
+  }
+
+  .TS-opc-2 {
+    position: absolute;
+    margin-top: 80%;
+    margin-left: -2.5vh;
+    width: 155%;
+  }
+
+  /* ----- FLECHAS ----- */
+
+  .TS-img-Izq,
+  .TS-img-Der {
+    position: absolute;
+    margin-top: 6%;
+    width: 35%;
+    height: 40%;
+    z-index: 5;
+  }
+
+  .TS-img-Izq {
+    margin-left: -11vh;
+  }
+
+  .TS-img-Der {
+    margin-left: 77.5%;
+  }
+
+  /* -------- VISIBILIDAD DE SECCIONES -------- */
+
+  .TS-section {
+    display: none;
+    position: relative;
+  }
+
+  .TS-section.activa {
+    display: block;
+  }
+
+  /* ------------------ CÉDULA DE BÚSQUEDA ------------------ */
+
+  .TS-tit-2,
+  .TS-circulo-img,
+  .TS-img-user,
+  .TS-p-2,
+  .TS-p-3,
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4,
+  .TS-cuadro-encargado,
+  .TS-dir,
+  .TS-dir-nombre,
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4,
+  .TS-p-5,
+  .TS-img-2,
+  .TS-p-6,
+  .TS-img-3,
+  .TS-p-7,
+  .TS-img-4 {
+    position: absolute;
+  }
+
+  .TS-p-2,
+  .TS-p-3,
+  .TS-p-5,
+  .TS-p-6,
+  .TS-p-7 {
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    height: 5%;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-ext-1:hover,
+  .TS-btn-ext-2:hover,
+  .TS-btn-ext-3:hover,
+  .TS-btn-ext-4:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    text-align: center;
+  }
+
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4 {
+    width: 56%;
+    background-color: #0057b7;
+    text-align: justify;
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-img-2,
+  .TS-img-3,
+  .TS-img-4 {
+    display: block;
+  }
+
+  .TS-tit-2 {
+    margin-top: -3vh;
+    margin-left: 8%;
+    font-size: 1.3rem;
+  }
+
+  .TS-circulo-img {
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 28%;
+    height: 32%;
+    border-radius: 50%;
+  }
+
+  .TS-img-user {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .TS-p-2 {
+    margin-top: 4%;
+    margin-left: 40%;
+    width: 55%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-3 {
+    margin-top: 18%;
+    margin-left: 45%;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+  .TS-p-4{
+    font-size: 0.7rem;
+  }
+  /* -------- BOTONES -------- */
+  .TS-btn-ext-1 {
+    margin-top: 49%;
+    margin-left: 6%;
+    width: 20%;
+    background-color: #0057b7;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-2 {
+    margin-top: 56%;
+    margin-left: 6%;
+    width: 32%;
+    background-color: #ff6f00;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-3 {
+    margin-top: 63%;
+    margin-left: 6%;
+    width: 25%;
+    background-color: #e91e63;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-4 {
+    margin-top: 70%;
+    margin-left: 6%;
+    width: 25%;
+    background-color: #2e7d32;
+    font-size: 0.8rem;
+  }
+  /* --------------------------- */
+  .TS-cuadro-encargado {
+    margin-top: 30%;
+    margin-left: 20%;
+    width: 22%;
+    height: 13%;
+    background-color: rgb(214, 214, 214);
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-dir {
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 0.9rem;
+  }
+
+  .TS-dir-nombre {
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size: 0.9rem;
+  }
+
+  .TS-sub-1 {
+    margin-top: 38%;
+    margin-left: 50%;
+    width: 50%;
+    font-size: 1rem;
+  }
+  /* -------- DESAPARICION -------- */
+  .TS-card-1 {
+    margin-top: 43%;
+    margin-left: 40%;
+    height: 13.5%;
+  }
+
+  .TS-card-inf {
+    margin-top: 1.8%;
+    margin-left: 5%;
+    width: 90%;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .TS-card-2 {
+    margin-top: 56%;
+    margin-left: 40%;
+    height: 11%;
+  }
+
+  .TS-card-3 {
+    margin-top: 67%;
+    margin-left: 40%;
+    height: 18%;
+  }
+
+  .TS-card-4 {
+    margin-top: 84%;
+    margin-left: 40%;
+    height: 18%;
+  }
+  .TS-sub-2 {
+    font-size: 0.8rem;
+  }
+  /* -------- (EDOMEX) -------- */
+  .TS-sub-3 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 45%;
+    font-size: 0.9rem;
+  }
+
+  .TS-p-5 {
+    margin-top: 38%;
+    margin-left: 45%;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-2 {
+    margin-top: 54%;
+    margin-left: 58%;
+    width: 27%;
+    height: 40%;
+  }
+  /* -------- (CDMX) -------- */
+  .TS-p-6 {
+    margin-top: 38%;
+    margin-left: 45%;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-3 {
+    margin-top: 60%;
+    margin-left: 58%;
+    width: 27%;
+    height: 40%;
+  }
+  /* -------- LNEZA -------- */
+
+  .TS-p-7 {
+    margin-top: 38%;
+    margin-left: 45%;
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-4 {
+    margin-top: 65%;
+    margin-left: 50%;
+    width: 40%;
+    height: 22%;
+  }
+
+  /* ------------------ ATENCIÓN-VIOLENCIA ------------------ */
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1,
+  .TS-doc-list-1 {
+    position: absolute;
+    text-align: justify;
+  }
+
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1 {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-8 {
+    margin-top: 4%;
+    margin-left: 40%;
+    width: 55%;
+  }
+
+  .TS-p-9 {
+    margin-top: 18%;
+    margin-left: 45%;
+    width: 50%;
+  }
+
+  .TS-img-5 {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 49%;
+    width: 43%;
+    height: 25%;
+    display: block;
+  }
+
+  .TS-sub-3-2 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-1 {
+    margin-top: 65%;
+    margin-left: 6%;
+    width: 90%;
+  }
+
+  .TS-sub-4-1 {
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-1 {
+    margin-top: 79%;
+    margin-left: 6%;
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  /* ------------------ PROTECCIÓN CANINA ------------------ */
+  .TS-tit-3,
+  .TS-p-11,
+  .TS-img-6,
+  .TS-sub-5,
+  .TS-doc-list-2,
+  .TS-btn-img-7,
+  .TS-btn-palabra {
+    position: absolute;
+  }
+
+  .TS-p-11,
+  .TS-doc-list-2 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-tit-3 {
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-p-11 {
+    margin-top: 4%;
+    margin-left: 40%;
+    width: 55%;
+  }
+
+  .TS-img-6 {
+    margin-top: 45%;
+    margin-left: 6%;
+    width: 40%;
+    height: 38%;
+    display: block;
+  }
+
+  .TS-sub-5 {
+    margin-top: 18%;
+    margin-left: 45%;
+    font-size: 0.8rem;
+  }
+
+  .TS-doc-list-2 {
+    margin-top: 22%;
+    margin-left: 43%;
+    width: 52%;
+  }
+
+  .TS-btn-img-7 {
+    margin-top: 45%;
+    margin-left: 65%;
+    width: 18%;
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+  }
+
+  .TS-btn-img-7 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 35px;
+  }
+
+  .TS-btn-palabra {
+    margin-top: 57%;
+    margin-left: 74%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    pointer-events: none;
+  }
+
+  #seccionNezaLink {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 50px 20px;
+    box-sizing: border-box;
+  }
+
+  /* ------------------ VICTIMAS ------------------ */
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3,
+  .TS-sub-6 {
+    position: absolute;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14 {
+    width: 55%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12 {
+    margin-top: 4%;
+    margin-left: 40%;
+  }
+
+  .TS-p-13 {
+    margin-top: 16%;
+    margin-left: 40%;
+    width: 50%;
+  }
+
+  .TS-p-14 {
+    margin-top: 28%;
+    margin-left: 45%;
+    width: 50%;
+  }
+
+  .TS-sub-6 {
+    margin-top: 45%;
+    margin-left: 6%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-3 {
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 6%;
+    text-align: justify;
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-3 {
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-3 {
+    margin-top: 61%;
+    margin-left: 6%;
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  /* ------------------ COMENTARIOS ------------------ */
+
+  .TS-p-15,
+  .TS-p-16,
+  .TS-sub-7,
+  .TS-img-8,
+  .TS-img-9,
+  .TS-form,
+  .TS-bloque-form {
+    position: absolute;
+  }
+
+  .TS-p-15,
+  .TS-p-16 {
+    width: 40%;
+    text-align: justify;
+  }
+
+  .TS-img-8,
+  .TS-img-9 {
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+    display: block;
+  }
+
+  .TS-p-15 {
+    margin-top: 5%;
+    margin-left: 6%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-8 {
+    margin-top: 35%;
+    margin-left: 5%;
+    width: 5%;
+  }
+
+  .TS-p-16 {
+    margin-top: 30%;
+    margin-left: 12%;
+    font-size: 1.2rem;
+  }
+
+  .TS-img-9 {
+    margin-top: 6.5%;
+    margin-left: 28%;
+    width: 40%;
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+  .TS-sub-7 {
+    margin-top: 3%;
+    margin-left: 65%;
+    font-size: 1.2rem;
+  }
+
+  .TS-form {
+    width: 40%;
+    height: 35%;
+    top: 120%;
+    margin-left: 48%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  .TS-bloque-form {
+    width: 110%;
+    top: 5%;
+    margin-left: 5%;
+  }
+
+  .TS-btn-enviar {
+    position: absolute;
+    width: 100px;
+    margin-top: 110%;
+    margin-left: 40%;
+    font-size: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-enviar:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ LLAMADAS-EMERGENCIAS ------------------ */
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-sub-8,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    position: absolute;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19 {
+    width: 50%;
+  }
+
+  .TS-p-17 {
+    margin-top: 4%;
+    margin-left: 40%;
+  }
+
+  .TS-p-18 {
+    margin-top: 13%;
+    margin-left: 40%;
+  }
+
+  .TS-p-19 {
+    margin-top: 25%;
+    margin-left: 45%;
+  }
+
+  .TS-doc-list-4 {
+    margin-top: 28%;
+    margin-left: 43%;
+    width: 50%;
+  }
+
+  .TS-sub-8 {
+    margin-top: 53%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-4 {
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 6%;
+    text-align: justify;
+    width: 88%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-5 {
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-5 {
+    margin-top: 69%;
+    margin-left: 5%;
+    width: 88%;
+  }
+
+  /* ------------------ NEZA-LINK ------------------ */
+
+  .TS-linkNeza {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7a0c0c;
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 40px;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .TS-btn-CerrarNezaLink {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .TS-btn-CerrarNezaLink img {
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+
+  .TS-btn-CerrarNezaLink:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .TS-p-20,
+  .TS-p-21,
+  .TS-btn-registro-1,
+  .TS-sub-9,
+  .TS-doc-list-6,
+  .TS-btn-emergencia {
+    position: absolute;
+  }
+
+  .TS-tit-3 {
+    margin-top: -5vh;
+    font-size: 1.5rem;
+  }
+
+  .TS-p-20,
+  .TS-p-21,
+  .TS-doc-list-6 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-20,
+  .TS-p-21 {
+    width: 45%;
+  }
+
+  .TS-p-20 {
+    margin-top: 4%;
+    margin-left: 40%;
+  }
+
+  .TS-p-21 {
+    margin-top: 20%;
+    margin-left: 45%;
+  }
+
+  .TS-btn-registro-1 {
+    margin-top: 40%;
+    margin-left: 59%;
+    width: 20%;
+    height: 5%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+
+  .TS-btn-registro-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  .TS-sub-9 {
+    margin-top: 50%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-2 {
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 6%;
+    text-align: justify;
+    width: 85%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-2 {
+    position: absolute;
+    margin-top: 63%;
+    margin-left: 6%;
+    font-size: 1rem;
+  }
+
+  .TS-btn-emergencia {
+    margin-top: 67%;
+    margin-left: 60%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(231, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-emergencia:hover {
+    box-shadow: 0 0 15px rgb(231, 0, 0);
+  }
+
+  .TS-doc-list-6 {
+    margin-top: 67%;
+    margin-left: 6%;
+    width: 85%;
+  }
+}
+
+/*-- ------------------------------------------------- CELULAR ------------------------------------------------- --*/
+
+/* ------------------ ENCABEZADO ------------------ */
+
+@media (max-width: 600px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  .TS-fondo {
+    position: relative;
+    margin-top: -6vh;
+    width: 99vw;
+    height: 96vh;
+    overflow: hidden;
+  }
+
+  .TS-fondo-p-1 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10.5%;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(126, 0, 0);
+    border-radius: 20%;
+    z-index: -1;
+  }
+
+  .TS-img-fondo {
+    display: none;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3,
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    position: absolute;
+    color: white;
+  }
+
+  .TS-tit-1,
+  .TS-tit-1-1,
+  .TS-tit-1-2,
+  .TS-tit-1-3 {
+    margin-top: 14%;
+    margin-left: 50%;
+    font-size: 1.2rem;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 60%;
+  }
+
+  .TS-p-1,
+  .TS-p-1-1,
+  .TS-p-1-2,
+  .TS-p-1-3 {
+    margin-top: 30%;
+    margin-left: 18%;
+    width: 65%;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .TS-slide {
+    display: none;
+  }
+
+  .TS-slide.active {
+    display: block;
+  }
+
+  .TS-botones {
+    position: absolute;
+    bottom: 10%;
+    margin-top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+  }
+
+  .TS-btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .TS-btn.active {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+
+  /* ------------------ MENU ------------------ */
+
+  .TS-sub-menu {
+    position: absolute;
+    margin-top: -38vh;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+    background-color: brown;
+    border-radius: 25px;
+  }
+  /* -------- CIRCULOS -------- */
+  .TS-cir-1,
+  .TS-cir-2,
+  .TS-cir-3 {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .TS-cir-1 {
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 18%;
+    height: 110%;
+  }
+
+  .TS-cir-2 {
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 18%;
+    height: 110%;
+  }
+
+  .TS-cir-3 {
+    margin-top: 3%;
+    margin-left: 69%;
+    width: 18%;
+    height: 110%;
+  }
+
+  /* -------- IMAGENES DEL CIRCULO -------- */
+
+  .TS-img-1 {
+    position: absolute;
+    margin-top: -1.2vh;
+    margin-left: 0.5%;
+    width: 110%;
+    height: 90%;
+    z-index: 1;
+  }
+
+  /* ----- TEXTOS ----- */
+
+  .TS-opc-1,
+  .TS-opc-1-2,
+  .TS-opc-2 {
+    display: none;
+  }
+
+  /* ----- FLECHAS ----- */
+
+  .TS-img-Izq,
+  .TS-img-Der {
+    position: absolute;
+    margin-top: 6.5%;
+    width: 28%;
+    height: 40%;
+    z-index: 5;
+    overflow-x: hidden;
+  }
+
+  .TS-img-Izq {
+    margin-left: -5vh;
+  }
+
+  .TS-img-Der {
+    margin-left: 80%;
+  }
+
+  /* -------- VISIBILIDAD DE SECCIONES -------- */
+
+  .TS-section {
+    display: none;
+    position: relative;
+  }
+
+  .TS-section.activa {
+    display: block;
+  }
+
+  /* ------------------ CÉDULA DE BÚSQUEDA ------------------ */
+
+  .TS-tit-2,
+  .TS-circulo-img,
+  .TS-img-user,
+  .TS-p-2,
+  .TS-p-3,
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4,
+  .TS-cuadro-encargado,
+  .TS-dir,
+  .TS-dir-nombre,
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4,
+  .TS-p-5,
+  .TS-img-2,
+  .TS-p-6,
+  .TS-img-3,
+  .TS-p-7,
+  .TS-img-4 {
+    position: absolute;
+  }
+
+  .TS-p-2,
+  .TS-p-3,
+  .TS-p-5,
+  .TS-p-6,
+  .TS-p-7 {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .TS-btn-ext-1,
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    height: 5%;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-ext-1:hover,
+  .TS-btn-ext-2:hover,
+  .TS-btn-ext-3:hover,
+  .TS-btn-ext-4:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  .TS-btn-ext-2,
+  .TS-btn-ext-3,
+  .TS-btn-ext-4 {
+    text-align: center;
+  }
+
+  .TS-img-2,
+  .TS-img-3,
+  .TS-img-4 {
+    display: block;
+  }
+
+  .TS-tit-2 {
+    margin-top: -23vh;
+    margin-left: 8%;
+    font-size: 1.2rem;
+  }
+
+  .TS-circulo-img {
+    margin-top: -15vh;
+    margin-left: 30%;
+    width: 35%;
+    height: 24%;
+    border-radius: 50%;
+  }
+
+  .TS-img-user {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* --------------------------- */
+  .TS-cuadro-encargado {
+    margin-top: 10%;
+    margin-left: 26%;
+    width: 45%;
+    height: 10%;
+    background-color: rgb(214, 214, 214);
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-dir {
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 0.9rem;
+  }
+
+  .TS-dir-nombre {
+    margin-top: 25%;
+    margin-left: 15%;
+    font-size: 0.9rem;
+  }
+  /* --------------------------- */
+
+  .TS-p-2 {
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 8%;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-3 {
+    margin-top: 110%;
+    margin-left: 8%;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  /* -------- BOTONES -------- */
+  .TS-btn-ext-1 {
+    margin-top: 35%;
+    margin-left: 6%;
+    width: 30%;
+    background-color: #0057b7;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-2 {
+    margin-top: 47%;
+    margin-left: 6%;
+    width: 56%;
+    background-color: #ff6f00;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-3 {
+    margin-top: 35%;
+    margin-left: 45%;
+    width: 45%;
+    background-color: #e91e63;
+    font-size: 0.8rem;
+  }
+
+  .TS-btn-ext-4 {
+    margin-top: 60%;
+    margin-left: 6%;
+    width: 45%;
+    background-color: #2e7d32;
+    font-size: 0.8rem;
+  }
+
+  /* -------- DESAPARICION -------- */
+  .TS-card-1,
+  .TS-card-2,
+  .TS-card-3,
+  .TS-card-4 {
+    width: 88%;
+    background-color: #0057b7;
+    text-align: justify;
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  .TS-card-1 {
+    margin-top: 163%;
+    margin-left: 7%;
+    height: 13.5%;
+  }
+
+  .TS-card-inf {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    color: rgb(255, 252, 252);
+    font-size: 0.7rem;
+  }
+
+  .TS-card-2 {
+    margin-top: 190%;
+    margin-left: 7%;
+    height: 13%;
+  }
+
+  .TS-card-3 {
+    margin-top: 216%;
+    margin-left: 7%;
+    height: 20%;
+  }
+
+  .TS-card-4 {
+    margin-top: 255%;
+    margin-left: 7%;
+    height: 20%;
+  }
+
+  .TS-sub-1 {
+    margin-top: 155%;
+    margin-left: 8%;
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .TS-sub-2 {
+    font-size: 0.8rem;
+  }
+  /* -------- (EDOMEX) -------- */
+  .TS-sub-3 {
+    position: absolute;
+    margin-top: 155%;
+    margin-left: 8%;
+    font-size: 0.9rem;
+  }
+
+  .TS-p-5 {
+    margin-top: 161%;
+    margin-left: 8%;
+    width: 85%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-2 {
+    margin-top: 196%;
+    margin-left: 30%;
+    width: 40%;
+    height: 30%;
+  }
+  /* -------- (CDMX) -------- */
+  .TS-p-6 {
+    margin-top: 162%;
+    margin-left: 8%;
+    width: 85%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-3 {
+    margin-top: 215%;
+    margin-left: 30%;
+    width: 40%;
+    height: 30%;
+  }
+  /* -------- LNEZA -------- */
+
+  .TS-p-7 {
+    margin-top: 162%;
+    margin-left: 8%;
+    width: 85%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-4 {
+    margin-top: 230%;
+    margin-left: 15%;
+    width: 70%;
+    height: 30%;
+  }
+
+  /* ------------------ ATENCIÓN-VIOLENCIA ------------------ */
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1,
+  .TS-doc-list-1 {
+    position: absolute;
+    text-align: justify;
+  }
+
+  .TS-p-8,
+  .TS-p-9,
+  .TS-p-10-1 {
+    font-size: 0.8rem;
+  }
+
+  .TS-p-8 {
+    margin-top: 35%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-p-9 {
+    margin-top: 72%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-img-5 {
+    position: absolute;
+    margin-top: 115%;
+    margin-left: 15%;
+    width: 73%;
+    height: 25%;
+    display: block;
+  }
+
+  .TS-sub-3-2 {
+    position: absolute;
+    margin-top: 168%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-1 {
+    margin-top: 175%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-sub-4-1 {
+    position: absolute;
+    margin-top: 208%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-1 {
+    margin-top: 215%;
+    margin-left: 6%;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  /* ------------------ PROTECCIÓN CANINA ------------------ */
+  #seccionProteccionCanina {
+    margin-left: 1%;
+  }
+
+  .TS-tit-3,
+  .TS-p-11,
+  .TS-img-6,
+  .TS-sub-5,
+  .TS-doc-list-2,
+  .TS-btn-img-7,
+  .TS-btn-palabra {
+    position: absolute;
+  }
+
+  .TS-p-11,
+  .TS-doc-list-2 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-tit-3 {
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-p-11 {
+    margin-top: 35%;
+    margin-left: 8%;
+    width: 83%;
+  }
+
+  .TS-img-6 {
+    margin-top: 105%;
+    margin-left: 8%;
+    width: 40%;
+    height: 31%;
+    display: block;
+  }
+
+  .TS-sub-5 {
+    margin-top: 65%;
+    margin-left: 8%;
+    font-size: 0.8rem;
+  }
+
+  .TS-doc-list-2 {
+    margin-top: 70%;
+    margin-left: 8%;
+    width: 83%;
+  }
+
+  .TS-btn-img-7 {
+    margin-top: 118%;
+    margin-left: 58%;
+    width: 30%;
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+  }
+
+  .TS-btn-img-7 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 35px;
+  }
+
+  .TS-btn-palabra {
+    margin-top: 139%;
+    margin-left: 73.2%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    pointer-events: none;
+  }
+
+  #seccionNezaLink {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 50px 20px;
+    box-sizing: border-box;
+  }
+
+  /* ------------------ VICTIMAS ------------------ */
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3,
+  .TS-sub-6 {
+    position: absolute;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14,
+  .TS-doc-list-3 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12,
+  .TS-p-13,
+  .TS-p-14 {
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-12 {
+    margin-top: 35%;
+    margin-left: 8%;
+  }
+
+  .TS-p-13 {
+    margin-top: 63%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-p-14 {
+    margin-top: 96%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-sub-6 {
+    margin-top: 129%;
+    margin-left: 8%;
+    width: 83%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-3 {
+    position: absolute;
+    margin-top: 137%;
+    margin-left: 8%;
+    text-align: justify;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-3 {
+    position: absolute;
+    margin-top: 165%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-3 {
+    margin-top: 172%;
+    margin-left: 8%;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  /* ------------------ COMENTARIOS ------------------ */
+
+  .TS-comentarios {
+    margin-left: -0.5vh;
+  }
+
+  .TS-p-15,
+  .TS-p-16,
+  .TS-sub-7,
+  .TS-img-8,
+  .TS-img-9,
+  .TS-form,
+  .TS-bloque-form {
+    position: absolute;
+  }
+
+  .TS-p-15,
+  .TS-p-16 {
+    width: 83%;
+    text-align: justify;
+  }
+
+  .TS-img-8,
+  .TS-img-9 {
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+    display: block;
+  }
+
+  .TS-p-15 {
+    margin-top: -15vh;
+    margin-left: 8%;
+    font-size: 0.8rem;
+  }
+
+  .TS-img-8 {
+    margin-top: 15%;
+    margin-left: 20%;
+    width: 15%;
+  }
+
+  .TS-p-16 {
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .TS-img-9 {
+    display: none;
+  }
+
+  .TS-sub-7 {
+    margin-top: 50%;
+    margin-left: 40%;
+    font-size: 1rem;
+  }
+
+  .TS-form {
+    width: 82%;
+    height: 38%;
+    margin-top: 55%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+
+  .TS-bloque-form {
+    width: 110%;
+    top: 5%;
+    margin-left: 8%;
+  }
+
+  .TS-btn-enviar {
+    position: absolute;
+    width: 100px;
+    margin-top: 158%;
+    margin-left: 35%;
+    font-size: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+
+  .TS-btn-enviar:hover {
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  /* ------------------ LLAMADAS-EMERGENCIAS ------------------ */
+
+  .TS-llamadas {
+    margin-left: -0.5vh;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-sub-8,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    position: absolute;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19,
+  .TS-doc-list-4,
+  .TS-doc-list-5 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-17,
+  .TS-p-18,
+  .TS-p-19 {
+    width: 86%;
+  }
+
+  .TS-p-17 {
+    margin-top: 35%;
+    margin-left: 8%;
+  }
+
+  .TS-p-18 {
+    margin-top: 53%;
+    margin-left: 8%;
+  }
+
+  .TS-p-19 {
+    margin-top: 77%;
+    margin-left: 8%;
+  }
+
+  .TS-doc-list-4 {
+    margin-top: 83%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  .TS-sub-8 {
+    margin-top: 148%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-4 {
+    position: absolute;
+    margin-top: 156%;
+    margin-left: 8%;
+    text-align: justify;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-5 {
+    position: absolute;
+    margin-top: 186%;
+    margin-left: 8%;
+    font-size: 1rem;
+  }
+
+  .TS-doc-list-5 {
+    margin-top: 193%;
+    margin-left: 8%;
+    width: 86%;
+  }
+
+  /* ------------------ NEZA-LINK ------------------ */
+
+  .TS-linkNeza {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7a0c0c;
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 40px;
+
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.603) 0px,
+        rgba(255, 255, 255, 0.603) 2px,
+        transparent 10px,
+        transparent 10px
+      );
+    background-blend-mode: overlay;
+  }
+
+  .TS-btn-CerrarNezaLink {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .TS-btn-CerrarNezaLink img {
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+
+  .TS-btn-CerrarNezaLink:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .TS-p-20,
+  .TS-p-21,
+  .TS-btn-registro-1,
+  .TS-sub-9,
+  .TS-doc-list-6,
+  .TS-btn-emergencia {
+    position: absolute;
+  }
+
+  .TS-tit-3 {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 1.3rem;
+  }
+
+  .TS-img-user-1{
+margin-top: 120%;
+margin-left: -13vh;
+height: 70%;
+  }
+
+  .TS-cuadro-encargado-1{
+margin-top: 43%;
+margin-left: 10%;
+  }
+
+  .TS-p-20,
+  .TS-p-21,
+  .TS-doc-list-6 {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .TS-p-20,
+  .TS-p-21 {
+    width: 85%;
+  }
+
+  .TS-p-20 {
+    margin-top: 65%;
+    margin-left: 1%;
+  }
+
+  .TS-p-21 {
+    margin-top: 105%;
+    margin-left: 1%;
+  }
+
+  .TS-btn-registro-1 {
+    margin-top: 140%;
+    margin-left: 30%;
+    width: 30%;
+    height: 5%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+
+  .TS-btn-registro-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  }
+
+  .TS-sub-9 {
+    margin-top: 154%;
+    margin-left: 1%;
+    font-size: 1rem;
+  }
+
+  .TS-p-10-2 {
+    position: absolute;
+    margin-top: 158%;
+    margin-left: 1%;
+    text-align: justify;
+    width: 85%;
+    font-size: 0.8rem;
+  }
+
+  .TS-sub-4-2 {
+    position: absolute;
+    margin-top: 188%;
+    margin-left: 1%;
+    font-size: 1rem;
+  }
+
+  .TS-btn-emergencia {
+    margin-top: 30%;
+    margin-left: 60%;
+    width: 25%;
+    height: 10%;
+    background-color: rgb(231, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .TS-btn-emergencia:hover {
+    box-shadow: 0 0 15px rgb(231, 0, 0);
+  }
+
+  .TS-doc-list-6 {
+    margin-top: 194%;
+    margin-left: 1%;
+    width: 85%;
+  }
+}

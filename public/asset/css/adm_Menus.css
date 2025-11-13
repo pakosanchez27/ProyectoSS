@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 0%;
+}
+
+.Adm-M-container-bloques-edit {
+  position: absolute;
+  width: 99.7%;
+  height: 855px;
+  display: flex; /* Esto pone las columnas lado a lado */
+  flex-direction: row;
+}
+
+.Adm-M-img-Abrir-Cerrar-Menu {
+  position: absolute;
+  filter: invert(1);
+  margin-top: 1vh;
+  margin-left: 0%;
+  width: 50px;
+  height: auto;
+}
+
+.Adm-M-contenedor-Menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* espacio entre cada par imagen/título */
+  width: 300px;
+  height: 853px;
+  background-color: #072558c9;
+}
+
+.Adm-M-Menu-fila {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 0px;
+  column-gap: 1vh;
+  align-items: center;
+}
+
+.Adm-M-img-1 {
+  filter: invert(1);
+  margin-left: 4%;
+  width: 50px;
+  height: auto;
+}
+
+.Adm-M-sub-1 {
+  margin-top: 2vh;
+  margin-left: 15px;
+  font-size: 16px;
+  color: white;
+}
+
+.Adm-M-contenedor-Menu-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  height: 852px;
+  background-color: #072558;
+  gap: 12px;
+}
+
+.boton-prueba{
+  position: absolute;
+  margin-left: 400px;
+}

@@ -1,0 +1,2916 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+}
+
+/*-- ------------------------------------------------------------------------ PRINCIPAL ------------------------------------------------------------------------ --*/
+
+.SC-fondo {
+  position: absolute;
+  top: 9.3%;
+  width: 100%;
+  height: 80%;
+}
+
+.SC-fondo-1,
+.SC-fondo-2 {
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.SC-fondo-1 {
+  top: -31.5vh;
+  left: -25vh;
+  width: 109.4%;
+  height: 95%;
+  background-color: #003366;
+  transform: rotate(-21.5deg);
+  z-index: -1;
+}
+
+.SC-fondo-2 {
+  top: -10vh;
+  left: -2vh;
+  width: 101%;
+  height: 114.2%;
+  background-color: #7c0000;
+  z-index: -2;
+}
+
+.SC-tit-1,
+.SC-p-1 {
+  text-align: center;
+  color: white;
+}
+
+.SC-tit-1 {
+  margin-top: 8%;
+  margin-left: 15%;
+  width: 20%;
+  font-size: 55px;
+}
+
+.SC-p-1 {
+  margin-top: 3%;
+  margin-left: 8%;
+  width: 35%;
+  font-size: 30px;
+}
+
+.SC-img {
+  position: relative;
+  margin-top: -50vh;
+  margin-left: 50%;
+  width: 12%;
+  height: 200px;
+}
+
+.SC-petalo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.SC-petalo:hover {
+  transform: scale(1.1);
+}
+
+.SC-petalo.top {
+  top: -6vh;
+  left: 150%;
+  transform: translateX(-50%);
+  background: #0d6efd;
+}
+
+.SC-petalo.right {
+  top: 120%;
+  left: 22%;
+  transform: translateY(-50%);
+  background: #198754;
+}
+
+.SC-petalo.bottom {
+  top: 70%;
+  left: 230%;
+  transform: translateX(-50%);
+  background: #ffc107;
+}
+
+.SC-petalo.left {
+  top: 220%;
+  left: 100%;
+  transform: translateY(-50%);
+  background: #0dcaf0;
+}
+
+.SC-petalo img {
+  width: 90%;
+  height: 80%;
+}
+
+/*-- ------------------------------------------------------------------------ UBICACION ------------------------------------------------------------------------ --*/
+
+.SC-tit-2,
+.SC-p-2,
+.SC-ubi {
+  position: absolute;
+}
+
+.SC-tit-2 {
+  margin-top: 42%;
+  margin-left: 62%;
+}
+
+.SC-p-2 {
+  margin-top: 55%;
+  margin-left: 8.5%;
+  width: 35%;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.SC-ubi {
+  margin-top: 46%;
+  margin-left: 37%;
+  width: 50%;
+  height: 60vh;
+}
+
+/*-- ------------------------------------------------------------------------ DENUNCIAS ------------------------------------------------------------------------ --*/
+
+.SC-tit-3,
+.SC-p-3,
+.SC-sub-1,
+.SC-img-2,
+.SC-list-1,
+.SC-line-1,
+.SC-sub-2,
+.SC-img-3,
+.SC-list-2,
+.SC-line-2,
+.SC-sub-3,
+.SC-img-4,
+.SC-list-3 {
+  position: absolute;
+}
+
+/*-- --------------------------------- TITULO TEXTOS --------------------------------- --*/
+
+.SC-tit-3 {
+  margin-top: 80%;
+  margin-left: 8.5%;
+}
+
+.SC-p-3 {
+  margin-top: 85%;
+  margin-left: 8.5%;
+  width: 37%;
+  text-align: justify;
+  font-size: 25px;
+}
+
+/*-- --------------------------------- FICHA 1 --------------------------------- --*/
+
+.SC-sub-1 {
+  margin-top: 100%;
+  margin-left: 22%;
+  width: 25%;
+}
+
+.SC-img-2 {
+  margin-top: 85%;
+  left: 53%;
+  width: 30%;
+  height: 55%;
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo 3s ease-in-out infinite;
+}
+
+.SC-list-1 {
+  margin-top: 95%;
+  left: 57.3%;
+  font-size: 22px;
+  transform: rotate(-9.8deg);
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo2 3s ease-in-out infinite;
+}
+
+.SC-line-1 {
+  width: 60%; /* Escala según el ancho del contenedor */
+  height: auto; /* Mantiene proporción */
+  margin-top: 105%;
+  margin-left: 10%;
+  transform: rotate(-33deg);
+  z-index: -2;
+}
+
+/*-- --------------------------------- FICHA 2 --------------------------------- --*/
+
+.SC-sub-2 {
+  margin-top: 120%;
+  margin-left: 47%;
+  width: 20%;
+}
+
+.SC-img-3 {
+  margin-top: 109%;
+  left: 10%;
+  width: 30%;
+  height: 55%;
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo3 3s ease-in-out infinite;
+}
+
+.SC-list-2 {
+  margin-top: 119.5%;
+  left: 15.5%;
+  width: 20%;
+  font-size: 22px;
+  transform: rotate(9.8deg);
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo4 3s ease-in-out infinite;
+}
+
+.SC-line-2 {
+  width: 70%;
+  height: auto;
+  margin-top: 110%;
+  margin-left: 27%;
+  z-index: -1;
+}
+
+/*-- --------------------------------- FICHA 3 --------------------------------- --*/
+
+.SC-sub-3 {
+  margin-top: 145%;
+  margin-left: 10%;
+}
+
+.SC-img-4 {
+  margin-top: 135%;
+  left: 53%;
+  width: 30%;
+  height: 55%;
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo5 3s ease-in-out infinite;
+}
+
+.SC-list-3 {
+  margin-top: 146%;
+  left: 58%;
+  width: 20%;
+  font-size: 22px;
+  transform: rotate(-10deg);
+  display: inline-block;
+  transform-origin: top center;
+  animation: balanceo6 3s ease-in-out infinite;
+}
+
+/*-- --------------------------------- BOTON --------------------------------- --*/
+
+.SC-btn-1 {
+  margin-top: 150%;
+  margin-left: 15%;
+  width: 10%;
+  color: white;
+  background-color: #0057b7;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.SC-btn-1:hover {
+  background-color: #1e70ff;
+  box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+  color: white;
+}
+
+/*-- --------------------------------- ANIMACIONES --------------------------------- --*/
+
+@keyframes balanceo {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes balanceo2 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(-9.8deg);
+  }
+  25% {
+    transform: rotate(-4.8deg);
+  }
+  75% {
+    transform: rotate(-14.8deg);
+  }
+}
+
+@keyframes balanceo3 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes balanceo4 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(9.8deg);
+  }
+  25% {
+    transform: rotate(14.8deg);
+  }
+  75% {
+    transform: rotate(4.8deg);
+  }
+}
+
+@keyframes balanceo5 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes balanceo6 {
+  0%,
+  50%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+/*-- ------------------------------------------------------------------------ TIPS ------------------------------------------------------------------------ --*/
+
+.SC-tips {
+  position: absolute;
+  margin-top: 12%;
+  width: 100%;
+  height: 80%;
+  background-color: blanchedalmond;
+  z-index: 1;
+}
+
+.SC-tit-4 {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+
+.SC-p-4 {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 19%;
+  text-align: justify;
+  font-size: 27px;
+}
+
+/*-- --------------------------------- BLOQUES --------------------------------- --*/
+
+.SC-c-1,
+.SC-c-2,
+.SC-c-3,
+.SC-c-4,
+.SC-c-5,
+.SC-c-6,
+.SC-c-7,
+.SC-c-8,
+.SC-c-9,
+.SC-c-10 {
+  position: absolute;
+  width: 17%;
+  height: 25%;
+  border-radius: 30px;
+}
+
+.SC-c-1,
+.SC-c-2,
+.SC-c-3,
+.SC-c-4,
+.SC-c-5 {
+  top: 27%;
+  z-index: 2;
+}
+
+.SC-c-6,
+.SC-c-7,
+.SC-c-8,
+.SC-c-9,
+.SC-c-10 {
+  top: 60%;
+}
+
+.SC-c-1 {
+  left: 4%;
+  background-color: #0077b6;
+}
+.SC-c-2 {
+  left: 23%;
+  background-color: #ffc300;
+}
+.SC-c-3 {
+  left: 42%;
+  background-color: #d62828;
+}
+.SC-c-4 {
+  left: 61%;
+  background-color: #6d4c41;
+}
+.SC-c-5 {
+  left: 80%;
+  background-color: #9d4edd;
+}
+
+.SC-c-6 {
+  left: 4%;
+  background-color: #343a40;
+}
+.SC-c-7 {
+  left: 23%;
+  background-color: #2a9d8f;
+}
+.SC-c-8 {
+  left: 42%;
+  background-color: #e63946;
+}
+.SC-c-9 {
+  left: 61%;
+  background-color: #f77f00;
+}
+.SC-c-10 {
+  left: 80%;
+  background-color: #003566;
+}
+
+.SC-img-5 {
+  margin-top: 8%;
+  margin-left: 7%;
+  width: 42%;
+  height: 65%;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.SC-img-5:hover {
+  transform: scale(1.05);
+}
+
+.SC-p-5,
+.SC-p-6,
+.SC-p-7,
+.SC-p-8,
+.SC-p-9,
+.SC-p-10,
+.SC-p-11,
+.SC-p-12,
+.SC-p-13,
+.SC-p-14 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.SC-p-5,
+.SC-p-6,
+.SC-p-7,
+.SC-p-8,
+.SC-p-9 {
+  margin-left: 53%;
+  width: 40%;
+}
+
+.SC-p-5 {
+  margin-top: -11vh;
+}
+.SC-p-6,
+.SC-p-7,
+.SC-p-8 {
+  margin-top: -13vh;
+}
+.SC-p-9 {
+  margin-top: -9vh;
+}
+
+.SC-p-10,
+.SC-p-11,
+.SC-p-12,
+.SC-p-13,
+.SC-p-14 {
+  margin-left: 52%;
+  width: 45%;
+}
+
+.SC-p-10 {
+  margin-top: -15.5vh;
+}
+.SC-p-11 {
+  margin-top: -11.5vh;
+}
+.SC-p-12 {
+  margin-top: -13vh;
+}
+
+.SC-p-13,
+.SC-p-14 {
+  margin-left: 54%;
+  width: 40%;
+}
+.SC-p-13 {
+  margin-top: -13vh;
+}
+.SC-p-14 {
+  margin-top: -13.5vh;
+}
+
+/*-- --------------------------------- MODAL --------------------------------- --*/
+
+.SC-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.SC-modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 40%;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.SC-modal-content p {
+  text-align: left;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+}
+
+.SC-modal-content ul {
+  text-align: left;
+  margin: 10px 0 20px 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.SC-modal-content li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+#SC-modal-img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.SC-close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.SC-close:hover {
+  color: #d62828;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/*-- ------------------------------------------------------------------------ CONTACTOS ------------------------------------------------------------------------ --*/
+
+.SC-tit-5,
+.SC-tit-6,
+.SC-tit-7,
+.SC-tit-8,
+.SC-tit-9,
+.SC-p-15,
+.SC-p-16,
+.SC-p-17,
+.SC-p-18,
+.SC-p-19 {
+  position: absolute;
+}
+
+.SC-tit-5 {
+  margin-top: 55%;
+  margin-left: 10%;
+}
+
+.SC-p-15 {
+  margin-top: 59%;
+  margin-left: 10%;
+  text-align: justify;
+  font-style: italic;
+  font-size: 27px;
+}
+
+/*-- --------------------------------- EMERGENCIA GENERAL --------------------------------- --*/
+
+.SC-tit-6 {
+  margin-top: 69%;
+  margin-left: 65%;
+  font-weight: bold;
+}
+
+.SC-p-16 {
+  margin-top: 67%;
+  margin-left: 26%;
+  width: 25%;
+  text-align: justify;
+  font-size: 23px;
+}
+
+/*-- --------------------------------- POLICIA MUNICIPAL --------------------------------- --*/
+
+.SC-tit-7 {
+  margin-top: 13%;
+  margin-left: 10%;
+  width: 20%;
+  font-weight: bold;
+}
+
+.SC-p-17 {
+  margin-top: 10%;
+  margin-left: 48%;
+  width: 25%;
+  text-align: justify;
+  font-size: 23px;
+}
+
+/*-- --------------------------------- BOMBEROS --------------------------------- --*/
+
+.SC-tit-8 {
+  margin-top: 13%;
+  margin-left: 65%;
+  width: 20%;
+  font-weight: bold;
+}
+
+.SC-p-18 {
+  margin-top: 13%;
+  margin-left: 26%;
+  width: 25%;
+  text-align: justify;
+  font-size: 23px;
+}
+
+/*-- --------------------------------- BUZÓN --------------------------------- --*/
+
+.SC-tit-9 {
+  margin-top: 13%;
+  margin-left: 10%;
+  width: 20%;
+  font-weight: bold;
+}
+
+.SC-p-19 {
+  margin-top: 10%;
+  margin-left: 48%;
+  width: 25%;
+  text-align: justify;
+  font-size: 23px;
+}
+
+/*-- --------------------------------- IMAGENES --------------------------------- --*/
+
+.SC-img-15,
+.SC-img-16,
+.SC-img-17,
+.SC-img-18 {
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.SC-img-15 {
+  margin-top: 64%;
+  margin-left: 10%;
+}
+.SC-img-16 {
+  margin-top: 7%;
+  margin-left: 77%;
+}
+.SC-img-17 {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.SC-img-18 {
+  margin-top: 7%;
+  margin-left: 77%;
+}
+
+.SC-img-15:hover,
+.SC-img-16:hover,
+.SC-img-17:hover,
+.SC-img-18:hover {
+  transform: scale(1.3);
+}
+
+/*-- ------------------------------------------------------------------------ RESPONSIVO ------------------------------------------------------------------------ --*/
+
+/*-- ------------------------------------------------- ESCRITORIO ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+
+@media (max-width: 1024px) and (min-width: 649px) {
+  .Seguridad_Cerca {
+    margin-left: -1.6vh;
+  }
+
+  .SC-fondo {
+    position: absolute;
+    top: 9.3%;
+    width: 100%;
+    height: 80%;
+  }
+
+  .SC-fondo-1,
+  .SC-fondo-2 {
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  .SC-fondo-1 {
+    top: -29vh;
+    left: -26.6vh;
+    width: 112%;
+    height: 95%;
+    background-color: #003366;
+    transform: rotate(-26deg);
+    z-index: -1;
+  }
+
+  .SC-fondo-2 {
+    top: -10vh;
+    left: -2vh;
+    width: 101%;
+    height: 114.2%;
+    background-color: #7c0000;
+    z-index: -2;
+  }
+
+  .SC-tit-1,
+  .SC-p-1 {
+    text-align: center;
+    color: white;
+  }
+
+  .SC-tit-1 {
+    margin-top: 11%;
+    margin-left: 15%;
+    width: 30%;
+    font-size: 2.5rem;
+  }
+
+  .SC-p-1 {
+    margin-top: 3%;
+    margin-left: 13%;
+    width: 35%;
+    font-size: 1rem;
+  }
+
+  .SC-img {
+    position: relative;
+    margin-top: -50vh;
+    margin-left: 50%;
+    width: 12%;
+    height: 200px;
+  }
+
+  .SC-petalo {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .SC-petalo:hover {
+    transform: scale(1.1);
+  }
+
+  .SC-petalo.top {
+    top: 10%;
+    left: 180%;
+    transform: translateX(-50%);
+    background: #0d6efd;
+  }
+
+  .SC-petalo.right {
+    top: 100%;
+    left: 40%;
+    transform: translateY(-50%);
+    background: #198754;
+  }
+
+  .SC-petalo.bottom {
+    top: 70%;
+    left: 270%;
+    transform: translateX(-50%);
+    background: #ffc107;
+  }
+
+  .SC-petalo.left {
+    top: 160%;
+    left: 130%;
+    transform: translateY(-50%);
+    background: #0dcaf0;
+  }
+
+  .SC-petalo img {
+    width: 90%;
+    height: 80%;
+  }
+
+  /* ------------------ UBICACION ------------------ */
+  .SC-tit-2,
+  .SC-p-2,
+  .SC-ubi {
+    position: absolute;
+  }
+
+  .SC-tit-2 {
+    margin-top: 48%;
+    margin-left: 54%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-2 {
+    margin-top: 58%;
+    margin-left: 8.5%;
+    width: 35%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .SC-ubi {
+    margin-top: 54%;
+    margin-left: 40%;
+    width: 50%;
+    height: 50vh;
+  }
+
+  /* ------------------ DENUNCUAS ------------------ */
+  .SC-tit-3,
+  .SC-p-3,
+  .SC-sub-1,
+  .SC-img-2,
+  .SC-list-1,
+  .SC-line-1,
+  .SC-sub-2,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-line-2,
+  .SC-sub-3,
+  .SC-img-4,
+  .SC-list-3 {
+    position: absolute;
+  }
+  /* ---------- TITULO TEXTOS ---------- */
+  .SC-tit-3 {
+    margin-top: 90%;
+    margin-left: 8.5%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-3 {
+    margin-top: 95%;
+    margin-left: 8.5%;
+    width: 45%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  /* ---------- FICHA 1 ---------- */
+
+  .SC-sub-1 {
+    margin-top: 110%;
+    margin-left: 22%;
+    width: 25%;
+    font-size: 1.2rem;
+  }
+
+  .SC-img-2 {
+    margin-top: 95%;
+    left: 63%;
+    width: 33%;
+    height: 44%;
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo 3s ease-in-out infinite;
+  }
+
+  .SC-list-1 {
+    margin-top: 105%;
+    left: 67%;
+    font-size: 0.8rem;
+    transform: rotate(-9.8deg);
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo2 3s ease-in-out infinite;
+  }
+
+  .SC-line-1 {
+    margin-top: 112%;
+    margin-left: 25%;
+    transform: rotate(-33deg);
+    z-index: -2;
+  }
+
+  /* ---------- FICHA 2 ---------- */
+
+  .SC-sub-2 {
+    margin-top: 135%;
+    margin-left: 55%;
+    width: 25%;
+    font-size: 1.2rem;
+  }
+
+  .SC-img-3 {
+    margin-top: 124%;
+    left: 14%;
+    width: 33%;
+    height: 44%;
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo3 3s ease-in-out infinite;
+  }
+
+  .SC-list-2 {
+    margin-top: 134.5%;
+    left: 18.5%;
+    width: 23%;
+    font-size: 0.8rem;
+    transform: rotate(9.8deg);
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo4 3s ease-in-out infinite;
+  }
+
+  .SC-line-2 {
+    width: 70%;
+    height: auto;
+    margin-top: 122%;
+    margin-left: 27%;
+    z-index: -1;
+  }
+
+  /* ---------- FICHA 3 ---------- */
+  .SC-sub-3 {
+    margin-top: 160%;
+    margin-left: 10%;
+    width: 25%;
+    font-size: 1.2rem;
+  }
+
+  .SC-img-4 {
+    margin-top: 150%;
+    left: 53%;
+    width: 33%;
+    height: 44%;
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo5 3s ease-in-out infinite;
+  }
+
+  .SC-list-3 {
+    margin-top: 161%;
+    left: 57%;
+    width: 23%;
+    font-size: 0.8rem;
+    transform: rotate(-10deg);
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo6 3s ease-in-out infinite;
+  }
+
+  /* ---------- BOTON ---------- */
+  .SC-btn-1 {
+    margin-top: 165%;
+    margin-left: 10%;
+    width: 15%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .SC-btn-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+    color: white;
+  }
+
+  /* ---------- ANIMACIONES ---------- */
+  @keyframes balanceo {
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  @keyframes balanceo2 {
+    0%,
+    50%,
+    100% {
+      transform: rotate(-9.8deg);
+    }
+    25% {
+      transform: rotate(-4.8deg);
+    }
+    75% {
+      transform: rotate(-14.8deg);
+    }
+  }
+
+  @keyframes balanceo3 {
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  @keyframes balanceo4 {
+    0%,
+    50%,
+    100% {
+      transform: rotate(9.8deg);
+    }
+    25% {
+      transform: rotate(14.8deg);
+    }
+    75% {
+      transform: rotate(4.8deg);
+    }
+  }
+
+  @keyframes balanceo5 {
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+  }
+
+  @keyframes balanceo6 {
+    0%,
+    50%,
+    100% {
+      transform: rotate(-10deg);
+    }
+    25% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }
+
+  /* ------------------ TIPS ------------------ */
+  .SC-tips {
+    position: absolute;
+    margin-top: 13%;
+    width: 100%;
+    height: 80%;
+    background-color: blanchedalmond;
+    z-index: 1;
+  }
+
+  .SC-tit-4 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 40%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-4 {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 15%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  /* ---------- BLOQUES ---------- */
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3,
+  .SC-c-4,
+  .SC-c-5,
+  .SC-c-6,
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9,
+  .SC-c-10 {
+    position: absolute;
+    width: 16%;
+    height: 23%;
+    border-radius: 30px;
+  }
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3,
+  .SC-c-4,
+  .SC-c-5 {
+    top: 27%;
+    z-index: 2;
+  }
+
+  .SC-c-6,
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9,
+  .SC-c-10 {
+    top: 60%;
+  }
+
+  .SC-c-1 {
+    left: 4%;
+    background-color: #0077b6;
+  }
+  .SC-c-2 {
+    left: 23%;
+    background-color: #ffc300;
+  }
+  .SC-c-3 {
+    left: 42%;
+    background-color: #d62828;
+  }
+  .SC-c-4 {
+    left: 61%;
+    background-color: #6d4c41;
+  }
+  .SC-c-5 {
+    left: 80%;
+    background-color: #9d4edd;
+  }
+
+  .SC-c-6 {
+    left: 4%;
+    background-color: #343a40;
+  }
+  .SC-c-7 {
+    left: 23%;
+    background-color: #2a9d8f;
+  }
+  .SC-c-8 {
+    left: 42%;
+    background-color: #e63946;
+  }
+  .SC-c-9 {
+    left: 61%;
+    background-color: #f77f00;
+  }
+  .SC-c-10 {
+    left: 80%;
+    background-color: #003566;
+  }
+
+  .SC-img-5 {
+    margin-top: 9%;
+    margin-left: 7%;
+    width: 42%;
+    height: 65%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .SC-img-5:hover {
+    transform: scale(1.05);
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9,
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9 {
+    margin-left: 53%;
+    width: 40%;
+  }
+
+  .SC-p-5 {
+    margin-top: -9vh;
+  }
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8 {
+    margin-top: -11vh;
+  }
+  .SC-p-9 {
+    margin-top: -9vh;
+  }
+
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 52%;
+    width: 45%;
+  }
+
+  .SC-p-10 {
+    margin-top: -12vh;
+  }
+  .SC-p-11 {
+    margin-top: -9vh;
+  }
+  .SC-p-12 {
+    margin-top: -10.5vh;
+  }
+
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 54%;
+    width: 40%;
+  }
+  .SC-p-13 {
+    margin-top: -10.5vh;
+  }
+  .SC-p-14 {
+    margin-top: -10.5vh;
+  }
+
+  /* ---------- MODAL ---------- */
+  .SC-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SC-modal-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 40%;
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  #SC-modal-title {
+    font-size: 1.2rem;
+  }
+
+  #SC-modal-img {
+    max-width: 70%;
+  }
+
+  .SC-modal-content p {
+    text-align: left;
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .SC-modal-content ul {
+    text-align: left;
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    list-style-type: disc;
+  }
+
+  .SC-modal-content li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+
+  .SC-close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .SC-close:hover {
+    color: #d62828;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  /* ------------------ CONTACTOS ------------------ */
+  .SC-tit-5,
+  .SC-tit-6,
+  .SC-tit-7,
+  .SC-tit-8,
+  .SC-tit-9,
+  .SC-p-15,
+  .SC-p-16,
+  .SC-p-17,
+  .SC-p-18,
+  .SC-p-19 {
+    position: absolute;
+  }
+
+  .SC-tit-5 {
+    margin-top: 67%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-15 {
+    margin-top: 72%;
+    margin-left: 10%;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  /* ---------- EMERGENCIA ---------- */
+  .SC-tit-6 {
+    margin-top: 85%;
+    margin-left: 65%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .SC-p-16 {
+    margin-top: 83%;
+    margin-left: 26%;
+    width: 25%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  /* ---------- POLICIA ---------- */
+  .SC-tit-7 {
+    margin-top: 13%;
+    margin-left: 10%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .SC-p-17 {
+    margin-top: 10%;
+    margin-left: 48%;
+    width: 25%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  /* ---------- BOMBEROS ---------- */
+  .SC-tit-8 {
+    margin-top: 13%;
+    margin-left: 65%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .SC-p-18 {
+    margin-top: 13%;
+    margin-left: 26%;
+    width: 25%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  /* ---------- BUZON ---------- */
+  .SC-tit-9 {
+    margin-top: 13%;
+    margin-left: 10%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .SC-p-19 {
+    margin-top: 10%;
+    margin-left: 48%;
+    width: 25%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  /* ---------- IMAGENES ---------- */
+
+  .SC-img-15,
+  .SC-img-16,
+  .SC-img-17,
+  .SC-img-18 {
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .SC-img-15 {
+    margin-top: 80%;
+    margin-left: 10%;
+  }
+  .SC-img-16 {
+    margin-top: 7%;
+    margin-left: 77%;
+  }
+  .SC-img-17 {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .SC-img-18 {
+    margin-top: 7%;
+    margin-left: 77%;
+  }
+
+  .SC-img-15:hover,
+  .SC-img-16:hover,
+  .SC-img-17:hover,
+  .SC-img-18:hover {
+    transform: scale(1.3);
+  }
+}
+
+/*-- ------------------------------------------------- TABLET ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+@media (max-width: 768px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 125px;
+  }
+
+  .Seguridad_Cerca {
+    margin-left: -1.6vh;
+  }
+
+  .SC-fondo {
+    position: absolute;
+    top: 9.3%;
+    width: 100%;
+    height: 80%;
+  }
+
+  .SC-fondo-1,
+  .SC-fondo-2 {
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  .SC-fondo-1 {
+    top: -21vh;
+    left: -18.5vh;
+    width: 112%;
+    height: 62%;
+    background-color: #003366;
+    transform: rotate(-20deg);
+    z-index: -1;
+  }
+
+  .SC-fondo-2 {
+    top: -10vh;
+    left: -0.3vh;
+    width: 100.5%;
+    height: 72%;
+    background-color: #7c0000;
+    z-index: -2;
+  }
+
+  .SC-tit-1,
+  .SC-p-1 {
+    text-align: center;
+    color: white;
+  }
+
+  .SC-tit-1 {
+    margin-top: 9%;
+    margin-left: 15%;
+    width: 30%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-1 {
+    margin-top: 4%;
+    margin-left: 7%;
+    width: 45%;
+    font-size: 0.8rem;
+  }
+
+  .SC-img {
+    position: relative;
+    margin-top: -33vh;
+    margin-left: 58%;
+    width: 10%;
+    height: 100px;
+  }
+
+  .SC-petalo {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .SC-petalo:hover {
+    transform: scale(1.1);
+  }
+
+  .SC-petalo.top {
+    top: 10%;
+    left: 180%;
+    transform: translateX(-50%);
+    background: #0d6efd;
+  }
+
+  .SC-petalo.right {
+    top: 100%;
+    left: 40%;
+    transform: translateY(-50%);
+    background: #198754;
+  }
+
+  .SC-petalo.bottom {
+    top: 70%;
+    left: 270%;
+    transform: translateX(-50%);
+    background: #ffc107;
+  }
+
+  .SC-petalo.left {
+    top: 160%;
+    left: 130%;
+    transform: translateY(-50%);
+    background: #0dcaf0;
+  }
+
+  .SC-petalo img {
+    width: 90%;
+    height: 80%;
+  }
+
+  /* ------------------ UBICACION ------------------ */
+  .SC-tit-2,
+  .SC-p-2,
+  .SC-ubi {
+    position: absolute;
+  }
+
+  .SC-tit-2 {
+    margin-top: 33%;
+    margin-left: 30%;
+    font-size: 1.3rem;
+  }
+
+  .SC-p-2 {
+    margin-top: 85%;
+    margin-left: 8.5%;
+    width: 50%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .SC-ubi {
+    margin-top: 40%;
+    margin-left: 13%;
+    width: 75%;
+    height: 50vh;
+  }
+
+  /* ------------------ DENUNCUAS ------------------ */
+  .SC-tit-3,
+  .SC-p-3,
+  .SC-sub-1,
+  .SC-img-2,
+  .SC-list-1,
+  .SC-line-1,
+  .SC-sub-2,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-line-2,
+  .SC-sub-3,
+  .SC-img-4,
+  .SC-list-3 {
+    position: absolute;
+  }
+  /* ---------- TITULO TEXTOS ---------- */
+  .SC-tit-3 {
+    margin-top: 105%;
+    margin-left: 8.5%;
+    font-size: 1.3rem;
+  }
+
+  .SC-p-3 {
+    margin-top: 110%;
+    margin-left: 8.5%;
+    width: 83%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .SC-img-2,
+  .SC-list-1,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-img-4,
+  .SC-list-3 {
+    animation: none !important;
+    transition: none !important;
+  }
+  /* ---------- FICHA 1 ---------- */
+
+  .SC-ficha-1 {
+    width: 50%;
+    height: 40%;
+  }
+
+  /* .SC-img-2,
+  .SC-list-1,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-img-4,
+  .SC-list-3{
+    animation: none !important;
+    transition: none !important;
+  } */
+  .SC-sub-1 {
+    margin-top: 150%;
+    margin-left: 10%;
+    width: 30%;
+    font-size: 1rem;
+  }
+
+  .SC-img-2 {
+    margin-top: 125%;
+    left: 44%;
+    width: 50%;
+    height: 54%;
+    display: inline-block;
+  }
+
+  .SC-list-1 {
+    margin-top: 143%;
+    left: 50%;
+    width: 38%;
+    font-size: 0.8rem;
+    transform: rotate(-9deg);
+    display: inline-block;
+    transform-origin: top center;
+  }
+
+  .SC-line-1 {
+    width: 85%;
+    margin-top: 180%;
+    margin-left: -10vh;
+    transform: rotate(-65deg);
+  }
+
+  /* ---------- FICHA 2 ---------- */
+
+  .SC-sub-2 {
+    margin-top: 210%;
+    margin-left: 50%;
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  .SC-img-3 {
+    margin-top: 175%;
+    left: 4%;
+    width: 50%;
+    height: 54%;
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo3 3s ease-in-out infinite;
+  }
+
+  .SC-list-2 {
+    margin-top: 193%;
+    left: 11%;
+    width: 35%;
+    font-size: 0.8rem;
+    transform: rotate(9.8deg);
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo4 3s ease-in-out infinite;
+  }
+
+  .SC-line-2 {
+    width: 68%;
+    height: auto;
+    margin-top: 190%;
+    margin-left: 23%;
+    transform: rotate(10deg);
+    z-index: -1;
+  }
+
+  /* ---------- FICHA 3 ---------- */
+  .SC-sub-3 {
+    margin-top: 235%;
+    margin-left: 7%;
+    width: 30%;
+    font-size: 1.2rem;
+  }
+
+  .SC-img-4 {
+    margin-top: 220%;
+    left: 40%;
+    width: 50%;
+    height: 54%;
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo5 3s ease-in-out infinite;
+  }
+
+  .SC-list-3 {
+    margin-top: 240%;
+    left: 47%;
+    width: 35%;
+    font-size: 0.8rem;
+    transform: rotate(-10deg);
+    display: inline-block;
+    transform-origin: top center;
+    animation: balanceo6 3s ease-in-out infinite;
+  }
+
+  /* ---------- BOTON ---------- */
+  .SC-btn-1 {
+    margin-top: 245%;
+    margin-left: 8%;
+    width: 25%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .SC-btn-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+    color: white;
+  }
+
+  /* ------------------ TIPS ------------------ */
+  .SC-tips {
+    position: absolute;
+    margin-top: 20%;
+    width: 100.5%;
+    height: 110%;
+    background-color: blanchedalmond;
+    z-index: 1;
+  }
+
+  .SC-tit-4 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 1.3rem;
+  }
+
+  .SC-p-4 {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  /* ---------- BLOQUES ---------- */
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3,
+  .SC-c-4,
+  .SC-c-5,
+  .SC-c-6,
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9,
+  .SC-c-10 {
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    border-radius: 30px;
+  }
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3 {
+    top: 20%;
+    z-index: 2;
+  }
+
+  .SC-c-4,
+  .SC-c-5,
+  .SC-c-6 {
+    top: 40%;
+    z-index: 2;
+  }
+
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9 {
+    top: 60%;
+  }
+
+  .SC-c-10 {
+    top: 80%;
+  }
+
+  .SC-c-1 {
+    left: 3%;
+    background-color: #0077b6;
+  }
+  .SC-c-2 {
+    left: 35%;
+    background-color: #ffc300;
+  }
+  .SC-c-3 {
+    left: 67%;
+    background-color: #d62828;
+  }
+  .SC-c-4 {
+    left: 3%;
+    background-color: #6d4c41;
+  }
+  .SC-c-5 {
+    left: 35%;
+    background-color: #9d4edd;
+  }
+
+  .SC-c-6 {
+    left: 67%;
+    background-color: #343a40;
+  }
+  .SC-c-7 {
+    left: 3%;
+    background-color: #2a9d8f;
+  }
+  .SC-c-8 {
+    left: 35%;
+    background-color: #e63946;
+  }
+  .SC-c-9 {
+    left: 67%;
+    background-color: #f77f00;
+  }
+  .SC-c-10 {
+    left: 35%;
+    background-color: #003566;
+  }
+
+  .SC-img-5 {
+    margin-top: 9%;
+    margin-left: 7%;
+    width: 42%;
+    height: 65%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .SC-img-5:hover {
+    transform: scale(1.05);
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9,
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9 {
+    margin-left: 53%;
+    width: 40%;
+  }
+
+  .SC-p-5 {
+    margin-top: -9vh;
+  }
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8 {
+    margin-top: -11vh;
+  }
+  .SC-p-9 {
+    margin-top: -9vh;
+  }
+
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 52%;
+    width: 45%;
+  }
+
+  .SC-p-10 {
+    margin-top: -12vh;
+  }
+  .SC-p-11 {
+    margin-top: -9vh;
+  }
+  .SC-p-12 {
+    margin-top: -10.5vh;
+  }
+
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 54%;
+    width: 40%;
+  }
+  .SC-p-13 {
+    margin-top: -10.5vh;
+  }
+  .SC-p-14 {
+    margin-top: -10.5vh;
+  }
+
+  /* ---------- MODAL ---------- */
+  .SC-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SC-modal-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  #SC-modal-title {
+    font-size: 1.2rem;
+  }
+
+  #SC-modal-img {
+    max-width: 50%;
+  }
+
+  .SC-modal-content p {
+    text-align: left;
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .SC-modal-content ul {
+    text-align: left;
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    list-style-type: disc;
+  }
+
+  .SC-modal-content li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+
+  .SC-close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .SC-close:hover {
+    color: #d62828;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  /* ------------------ CONTACTOS ------------------ */
+  .SC-tit-5,
+  .SC-tit-6,
+  .SC-tit-7,
+  .SC-tit-8,
+  .SC-tit-9,
+  .SC-p-15,
+  .SC-p-16,
+  .SC-p-17,
+  .SC-p-18,
+  .SC-p-19 {
+    position: absolute;
+  }
+
+  .SC-contactos {
+    margin-top: -53vh;
+  }
+
+  .SC-tit-5 {
+    margin-top: 163%;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    z-index: 5;
+  }
+
+  .SC-p-15 {
+    margin-top: 170%;
+    margin-left: 10%;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  /* ---------- EMERGENCIA ---------- */
+  .SC-tit-6 {
+    margin-top: 187%;
+    margin-left: 65%;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .SC-p-16 {
+    margin-top: 183%;
+    margin-left: 26%;
+    width: 30%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- POLICIA ---------- */
+  .SC-tit-7 {
+    margin-top: 13%;
+    margin-left: 10%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .SC-p-17 {
+    margin-top: 10%;
+    margin-left: 42%;
+    width: 30%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- BOMBEROS ---------- */
+  .SC-tit-8 {
+    margin-top: 15%;
+    margin-left: 65%;
+    width: 35%;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .SC-p-18 {
+    margin-top: 13%;
+    margin-left: 26%;
+    width: 30%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+  /* ---------- BUZON ---------- */
+  .SC-tit-9 {
+    margin-top: 13%;
+    margin-left: 10%;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .SC-p-19 {
+    margin-top: 11%;
+    margin-left: 42%;
+    width: 30%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- IMAGENES ---------- */
+
+  .SC-img-15,
+  .SC-img-16,
+  .SC-img-17,
+  .SC-img-18 {
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .SC-img-15 {
+    margin-top: 183%;
+    margin-left: 10%;
+  }
+  .SC-img-16 {
+    margin-top: 10%;
+    margin-left: 77%;
+  }
+  .SC-img-17 {
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .SC-img-18 {
+    margin-top: 15%;
+    margin-left: 78%;
+  }
+
+  .SC-img-15:hover,
+  .SC-img-16:hover,
+  .SC-img-17:hover,
+  .SC-img-18:hover {
+    transform: scale(1.3);
+  }
+}
+
+/*-- ------------------------------------------------- CELULAR ------------------------------------------------- --*/
+
+/* ------------------ PRINCIPAL ------------------ */
+@media (max-width: 600px) {
+  header,
+  .navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1060 !important;
+  }
+
+  body {
+    padding-top: 125px;
+  }
+
+  .Seguridad_Cerca {
+    margin-left: -0.6vh;
+  }
+
+  .SC-fondo {
+    position: absolute;
+    top: 9.3%;
+    width: 100%;
+    height: 80%;
+  }
+
+  .SC-fondo-1,
+  .SC-fondo-2 {
+    position: absolute;
+    overflow-x: hidden;
+  }
+
+  .SC-fondo-1 {
+    top: -14vh;
+    left: -19.5vh;
+    width: 124.9%;
+    height: 52%;
+    background-color: #003366;
+    transform: rotate(-35deg);
+    z-index: -1;
+  }
+
+  .SC-fondo-2 {
+    top: -10vh;
+    left: -1.1vh;
+    width: 102%;
+    height: 66.5%;
+    background-color: #7c0000;
+    z-index: -2;
+  }
+
+  .SC-tit-1,
+  .SC-p-1 {
+    text-align: center;
+    color: white;
+  }
+
+  .SC-tit-1 {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .SC-p-1 {
+    margin-top: 4%;
+    margin-left: 7%;
+    width: 86%;
+    font-size: 0.8rem;
+  }
+
+  .SC-img {
+    display: none;
+  }
+
+  /* ------------------ UBICACION ------------------ */
+  .SC-tit-2,
+  .SC-p-2,
+  .SC-ubi {
+    position: absolute;
+  }
+
+  .SC-tit-2 {
+    margin-top: 10%;
+    margin-left: 11%;
+    font-size: 1.1rem;
+    width: 90%;
+  }
+
+  .SC-p-2 {
+    margin-top: 80%;
+    margin-left: 8.5%;
+    width: 70%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .SC-ubi {
+    margin-top: 18%;
+    margin-left: 12.6%;
+    width: 75%;
+    height: 30vh;
+  }
+
+  /* ------------------ DENUNCUAS ------------------ */
+  .SC-tit-3,
+  .SC-p-3,
+  .SC-sub-1,
+  .SC-img-2,
+  .SC-list-1,
+  .SC-line-1,
+  .SC-sub-2,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-line-2,
+  .SC-sub-3,
+  .SC-img-4,
+  .SC-list-3 {
+    position: absolute;
+  }
+  /* ---------- TITULO TEXTOS ---------- */
+  .SC-tit-3 {
+    margin-top: 105%;
+    margin-left: 8.5%;
+    font-size: 1.1rem;
+  }
+
+  .SC-p-3 {
+    margin-top: 115%;
+    margin-left: 8.5%;
+    width: 83%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- FICHA 1 ---------- */
+
+  .SC-ficha-1,
+  .SC-list-1,
+  .SC-ficha-2,
+  .SC-list-2,
+  .SC-ficha-3,
+  .SC-list-3 {
+    margin-top: 50%;
+    width: 50%;
+    height: 40%;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* .SC-img-2,
+  .SC-list-1,
+  .SC-img-3,
+  .SC-list-2,
+  .SC-img-4,
+  .SC-list-3{
+    animation: none !important;
+    transition: none !important;
+  } */
+  .SC-sub-1 {
+    margin-top: 145%;
+    margin-left: 8.5%;
+    width: 75%;
+    font-size: 0.9rem;
+  }
+
+  .SC-img-2,
+  .SC-line-1,
+  .SC-img-3,
+  .SC-line-2,
+  .SC-img-4 {
+    display: none;
+  }
+
+  .SC-list-1 {
+    margin-top: 150%;
+    left: 8.5%;
+    width: 90%;
+    font-size: 0.8rem;
+    transform: rotate(0deg);
+  }
+
+  /* ---------- FICHA 2 ---------- */
+
+  .SC-sub-2 {
+    margin-top: 188%;
+    margin-left: 8.3%;
+    width: 70%;
+    font-size: 0.9rem;
+  }
+
+  .SC-list-2 {
+    margin-top: 193%;
+    left: 8.5%;
+    width: 90%;
+    font-size: 0.8rem;
+    transform: rotate(0deg);
+  }
+
+  /* ---------- FICHA 3 ---------- */
+  .SC-sub-3 {
+    margin-top: 225%;
+    margin-left: 8.5%;
+    width: 70%;
+    font-size: 0.9rem;
+  }
+
+  .SC-list-3 {
+    margin-top: 230%;
+    left: 8.5%;
+    width: 90%;
+    font-size: 0.8rem;
+    transform: rotate(0deg);
+  }
+
+  /* ---------- BOTON ---------- */
+  .SC-btn-1 {
+    margin-top: 125vh;
+    margin-left: 65%;
+    width: 70%;
+    color: white;
+    background-color: #0057b7;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .SC-btn-1:hover {
+    background-color: #1e70ff;
+    box-shadow: 0 0 15px rgba(30, 112, 255, 0.8);
+    color: white;
+  }
+
+  /* ------------------ TIPS ------------------ */
+  .SC-tips {
+    position: absolute;
+    margin-top: 7%;
+    width: 100%;
+    height: 80%;
+    background-color: blanchedalmond;
+    z-index: 1;
+  }
+
+  .SC-tit-4 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 24%;
+    font-size: 1.1rem;
+  }
+
+  .SC-p-4 {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- BLOQUES ---------- */
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3,
+  .SC-c-4,
+  .SC-c-5,
+  .SC-c-6,
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9,
+  .SC-c-10 {
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    border-radius: 30px;
+  }
+
+  .SC-c-1,
+  .SC-c-2,
+  .SC-c-3 {
+    top: 21%;
+    z-index: 2;
+  }
+
+  .SC-c-4,
+  .SC-c-5,
+  .SC-c-6 {
+    top: 40%;
+    z-index: 2;
+  }
+
+  .SC-c-7,
+  .SC-c-8,
+  .SC-c-9 {
+    top: 59.5%;
+  }
+
+  .SC-c-10 {
+    top: 79%;
+  }
+
+  .SC-c-1 {
+    left: 3%;
+    background-color: #0077b6;
+  }
+  .SC-c-2 {
+    left: 35%;
+    background-color: #ffc300;
+  }
+  .SC-c-3 {
+    left: 67%;
+    background-color: #d62828;
+  }
+  .SC-c-4 {
+    left: 3%;
+    background-color: #6d4c41;
+  }
+  .SC-c-5 {
+    left: 35%;
+    background-color: #9d4edd;
+  }
+
+  .SC-c-6 {
+    left: 67%;
+    background-color: #343a40;
+  }
+  .SC-c-7 {
+    left: 3%;
+    background-color: #2a9d8f;
+  }
+  .SC-c-8 {
+    left: 35%;
+    background-color: #e63946;
+  }
+  .SC-c-9 {
+    left: 67%;
+    background-color: #f77f00;
+  }
+  .SC-c-10 {
+    left: 35%;
+    background-color: #003566;
+  }
+
+  .SC-img-5 {
+    display: none;
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9,
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+  }
+
+  .SC-p-5,
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8,
+  .SC-p-9 {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .SC-p-5 {
+    margin-top: 4vh;
+  }
+  .SC-p-6,
+  .SC-p-7,
+  .SC-p-8 {
+    margin-top: 1vh;
+  }
+  .SC-p-9 {
+    margin-top: 4vh;
+  }
+
+  .SC-p-10,
+  .SC-p-11,
+  .SC-p-12,
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .SC-p-10 {
+    margin-top: 2vh;
+  }
+  .SC-p-11 {
+    margin-top: 2vh;
+  }
+  .SC-p-12 {
+    margin-top: 2vh;
+  }
+
+  .SC-p-13,
+  .SC-p-14 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .SC-p-13 {
+    margin-top: 2vh;
+  }
+  .SC-p-14 {
+    margin-top: 0.5vh;
+  }
+
+  /* ---------- MODAL ---------- */
+  .SC-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SC-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 1vh;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  #SC-modal-title {
+    font-size: 1.2rem;
+  }
+
+  #SC-modal-img {
+    max-width: 50%;
+  }
+
+  .SC-modal-content p {
+    text-align: left;
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .SC-modal-content ul {
+    text-align: left;
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    list-style-type: disc;
+  }
+
+  .SC-modal-content li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+
+  .SC-close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .SC-close:hover {
+    color: #d62828;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  /* ------------------ CONTACTOS ------------------ */
+  .SC-tit-5,
+  .SC-tit-6,
+  .SC-tit-7,
+  .SC-tit-8,
+  .SC-tit-9,
+  .SC-p-15,
+  .SC-p-16,
+  .SC-p-17,
+  .SC-p-18,
+  .SC-p-19 {
+    position: absolute;
+  }
+
+  .SC-tit-5 {
+    margin-top: 155%;
+    margin-left: 8.5%;
+    font-size: 1.1rem;
+    z-index: 1;
+  }
+
+  .SC-p-15 {
+    margin-top: 163%;
+    margin-left: 8.5%;
+    text-align: justify;
+    font-style: italic;
+    font-size: 0.8rem;
+    width: 80%;
+  }
+
+  .SC-contactos-num {
+    margin-top: 40%;
+  }
+
+  /* ---------- EMERGENCIA ---------- */
+  .SC-tit-6 {
+    margin-top: 176%;
+    margin-left: 8.5%;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .SC-p-16 {
+    margin-top: 185%;
+    margin-left: 26%;
+    width: 65%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- POLICIA ---------- */
+  .SC-tit-7 {
+    margin-top: 13%;
+    margin-left: 8.5%;
+    width: 80%;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .SC-p-17 {
+    margin-top: 23%;
+    margin-left: 8.5%;
+    width: 65%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- BOMBEROS ---------- */
+  .SC-tit-8 {
+    margin-top: 20%;
+    margin-left: 8.5%;
+    width: 80%;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .SC-p-18 {
+    margin-top: 30%;
+    margin-left: 26%;
+    width: 65%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+  /* ---------- BUZON ---------- */
+  .SC-tit-9 {
+    margin-top: 15%;
+    margin-left: 8.5%;
+    width: 80%;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .SC-p-19 {
+    margin-top: 25%;
+    margin-left: 8.5%;
+    width: 65%;
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- IMAGENES ---------- */
+
+  .SC-img-15,
+  .SC-img-16,
+  .SC-img-17,
+  .SC-img-18 {
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .SC-img-15 {
+    margin-top: 190%;
+    margin-left: 10%;
+  }
+  .SC-img-16 {
+    margin-top: 30%;
+    margin-left: 77%;
+  }
+  .SC-img-17 {
+    margin-top: 30%;
+    margin-left: 10%;
+  }
+  .SC-img-18 {
+    margin-top: 35%;
+    margin-left: 78%;
+  }
+
+  .SC-img-15:hover,
+  .SC-img-16:hover,
+  .SC-img-17:hover,
+  .SC-img-18:hover {
+    transform: scale(1.3);
+  }
+}
