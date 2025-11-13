@@ -21,7 +21,7 @@ class UserModel extends Model
 
     public function getRol($idUsuario)
     {
-        return $this->select('u.nombre as usuario, r.nombre as rol, a.nombre as area, 
+        return $this->select('u.id_rol, u.id_area, u.nombre as usuario, r.nombre as rol, a.nombre as area, 
                           r.puede_leer, r.puede_editar, r.puede_escribir, r.puede_eliminar')
             ->from('users as u')
             ->join('roles as r', 'r.id = u.id_rol')

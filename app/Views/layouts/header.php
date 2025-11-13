@@ -1,8 +1,14 @@
-<?php $session = session(); ?>
-<?= session('nombre') ?>
-<?= session('email') ?>
-<?= session('id_rol') ?>
-<?= session('id_area') ?>
+
+<?php 
+
+use App\Models\UserModel;
+ $session = session();
+
+        $userModel = new UserModel();
+        $idUsuario = $session->get('id');
+        $usuario = $userModel->getRol($idUsuario);
+
+?>
 
 <!DOCTYPE html>
 <html
@@ -68,6 +74,7 @@
         <div class="menu-inner-shadow"></div>
 
         <ul class="menu-inner py-1">
+          <?php if($usuario['id_rol'] == '1' ) :?>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
               <i class="bi bi-gear-wide mx-2"></i>
@@ -75,7 +82,7 @@
             </a>
             <ul class="menu-sub">
               <li class="menu-item">
-                <a href="#" class="menu-link">
+                <a href="<?= base_url('admin/usuarios') ?> ?>" class="menu-link">
                   <div data-i18n="Usuarios">Usuarios</div>
                 </a>
               </li>
@@ -85,12 +92,13 @@
                 </a>
               </li>
               <li class="menu-item">
-                <a href="#" class="menu-link">
+                <a href="<?= base_url('admin/areas') ?>" class="menu-link">
                   <div data-i18n="Áreas">Áreas</div>
                 </a>
               </li>
             </ul>
           </li>
+          <?php endif; ?>
         </ul>
       </aside>
       <!-- / Menu -->

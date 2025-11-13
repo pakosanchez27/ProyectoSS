@@ -2,18 +2,15 @@
 
 namespace App\Controllers;
 
-use App\Models\UserModel;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class HomeController extends BaseController
+class UsuarioController extends BaseController
 {
     public function index()
     {
-       
-
         echo view('layouts/header.php');
-        echo view('admin/home.php');
+        echo view('admin/usuarios.php');
         echo view('layouts/footer.php');
     }
 }
