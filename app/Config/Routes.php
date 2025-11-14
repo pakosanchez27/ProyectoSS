@@ -28,22 +28,23 @@ $routes->post('login/store', 'LoginController::store');
 
 // Logout
 $routes->get('/logout', 'LogoutController::logout');
-$routes->group('', ['filter' => 'admin'],  function ($routes) {
 
-    // Home
-    $routes->get('/home', 'HomeController::index');
+$routes->get('/acceso-denegado', 'ErrorController::denegado');
+// Home
+$routes->get('/home', 'HomeController::index');
 
-    // Usuarios
-    $routes->get('admin/usuarios', 'UsuarioController::index');
 
-    // Roles
-    $routes->get('/admin/roles', 'RolController::index');
-    $routes->post('/admin/roles/store', 'RolController::store');
-    $routes->post('/admin/roles/show', 'RolController::show');
-    $routes->post('/admin/roles/update', 'RolController::update');
-    $routes->post('/admin/roles/delete', 'RolController::delete');
+// Usuarios
+$routes->get('admin/usuarios', 'UsuarioController::index');
 
-    // Areas
-        $routes->get('admin/areas', 'AreasController::index');
+// Roles
 
-});
+$routes->get('/admin/roles', 'RolController::index', ['filter' => ['auth', 'rol:1,2']]);
+$routes->post('/admin/roles/store', 'RolController::store');
+$routes->post('/admin/roles/show', 'RolController::show');
+$routes->post('/admin/roles/update', 'RolController::update');
+$routes->post('/admin/roles/delete', 'RolController::delete');
+
+// Areas
+$routes->get('admin/areas', 'AreasController::index');
+//   $routes->get('/admin/roles', 'RolController::index');

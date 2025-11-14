@@ -19,7 +19,6 @@ class RolController extends BaseController
     {
         $rolModel = new RolModel();
         $data['roles'] = $rolModel->findAll();
-        dd($data);  // 🔍 imprime y detiene la ejecución
 
         echo view('layouts/header.php');
         echo view('admin/roles.php', $data);

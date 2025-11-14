@@ -6,7 +6,7 @@ use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 
-class AdminChek implements FilterInterface
+class AuthFilter implements FilterInterface
 {
     /**
      * Do whatever processing this filter needs to do.
@@ -25,19 +25,20 @@ class AdminChek implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        log_message('debug', '✅ Filtro AdminCheck ejecutado');
-
         $session = session();
 
-        if (! $session->get('logged_in')) {
-            log_message('debug', '🚫 Usuario no logueado');
+        // Validamos que exista una sesión activa
+        // según lo que tú ya guardas en login: 'logged_in' => true
+        if (!$session->get('logged_in')) {
+
+            // (Opcional) guarda la URL a la que quería entrar
+            // para luego redirigirlo después de login
+            // $session->set('redirect_url', current_url());
+
             return redirect()->to('/login');
         }
 
-        if ($session->get('id_rol') != 1) {
-            log_message('debug', '🚫 Usuario no es administrador');
-            return redirect()->to('/acceso-denegado');
-        }
+        // Si sí tiene sesión, continúa normal
     }
 
     /**

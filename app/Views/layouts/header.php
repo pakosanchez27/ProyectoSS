@@ -74,7 +74,7 @@ use App\Models\UserModel;
         <div class="menu-inner-shadow"></div>
 
         <ul class="menu-inner py-1">
-          <?php if($usuario['id_rol'] == '1' ) :?>
+          <?php if($usuario['id_rol'] == '2' ) :?>
           <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
               <i class="bi bi-gear-wide mx-2"></i>

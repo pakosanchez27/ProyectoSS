@@ -37,9 +37,8 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         'cors'     => \App\Filters\Cors::class,
-        'auth'       => \App\Filters\AuthCheck::class,
-        'admin'      => AdminChek::class, 
-
+        'auth'      => \App\Filters\AuthFilter::class,
+        'rol'      => \App\Filters\RolFilter::class,
 
     ];
 
