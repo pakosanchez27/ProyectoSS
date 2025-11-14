@@ -10,86 +10,95 @@ use App\Models\UserModel;
 class RolController extends BaseController
 {
     protected $rolesModel;
+    protected $usuario;
 
     public function __construct()
     {
         $this->rolesModel = new RolModel();
+        $this->usuario = usuarioLogeado();
     }
 
     public function index()
     {
-        $usuario = usuarioLogeado();
+        
 
-        if ($usuario['id_rol'] === '1' || $usuario['id_rol'] === '2') {
+        if ($this->usuario['id_rol'] === '1') {
             $rolModel = new RolModel();
             $data['roles'] = $rolModel->findAll();
 
             echo view('layouts/header.php');
             echo view('admin/roles.php', $data);
             echo view('layouts/footer.php');
-        }else{
+        } else {
             return view('errors/acceso-denegado');
         }
     }
 
     public function store()
     {
-        // Recibir los datos del formulario
-        $nombre = trim($this->request->getPost('nombreRol'));
-        $descripcion = trim($this->request->getPost('descripcionRol'));
-        $permisos = $this->request->getPost('permisos'); // array asociativo (leer, editar, etc.)
 
-        // Validar datos obligatorios
-        if (empty($nombre) || empty($descripcion)) {
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => 'El nombre y la descripción son obligatorios.'
-            ]);
-        }
 
-        // Validar al menos un permiso
-        $tienePermiso = false;
-        if (is_array($permisos)) {
-            foreach ($permisos as $valor) {
-                if ((int)$valor === 1) {
-                    $tienePermiso = true;
-                    break;
+        if ($this->usuario['id_rol'] === '1') {
+            $nombre = trim($this->request->getPost('nombreRol'));
+            $descripcion = trim($this->request->getPost('descripcionRol'));
+            $permisos = $this->request->getPost('permisos'); // array asociativo (leer, editar, etc.)
+
+            // Validar datos obligatorios
+            if (empty($nombre) || empty($descripcion)) {
+                return $this->response->setJSON([
+                    'success' => false,
+                    'message' => 'El nombre y la descripción son obligatorios.'
+                ]);
+            }
+
+            // Validar al menos un permiso
+            $tienePermiso = false;
+            if (is_array($permisos)) {
+                foreach ($permisos as $valor) {
+                    if ((int)$valor === 1) {
+                        $tienePermiso = true;
+                        break;
+                    }
                 }
             }
+
+            if (!$tienePermiso) {
+                return $this->response->setJSON([
+                    'success' => false,
+                    'message' => 'Debes seleccionar al menos un permiso.'
+                ]);
+            }
+
+            // Armar el array de inserción con tus nombres de columnas reales
+            $data = [
+                'nombre'         => $nombre,
+                'descripcion'    => $descripcion,
+                'puede_leer'     => $permisos['leer'] ?? 0,
+                'puede_escribir' => $permisos['editar'] ?? 0,   // ← el checkbox “editar” se guarda como “puede_escribir”
+                'puede_editar'   => $permisos['actualizar'] ?? 0, // ← el checkbox “actualizar” se guarda como “puede_editar”
+                'puede_eliminar' => $permisos['eliminar'] ?? 0,
+            ];
+
+            try {
+                $insertId = $this->rolesModel->insert($data);
+
+                return $this->response->setJSON([
+                    'success' => true,
+                    'message' => '✅ Rol guardado correctamente.',
+                    'id'      => $insertId,
+                    'data'    => $data
+                ]);
+            } catch (\Exception $e) {
+                return $this->response->setJSON([
+                    'success' => false,
+                    'message' => 'Error al guardar: ' . $e->getMessage()
+                ]);
+            }
+        } else {
+            return view('errors/acceso-denegado');
         }
+        // Recibir los datos del formulario
 
-        if (!$tienePermiso) {
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => 'Debes seleccionar al menos un permiso.'
-            ]);
-        }
-
-        // Armar el array de inserción con tus nombres de columnas reales
-        $data = [
-            'nombre'         => $nombre,
-            'descripcion'    => $descripcion,
-            'puede_leer'     => $permisos['leer'] ?? 0,
-            'puede_escribir' => $permisos['editar'] ?? 0,   // ← el checkbox “editar” se guarda como “puede_escribir”
-            'puede_editar'   => $permisos['actualizar'] ?? 0, // ← el checkbox “actualizar” se guarda como “puede_editar”
-            'puede_eliminar' => $permisos['eliminar'] ?? 0,
-        ];
-
-        try {
-            $insertId = $this->rolesModel->insert($data);
-
-            return $this->response->setJSON([
-                'success' => true,
-                'message' => '✅ Rol guardado correctamente.',
-                'id'      => $insertId,
-                'data'    => $data
-            ]);
-        } catch (\Exception $e) {
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => 'Error al guardar: ' . $e->getMessage()
-            ]);
-        }
     }
     public function show()
     {
