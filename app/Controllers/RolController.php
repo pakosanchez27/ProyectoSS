@@ -5,6 +5,7 @@ namespace App\Controllers;
 use Config\Database;
 use App\Models\RolModel;
 use App\Controllers\BaseController;
+use App\Models\UserModel;
 
 class RolController extends BaseController
 {
@@ -17,12 +18,18 @@ class RolController extends BaseController
 
     public function index()
     {
-        $rolModel = new RolModel();
-        $data['roles'] = $rolModel->findAll();
+        $usuario = usuarioLogeado();
 
-        echo view('layouts/header.php');
-        echo view('admin/roles.php', $data);
-        echo view('layouts/footer.php');
+        if ($usuario['id_rol'] === '1' || $usuario['id_rol'] === '2') {
+            $rolModel = new RolModel();
+            $data['roles'] = $rolModel->findAll();
+
+            echo view('layouts/header.php');
+            echo view('admin/roles.php', $data);
+            echo view('layouts/footer.php');
+        }else{
+            return view('errors/acceso-denegado');
+        }
     }
 
     public function store()

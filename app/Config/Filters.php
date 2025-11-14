@@ -32,15 +32,16 @@ class Filters extends BaseFilters
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'cors'          => Cors::class,
+        'cors'          => Cors::class, // SOLO UNO
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
-        'cors'     => \App\Filters\Cors::class,
-        'auth'      => \App\Filters\AuthFilter::class,
-        'rol'      => \App\Filters\RolFilter::class,
 
+        // Tus filtros personalizados:
+        'auth'          => \App\Filters\AuthFilter::class,
+        'rol'           => \App\Filters\RolFilter::class,
     ];
+
 
     /**
      * List of special required filters.

@@ -39,7 +39,10 @@ $routes->get('admin/usuarios', 'UsuarioController::index');
 
 // Roles
 
-$routes->get('/admin/roles', 'RolController::index', ['filter' => ['auth', 'rol:1,2']]);
+$routes->get(
+    'admin/roles',
+    'RolController::index'
+);
 $routes->post('/admin/roles/store', 'RolController::store');
 $routes->post('/admin/roles/show', 'RolController::show');
 $routes->post('/admin/roles/update', 'RolController::update');
